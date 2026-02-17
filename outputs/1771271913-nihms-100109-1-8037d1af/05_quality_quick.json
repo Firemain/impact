@@ -1,0 +1,35 @@
+{
+  "randomization": "no",
+  "control_group": "yes",
+  "sample_size_reported": "yes",
+  "attrition_reported": "yes",
+  "blinding_reported": "no",
+  "internal_quality_score": 0.6,
+  "justification": "No randomization possible due to nature of study (birth event). Control group of non-parents included. Sample sizes reported (132 parents, 86 non-parents). Attrition and divorce reported in non-parent group. No mention of blinding. Quasi-experimental interrupted time-series design used. | The study uses a control group (non-parents) to compare with parents, and attrition is reported as no differential dropout was found. There is no explicit mention of randomization or blinding. Sample size is not clearly reported in the snippets.",
+  "evidence_ids": [
+    "evd_3dad3d89f59f1245",
+    "evd_cc121a360e549ab1",
+    "evd_758215dca1921086",
+    "evd_93fac20e3ec8dc1f",
+    "evd_399a07d2080f606e",
+    "evd_712410dded2c15c8",
+    "evd_8192513ac1a40390",
+    "evd_8450e60ac43b0cf3",
+    "evd_ca337867c386b8e3",
+    "evd_db717696e8f52f46",
+    "evd_0c587d3301842d3a",
+    "evd_d10287409f999ecd",
+    "evd_d192e3beb8fbf51a",
+    "evd_22c297ab0a9fc8c1",
+    "evd_77e407eef2e3a6f6",
+    "evd_d3dd15d0295999e3",
+    "evd_f99e3ada866effd7",
+    "evd_369d2e5c00123ded",
+    "evd_444b6ddf0575c9c8",
+    "evd_60c419bdaa6a4584"
+  ],
+  "notes": [
+    "llm_quick_quality_batches",
+    "LLM quick quality applied: success_batches=2, failed_batches=0, total_batches=2."
+  ]
+}

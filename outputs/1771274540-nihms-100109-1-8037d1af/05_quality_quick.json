@@ -1,0 +1,35 @@
+{
+  "randomization": "no",
+  "control_group": "yes",
+  "sample_size_reported": "yes",
+  "attrition_reported": "yes",
+  "blinding_reported": "no",
+  "internal_quality_score": 0.6,
+  "justification": "The study used a quasi-experimental interrupted time-series design without randomization. A non-equivalent control group of non-parents was included. Sample sizes for parents (132 couples) and non-parents (86 couples) were reported. Attrition and divorce rates were reported and accounted for in analyses. No mention of blinding procedures was found. | No explicit mention of randomization, control group, sample size, attrition, or blinding in the provided snippets.",
+  "evidence_ids": [
+    "evd_2af5e35184016d54",
+    "evd_9cfe24afa000e9c4",
+    "evd_5a44b81729a85588",
+    "evd_b51c84d4e22bc080",
+    "evd_6a24805d712e3d74",
+    "evd_3206588886b0ba97",
+    "evd_021ca43660bd5037",
+    "evd_d352a110d470ad46",
+    "evd_de216214bcb09220",
+    "evd_d23098ad1d5dc566",
+    "evd_58efcfdd2b4d8e14",
+    "evd_f7cca14256ddfa2e",
+    "evd_371bf59ebe73c573",
+    "evd_19e38018ffff9229",
+    "evd_36e1c711410904f1",
+    "evd_dde1df50c9b5a714",
+    "evd_1e13b2404438744a",
+    "evd_c8aa35869d72e126",
+    "evd_8c43779b29dcbb7c",
+    "evd_d5631357d97483b7"
+  ],
+  "notes": [
+    "llm_quick_quality_batches",
+    "LLM quick quality applied: success_batches=2, failed_batches=0, total_batches=2."
+  ]
+}

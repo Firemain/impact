@@ -1,0 +1,18 @@
+{
+  "randomization": "no",
+  "control_group": "yes",
+  "sample_size_reported": "yes",
+  "attrition_reported": "unclear",
+  "blinding_reported": "no",
+  "internal_quality_score": 0.5,
+  "justification": "No explicit mention of randomization or blinding; a non-equivalent control group (non-parents) is used; sample size is reported (132 parents, 86 non-parents); attrition is not explicitly reported.",
+  "evidence_ids": [
+    "evd_a9980b36ec1051c7",
+    "evd_117295581873e84b",
+    "evd_17585e4048e740f2"
+  ],
+  "notes": [
+    "llm_quick_quality_batches",
+    "LLM quick quality applied: success_batches=1, failed_batches=0, total_batches=1."
+  ]
+}

@@ -1,0 +1,270 @@
+{
+  "items": [
+    {
+      "result_id": "res_6b51a2baad1ffe6b",
+      "calc_score": 0.75,
+      "bias_score": 0.5,
+      "review_quality_score": 0.0,
+      "reporting_score": 0.5,
+      "external_score": 1.0,
+      "consistency_score": 0.5,
+      "reliability_score_total": 0.725,
+      "verdict": "Moderate",
+      "justification": "calc=0.75, qualite_interne=0.50, credibilite_externe=1.00",
+      "evidence_ids": [
+        "evd_020dae0a2641f70a"
+      ]
+    },
+    {
+      "result_id": "res_7db5e158492636db",
+      "calc_score": 0.75,
+      "bias_score": 0.5,
+      "review_quality_score": 0.0,
+      "reporting_score": 0.5,
+      "external_score": 1.0,
+      "consistency_score": 0.5,
+      "reliability_score_total": 0.725,
+      "verdict": "Moderate",
+      "justification": "calc=0.75, qualite_interne=0.50, credibilite_externe=1.00",
+      "evidence_ids": [
+        "evd_020dae0a2641f70a"
+      ]
+    },
+    {
+      "result_id": "res_af2975d0302d21fc",
+      "calc_score": 0.75,
+      "bias_score": 0.5,
+      "review_quality_score": 0.0,
+      "reporting_score": 0.5,
+      "external_score": 1.0,
+      "consistency_score": 0.5,
+      "reliability_score_total": 0.725,
+      "verdict": "Moderate",
+      "justification": "calc=0.75, qualite_interne=0.50, credibilite_externe=1.00",
+      "evidence_ids": [
+        "evd_020dae0a2641f70a"
+      ]
+    },
+    {
+      "result_id": "res_93e700cfe07506d5",
+      "calc_score": 0.75,
+      "bias_score": 0.5,
+      "review_quality_score": 0.0,
+      "reporting_score": 0.5,
+      "external_score": 1.0,
+      "consistency_score": 0.5,
+      "reliability_score_total": 0.725,
+      "verdict": "Moderate",
+      "justification": "calc=0.75, qualite_interne=0.50, credibilite_externe=1.00",
+      "evidence_ids": [
+        "evd_7469a13c8f5cb3cc"
+      ]
+    },
+    {
+      "result_id": "res_d1cb93b214d8d10d",
+      "calc_score": 0.75,
+      "bias_score": 0.5,
+      "review_quality_score": 0.0,
+      "reporting_score": 0.5,
+      "external_score": 1.0,
+      "consistency_score": 0.5,
+      "reliability_score_total": 0.725,
+      "verdict": "Moderate",
+      "justification": "calc=0.75, qualite_interne=0.50, credibilite_externe=1.00",
+      "evidence_ids": [
+        "evd_7469a13c8f5cb3cc"
+      ]
+    },
+    {
+      "result_id": "res_a7702d0dd1a7771b",
+      "calc_score": 0.75,
+      "bias_score": 0.5,
+      "review_quality_score": 0.0,
+      "reporting_score": 0.5,
+      "external_score": 1.0,
+      "consistency_score": 0.5,
+      "reliability_score_total": 0.725,
+      "verdict": "Moderate",
+      "justification": "calc=0.75, qualite_interne=0.50, credibilite_externe=1.00",
+      "evidence_ids": [
+        "evd_020dae0a2641f70a"
+      ]
+    },
+    {
+      "result_id": "res_2d87d8c5868c699f",
+      "calc_score": 0.75,
+      "bias_score": 0.5,
+      "review_quality_score": 0.0,
+      "reporting_score": 0.5,
+      "external_score": 1.0,
+      "consistency_score": 0.5,
+      "reliability_score_total": 0.725,
+      "verdict": "Moderate",
+      "justification": "calc=0.75, qualite_interne=0.50, credibilite_externe=1.00",
+      "evidence_ids": [
+        "evd_020dae0a2641f70a"
+      ]
+    },
+    {
+      "result_id": "res_c4b46dba0f19e2f7",
+      "calc_score": 0.75,
+      "bias_score": 0.5,
+      "review_quality_score": 0.0,
+      "reporting_score": 0.5,
+      "external_score": 1.0,
+      "consistency_score": 0.5,
+      "reliability_score_total": 0.725,
+      "verdict": "Moderate",
+      "justification": "calc=0.75, qualite_interne=0.50, credibilite_externe=1.00",
+      "evidence_ids": [
+        "evd_020dae0a2641f70a"
+      ]
+    },
+    {
+      "result_id": "res_5ac478d425b35f5b",
+      "calc_score": 0.75,
+      "bias_score": 0.5,
+      "review_quality_score": 0.0,
+      "reporting_score": 0.5,
+      "external_score": 1.0,
+      "consistency_score": 0.5,
+      "reliability_score_total": 0.725,
+      "verdict": "Moderate",
+      "justification": "calc=0.75, qualite_interne=0.50, credibilite_externe=1.00",
+      "evidence_ids": [
+        "evd_020dae0a2641f70a"
+      ]
+    },
+    {
+      "result_id": "res_f48f2d04e11ad59d",
+      "calc_score": 0.75,
+      "bias_score": 0.5,
+      "review_quality_score": 0.0,
+      "reporting_score": 0.5,
+      "external_score": 1.0,
+      "consistency_score": 0.5,
+      "reliability_score_total": 0.725,
+      "verdict": "Moderate",
+      "justification": "calc=0.75, qualite_interne=0.50, credibilite_externe=1.00",
+      "evidence_ids": [
+        "evd_020dae0a2641f70a"
+      ]
+    },
+    {
+      "result_id": "res_8f7eff9511eb3278",
+      "calc_score": 0.75,
+      "bias_score": 0.5,
+      "review_quality_score": 0.0,
+      "reporting_score": 0.5,
+      "external_score": 1.0,
+      "consistency_score": 0.5,
+      "reliability_score_total": 0.725,
+      "verdict": "Moderate",
+      "justification": "calc=0.75, qualite_interne=0.50, credibilite_externe=1.00",
+      "evidence_ids": [
+        "evd_7469a13c8f5cb3cc"
+      ]
+    },
+    {
+      "result_id": "res_a4a44dbcf99a2678",
+      "calc_score": 0.75,
+      "bias_score": 0.5,
+      "review_quality_score": 0.0,
+      "reporting_score": 0.5,
+      "external_score": 1.0,
+      "consistency_score": 0.5,
+      "reliability_score_total": 0.725,
+      "verdict": "Moderate",
+      "justification": "calc=0.75, qualite_interne=0.50, credibilite_externe=1.00",
+      "evidence_ids": [
+        "evd_020dae0a2641f70a"
+      ]
+    },
+    {
+      "result_id": "res_75d424af0ef291fd",
+      "calc_score": 0.75,
+      "bias_score": 0.5,
+      "review_quality_score": 0.0,
+      "reporting_score": 0.5,
+      "external_score": 1.0,
+      "consistency_score": 0.5,
+      "reliability_score_total": 0.725,
+      "verdict": "Moderate",
+      "justification": "calc=0.75, qualite_interne=0.50, credibilite_externe=1.00",
+      "evidence_ids": [
+        "evd_020dae0a2641f70a"
+      ]
+    },
+    {
+      "result_id": "res_e454d6e131820bfe",
+      "calc_score": 0.75,
+      "bias_score": 0.5,
+      "review_quality_score": 0.0,
+      "reporting_score": 0.5,
+      "external_score": 1.0,
+      "consistency_score": 0.5,
+      "reliability_score_total": 0.725,
+      "verdict": "Moderate",
+      "justification": "calc=0.75, qualite_interne=0.50, credibilite_externe=1.00",
+      "evidence_ids": [
+        "evd_7469a13c8f5cb3cc"
+      ]
+    },
+    {
+      "result_id": "res_763167866d5628ec",
+      "calc_score": 0.75,
+      "bias_score": 0.5,
+      "review_quality_score": 0.0,
+      "reporting_score": 0.5,
+      "external_score": 1.0,
+      "consistency_score": 0.5,
+      "reliability_score_total": 0.725,
+      "verdict": "Moderate",
+      "justification": "calc=0.75, qualite_interne=0.50, credibilite_externe=1.00",
+      "evidence_ids": [
+        "evd_7469a13c8f5cb3cc"
+      ]
+    },
+    {
+      "result_id": "res_8ceb906f81f27a7a",
+      "calc_score": 0.75,
+      "bias_score": 0.5,
+      "review_quality_score": 0.0,
+      "reporting_score": 0.5,
+      "external_score": 1.0,
+      "consistency_score": 0.5,
+      "reliability_score_total": 0.725,
+      "verdict": "Moderate",
+      "justification": "calc=0.75, qualite_interne=0.50, credibilite_externe=1.00",
+      "evidence_ids": [
+        "evd_7469a13c8f5cb3cc"
+      ]
+    },
+    {
+      "result_id": "res_6d51a886d8aff195",
+      "calc_score": 0.75,
+      "bias_score": 0.5,
+      "review_quality_score": 0.0,
+      "reporting_score": 0.5,
+      "external_score": 1.0,
+      "consistency_score": 0.5,
+      "reliability_score_total": 0.725,
+      "verdict": "Moderate",
+      "justification": "calc=0.75, qualite_interne=0.50, credibilite_externe=1.00",
+      "evidence_ids": [
+        "evd_7469a13c8f5cb3cc"
+      ]
+    }
+  ],
+  "global_score": 0.725,
+  "conclusion": "utilisable",
+  "notes": [
+    "effects_count=28",
+    "study_effects_count=17",
+    "literature_effects_count=2",
+    "model_stats_count=9",
+    "internal_quality_score=0.500",
+    "external_score=1.000"
+  ],
+  "generated_at": "2026-02-16T21:13:52.698867"
+}

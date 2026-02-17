@@ -1,0 +1,570 @@
+{
+  "effects": [
+    {
+      "result_id": "res_5d52d31dcfc9ae2f",
+      "result_spec": {
+        "outcome": "marital/relationship satisfaction",
+        "timepoint": "post",
+        "comparison": "control group",
+        "groups": "intervention vs control group",
+        "analysis_set": "reported"
+      },
+      "design_level": "unknown",
+      "effect_role": "unclear",
+      "grouping_label": "mothers",
+      "outcome_label_normalized": "unknown",
+      "timepoint_label_normalized": "post",
+      "canonical_key": "",
+      "stat_consistency": "unknown",
+      "dedup_sources": 1,
+      "effect_type": "d",
+      "origin": "reported",
+      "value": -0.47,
+      "se": null,
+      "ci_low": null,
+      "ci_high": null,
+      "derivation_method": "reported",
+      "assumptions": [],
+      "calc_confidence": "exact",
+      "is_primary": true,
+      "exclusion_reason": "",
+      "evidence_ids": [
+        "evd_2887efb543c363f2",
+        "evd_41a9e80492eefaa7",
+        "evd_f58c499acdbd7f95"
+      ],
+      "table_row_refs": [],
+      "notes": [
+        "deterministic_regex",
+        "origin=reported",
+        "-0.61, p < .05) after birth. Finally, fathers but not mothers demonstrated significant sudden declines in relationship dedication after birth (d = -0.47, p < .05). Additionally, for fathers only, two variables evidenced modifications to the pre-birth rate of c"
+      ]
+    },
+    {
+      "result_id": "res_f55bb93630992f23",
+      "result_spec": {
+        "outcome": "marital/relationship satisfaction",
+        "timepoint": "post",
+        "comparison": "control group",
+        "groups": "intervention vs control group",
+        "analysis_set": "reported"
+      },
+      "design_level": "unknown",
+      "effect_role": "unclear",
+      "grouping_label": "mothers",
+      "outcome_label_normalized": "unknown",
+      "timepoint_label_normalized": "post",
+      "canonical_key": "",
+      "stat_consistency": "unknown",
+      "dedup_sources": 1,
+      "effect_type": "d",
+      "origin": "reported",
+      "value": -0.66,
+      "se": null,
+      "ci_low": null,
+      "ci_high": null,
+      "derivation_method": "reported",
+      "assumptions": [],
+      "calc_confidence": "exact",
+      "is_primary": true,
+      "exclusion_reason": "",
+      "evidence_ids": [
+        "evd_2887efb543c363f2",
+        "evd_41a9e80492eefaa7",
+        "evd_f58c499acdbd7f95"
+      ],
+      "table_row_refs": [],
+      "notes": [
+        "deterministic_regex",
+        "origin=reported",
+        "-0.61, p < .05) after birth. Finally, fathers but not mothers demonstrated significant sudden declines in relationship dedication after birth (d = -0.47, p < .05). Additionally, for fathers only, two variables evidenced modifications to the pre-birth rate of c"
+      ]
+    },
+    {
+      "result_id": "res_5e06b47e48c5fb46",
+      "result_spec": {
+        "outcome": "marital/relationship satisfaction",
+        "timepoint": "post",
+        "comparison": "control group",
+        "groups": "intervention vs control group",
+        "analysis_set": "reported"
+      },
+      "design_level": "unknown",
+      "effect_role": "unclear",
+      "grouping_label": "mothers",
+      "outcome_label_normalized": "unknown",
+      "timepoint_label_normalized": "post",
+      "canonical_key": "",
+      "stat_consistency": "unknown",
+      "dedup_sources": 1,
+      "effect_type": "d",
+      "origin": "reported",
+      "value": -0.56,
+      "se": null,
+      "ci_low": null,
+      "ci_high": null,
+      "derivation_method": "reported",
+      "assumptions": [],
+      "calc_confidence": "exact",
+      "is_primary": true,
+      "exclusion_reason": "",
+      "evidence_ids": [
+        "evd_2887efb543c363f2",
+        "evd_41a9e80492eefaa7",
+        "evd_f58c499acdbd7f95"
+      ],
+      "table_row_refs": [],
+      "notes": [
+        "deterministic_regex",
+        "origin=reported",
+        "-0.61, p < .05) after birth. Finally, fathers but not mothers demonstrated significant sudden declines in relationship dedication after birth (d = -0.47, p < .05). Additionally, for fathers only, two variables evidenced modifications to the pre-birth rate of c"
+      ]
+    },
+    {
+      "result_id": "res_a4867d46349f740e",
+      "result_spec": {
+        "outcome": "marital/relationship satisfaction",
+        "timepoint": "post",
+        "comparison": "control group",
+        "groups": "intervention vs control group",
+        "analysis_set": "reported"
+      },
+      "design_level": "unknown",
+      "effect_role": "unclear",
+      "grouping_label": "mothers",
+      "outcome_label_normalized": "unknown",
+      "timepoint_label_normalized": "post",
+      "canonical_key": "",
+      "stat_consistency": "unknown",
+      "dedup_sources": 1,
+      "effect_type": "d",
+      "origin": "reported",
+      "value": -0.66,
+      "se": null,
+      "ci_low": null,
+      "ci_high": null,
+      "derivation_method": "reported",
+      "assumptions": [],
+      "calc_confidence": "exact",
+      "is_primary": true,
+      "exclusion_reason": "",
+      "evidence_ids": [
+        "evd_41a9e80492eefaa7",
+        "evd_f58c499acdbd7f95",
+        "evd_bda04b1e9026f0e9"
+      ],
+      "table_row_refs": [],
+      "notes": [
+        "deterministic_regex",
+        "origin=reported",
+        "of 6.31 points for mothers (d = -.66, p < .001) and 5.63 points for fathers (d = -.56, p < .01) following the birth of the first baby. Full results are available from the first author. Doss et al. Page 12 J Pers Soc Psychol. Author manuscript; available in PMC"
+      ]
+    },
+    {
+      "result_id": "res_1d305c10414d4820",
+      "result_spec": {
+        "outcome": "marital/relationship satisfaction",
+        "timepoint": "post",
+        "comparison": "control group",
+        "groups": "intervention vs control group",
+        "analysis_set": "reported"
+      },
+      "design_level": "unknown",
+      "effect_role": "unclear",
+      "grouping_label": "mothers",
+      "outcome_label_normalized": "unknown",
+      "timepoint_label_normalized": "post",
+      "canonical_key": "",
+      "stat_consistency": "unknown",
+      "dedup_sources": 1,
+      "effect_type": "d",
+      "origin": "reported",
+      "value": -0.56,
+      "se": null,
+      "ci_low": null,
+      "ci_high": null,
+      "derivation_method": "reported",
+      "assumptions": [],
+      "calc_confidence": "exact",
+      "is_primary": true,
+      "exclusion_reason": "",
+      "evidence_ids": [
+        "evd_41a9e80492eefaa7",
+        "evd_f58c499acdbd7f95",
+        "evd_bda04b1e9026f0e9"
+      ],
+      "table_row_refs": [],
+      "notes": [
+        "deterministic_regex",
+        "origin=reported",
+        "of 6.31 points for mothers (d = -.66, p < .001) and 5.63 points for fathers (d = -.56, p < .01) following the birth of the first baby. Full results are available from the first author. Doss et al. Page 12 J Pers Soc Psychol. Author manuscript; available in PMC"
+      ]
+    },
+    {
+      "result_id": "res_30953b0372ff2dc2",
+      "result_spec": {
+        "outcome": "marital/relationship satisfaction",
+        "timepoint": "post",
+        "comparison": "control group",
+        "groups": "intervention vs control group",
+        "analysis_set": "reported"
+      },
+      "design_level": "unknown",
+      "effect_role": "unclear",
+      "grouping_label": "mothers",
+      "outcome_label_normalized": "unknown",
+      "timepoint_label_normalized": "post",
+      "canonical_key": "",
+      "stat_consistency": "unknown",
+      "dedup_sources": 1,
+      "effect_type": "d",
+      "origin": "reported",
+      "value": -0.71,
+      "se": null,
+      "ci_low": null,
+      "ci_high": null,
+      "derivation_method": "reported",
+      "assumptions": [],
+      "calc_confidence": "exact",
+      "is_primary": true,
+      "exclusion_reason": "",
+      "evidence_ids": [
+        "evd_bbb000276e037ba4",
+        "evd_2887efb543c363f2",
+        "evd_41a9e80492eefaa7"
+      ],
+      "table_row_refs": [],
+      "notes": [
+        "deterministic_regex",
+        "origin=reported",
+        "Mean Change in Relationship Functioning After Birth: Descriptive data for the eight periods of interest are detailed in Table 1. The primary question addressed in our first analyses was whether there was evidence of a change in relationship constructs associat"
+      ]
+    },
+    {
+      "result_id": "res_8d3e39bcab563a69",
+      "result_spec": {
+        "outcome": "marital/relationship satisfaction",
+        "timepoint": "post",
+        "comparison": "control group",
+        "groups": "intervention vs control group",
+        "analysis_set": "reported"
+      },
+      "design_level": "unknown",
+      "effect_role": "unclear",
+      "grouping_label": "mothers",
+      "outcome_label_normalized": "unknown",
+      "timepoint_label_normalized": "post",
+      "canonical_key": "",
+      "stat_consistency": "unknown",
+      "dedup_sources": 1,
+      "effect_type": "d",
+      "origin": "reported",
+      "value": -0.45,
+      "se": null,
+      "ci_low": null,
+      "ci_high": null,
+      "derivation_method": "reported",
+      "assumptions": [],
+      "calc_confidence": "exact",
+      "is_primary": true,
+      "exclusion_reason": "",
+      "evidence_ids": [
+        "evd_bbb000276e037ba4",
+        "evd_2887efb543c363f2",
+        "evd_41a9e80492eefaa7"
+      ],
+      "table_row_refs": [],
+      "notes": [
+        "deterministic_regex",
+        "origin=reported",
+        "Mean Change in Relationship Functioning After Birth: Descriptive data for the eight periods of interest are detailed in Table 1. The primary question addressed in our first analyses was whether there was evidence of a change in relationship constructs associat"
+      ]
+    },
+    {
+      "result_id": "res_83c79dd8b3f48adf",
+      "result_spec": {
+        "outcome": "marital/relationship satisfaction",
+        "timepoint": "post",
+        "comparison": "control group",
+        "groups": "intervention vs control group",
+        "analysis_set": "reported"
+      },
+      "design_level": "unknown",
+      "effect_role": "unclear",
+      "grouping_label": "mothers",
+      "outcome_label_normalized": "unknown",
+      "timepoint_label_normalized": "post",
+      "canonical_key": "",
+      "stat_consistency": "unknown",
+      "dedup_sources": 1,
+      "effect_type": "d",
+      "origin": "reported",
+      "value": 0.61,
+      "se": null,
+      "ci_low": null,
+      "ci_high": null,
+      "derivation_method": "reported",
+      "assumptions": [],
+      "calc_confidence": "exact",
+      "is_primary": true,
+      "exclusion_reason": "",
+      "evidence_ids": [
+        "evd_bbb000276e037ba4",
+        "evd_2887efb543c363f2",
+        "evd_41a9e80492eefaa7"
+      ],
+      "table_row_refs": [],
+      "notes": [
+        "deterministic_regex",
+        "origin=reported",
+        "Mean Change in Relationship Functioning After Birth: Descriptive data for the eight periods of interest are detailed in Table 1. The primary question addressed in our first analyses was whether there was evidence of a change in relationship constructs associat"
+      ]
+    },
+    {
+      "result_id": "res_77515d5e4d2f0325",
+      "result_spec": {
+        "outcome": "marital/relationship satisfaction",
+        "timepoint": "post",
+        "comparison": "control group",
+        "groups": "intervention vs control group",
+        "analysis_set": "reported"
+      },
+      "design_level": "unknown",
+      "effect_role": "unclear",
+      "grouping_label": "mothers",
+      "outcome_label_normalized": "unknown",
+      "timepoint_label_normalized": "post",
+      "canonical_key": "",
+      "stat_consistency": "unknown",
+      "dedup_sources": 1,
+      "effect_type": "d",
+      "origin": "reported",
+      "value": 0.57,
+      "se": null,
+      "ci_low": null,
+      "ci_high": null,
+      "derivation_method": "reported",
+      "assumptions": [],
+      "calc_confidence": "exact",
+      "is_primary": true,
+      "exclusion_reason": "",
+      "evidence_ids": [
+        "evd_bbb000276e037ba4",
+        "evd_2887efb543c363f2",
+        "evd_41a9e80492eefaa7"
+      ],
+      "table_row_refs": [],
+      "notes": [
+        "deterministic_regex",
+        "origin=reported",
+        "Mean Change in Relationship Functioning After Birth: Descriptive data for the eight periods of interest are detailed in Table 1. The primary question addressed in our first analyses was whether there was evidence of a change in relationship constructs associat"
+      ]
+    },
+    {
+      "result_id": "res_637c568a571ff5da",
+      "result_spec": {
+        "outcome": "reported outcome",
+        "timepoint": "post",
+        "comparison": "control group",
+        "groups": "intervention vs control group",
+        "analysis_set": "reported"
+      },
+      "design_level": "unknown",
+      "effect_role": "unclear",
+      "grouping_label": "mothers",
+      "outcome_label_normalized": "reported_outcome",
+      "timepoint_label_normalized": "post",
+      "canonical_key": "",
+      "stat_consistency": "unknown",
+      "dedup_sources": 1,
+      "effect_type": "d",
+      "origin": "reported",
+      "value": 0.54,
+      "se": null,
+      "ci_low": null,
+      "ci_high": null,
+      "derivation_method": "reported",
+      "assumptions": [],
+      "calc_confidence": "exact",
+      "is_primary": true,
+      "exclusion_reason": "",
+      "evidence_ids": [
+        "evd_bbb000276e037ba4",
+        "evd_2887efb543c363f2",
+        "evd_41a9e80492eefaa7"
+      ],
+      "table_row_refs": [],
+      "notes": [
+        "deterministic_regex",
+        "origin=reported",
+        "Mean Change in Relationship Functioning After Birth: Descriptive data for the eight periods of interest are detailed in Table 1. The primary question addressed in our first analyses was whether there was evidence of a change in relationship constructs associat"
+      ]
+    },
+    {
+      "result_id": "res_ab07e9a9fcf971bb",
+      "result_spec": {
+        "outcome": "reported outcome",
+        "timepoint": "post",
+        "comparison": "control group",
+        "groups": "intervention vs control group",
+        "analysis_set": "reported"
+      },
+      "design_level": "unknown",
+      "effect_role": "unclear",
+      "grouping_label": "mothers",
+      "outcome_label_normalized": "reported_outcome",
+      "timepoint_label_normalized": "post",
+      "canonical_key": "",
+      "stat_consistency": "unknown",
+      "dedup_sources": 1,
+      "effect_type": "d",
+      "origin": "reported",
+      "value": 0.77,
+      "se": null,
+      "ci_low": null,
+      "ci_high": null,
+      "derivation_method": "reported",
+      "assumptions": [],
+      "calc_confidence": "exact",
+      "is_primary": true,
+      "exclusion_reason": "",
+      "evidence_ids": [
+        "evd_bbb000276e037ba4",
+        "evd_2887efb543c363f2",
+        "evd_41a9e80492eefaa7"
+      ],
+      "table_row_refs": [],
+      "notes": [
+        "deterministic_regex",
+        "origin=reported",
+        "Mean Change in Relationship Functioning After Birth: Descriptive data for the eight periods of interest are detailed in Table 1. The primary question addressed in our first analyses was whether there was evidence of a change in relationship constructs associat"
+      ]
+    },
+    {
+      "result_id": "res_8c9a2ec441d0f6d4",
+      "result_spec": {
+        "outcome": "marital/relationship satisfaction",
+        "timepoint": "post",
+        "comparison": "control group",
+        "groups": "intervention vs control group",
+        "analysis_set": "reported"
+      },
+      "design_level": "unknown",
+      "effect_role": "unclear",
+      "grouping_label": "mothers",
+      "outcome_label_normalized": "unknown",
+      "timepoint_label_normalized": "post",
+      "canonical_key": "",
+      "stat_consistency": "unknown",
+      "dedup_sources": 1,
+      "effect_type": "d",
+      "origin": "reported",
+      "value": -0.61,
+      "se": null,
+      "ci_low": null,
+      "ci_high": null,
+      "derivation_method": "reported",
+      "assumptions": [],
+      "calc_confidence": "exact",
+      "is_primary": true,
+      "exclusion_reason": "",
+      "evidence_ids": [
+        "evd_bbb000276e037ba4",
+        "evd_2887efb543c363f2",
+        "evd_41a9e80492eefaa7"
+      ],
+      "table_row_refs": [],
+      "notes": [
+        "deterministic_regex",
+        "origin=reported",
+        "Mean Change in Relationship Functioning After Birth: Descriptive data for the eight periods of interest are detailed in Table 1. The primary question addressed in our first analyses was whether there was evidence of a change in relationship constructs associat"
+      ]
+    },
+    {
+      "result_id": "res_cb735150f3abdd5f",
+      "result_spec": {
+        "outcome": "marital/relationship satisfaction",
+        "timepoint": "post",
+        "comparison": "control group",
+        "groups": "intervention vs control group",
+        "analysis_set": "reported"
+      },
+      "design_level": "unknown",
+      "effect_role": "unclear",
+      "grouping_label": "mothers",
+      "outcome_label_normalized": "unknown",
+      "timepoint_label_normalized": "post",
+      "canonical_key": "",
+      "stat_consistency": "unknown",
+      "dedup_sources": 1,
+      "effect_type": "d",
+      "origin": "reported",
+      "value": -0.47,
+      "se": null,
+      "ci_low": null,
+      "ci_high": null,
+      "derivation_method": "reported",
+      "assumptions": [],
+      "calc_confidence": "exact",
+      "is_primary": true,
+      "exclusion_reason": "",
+      "evidence_ids": [
+        "evd_bbb000276e037ba4",
+        "evd_2887efb543c363f2",
+        "evd_41a9e80492eefaa7"
+      ],
+      "table_row_refs": [],
+      "notes": [
+        "deterministic_regex",
+        "origin=reported",
+        "Mean Change in Relationship Functioning After Birth: Descriptive data for the eight periods of interest are detailed in Table 1. The primary question addressed in our first analyses was whether there was evidence of a change in relationship constructs associat"
+      ]
+    },
+    {
+      "result_id": "res_5b344d92439b33dd",
+      "result_spec": {
+        "outcome": "marital/relationship satisfaction",
+        "timepoint": "baseline",
+        "comparison": "control group",
+        "groups": "intervention vs control group",
+        "analysis_set": "reported"
+      },
+      "design_level": "unknown",
+      "effect_role": "pooled_overall",
+      "grouping_label": "overall",
+      "outcome_label_normalized": "unknown",
+      "timepoint_label_normalized": "baseline",
+      "canonical_key": "",
+      "stat_consistency": "unknown",
+      "dedup_sources": 1,
+      "effect_type": "d",
+      "origin": "reported",
+      "value": -0.19,
+      "se": null,
+      "ci_low": null,
+      "ci_high": null,
+      "derivation_method": "reported",
+      "assumptions": [],
+      "calc_confidence": "exact",
+      "is_primary": true,
+      "exclusion_reason": "",
+      "evidence_ids": [
+        "evd_335037fc8fde435c",
+        "evd_3b77a6b89f1a4453",
+        "evd_2d55dd5184cbb46c"
+      ],
+      "table_row_refs": [],
+      "notes": [
+        "deterministic_regex",
+        "origin=reported",
+        "conclude with some confidence that the transition to parenthood constitutes a period of stressful and sometimes maladaptive change for a significant proportion of new parents” (1995, p. 412). However, Huston and Holmes conclude “The preponderance of the data f"
+      ]
+    }
+  ],
+  "notes": [
+    "14 effets produits",
+    "extraction_mode=strict",
+    "reported_effect regex entries: 14",
+    "LLM extraction disabled."
+  ]
+}

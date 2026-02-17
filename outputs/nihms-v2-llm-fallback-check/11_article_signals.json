@@ -1,0 +1,31 @@
+{
+  "signals": {
+    "has_mean_sd_n": true,
+    "has_confidence_intervals": false,
+    "has_exclusion_transparency": true,
+    "has_consort": false,
+    "has_protocol_or_registry": true,
+    "has_outcome_timepoint_clarity": true
+  },
+  "reporting_score": 0.65,
+  "evidence_ids": [
+    "evd_7fe2a569b4f81884",
+    "evd_5051fd7218b4f2f3",
+    "evd_8142b4efc289768a",
+    "evd_facfb6d02721e67a",
+    "evd_afdd00ab72232499",
+    "evd_820b9c5b47b4839d",
+    "evd_aa50f3a810c4ad07"
+  ],
+  "notes": [
+    "has_mean_sd_n=true",
+    "has_confidence_intervals=false",
+    "has_exclusion_transparency=true",
+    "has_consort=false",
+    "has_protocol_or_registry=true",
+    "has_outcome_timepoint_clarity=true",
+    "Passages analyses: 109",
+    "Tables detectees: 1",
+    "Au moins un effet derivable."
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "title_match_found": false,
+  "venue": "unknown",
+  "publisher": "unknown",
+  "citation_count": null,
+  "authors_found": 0,
+  "external_score": 0.0,
+  "credibility_level": "Unknown",
+  "notes": [
+    "OpenAlex failed (HTTPSConnectionPool(host='api.openalex.org', port=443): Max retries exceeded with url: /works?search=The+Effect+of+the+Transition+to+Parenthood+on+Relationship+Rhoades&per-page=5&filter=publication_year%3A2010&mailto=87f...).",
+    "OpenAlex polite pool via mailto=87fugiii@gmail.com",
+    "LLM credibility scoring disabled."
+  ]
+}

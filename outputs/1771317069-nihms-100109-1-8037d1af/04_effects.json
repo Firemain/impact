@@ -1,0 +1,916 @@
+{
+  "effects": [
+    {
+      "result_id": "res_a8d3a215df38e48a",
+      "result_spec": {
+        "outcome": "Relationship dedication after birth",
+        "timepoint": "unknown",
+        "comparison": "mothers vs fathers",
+        "groups": "Mothers and fathers",
+        "analysis_set": "reported"
+      },
+      "design_level": "unknown",
+      "effect_role": "unclear",
+      "grouping_label": "Mothers and fathers",
+      "outcome_label_normalized": "Extra-personal",
+      "timepoint_label_normalized": "unknown",
+      "canonical_key": "res_a8d3a215df38e48a",
+      "stat_consistency": "unknown",
+      "dedup_sources": 1,
+      "effect_type": "d",
+      "effect_scope": "study_effect",
+      "origin": "reported",
+      "source_kind": "text",
+      "source_page": 12,
+      "source_ref": "evd_79c53b7eedc2ff00",
+      "quote": "0.54, p < .001) and problem intensity (d = 0.77, p < .001) as well as sudden decreases",
+      "value": 0.77,
+      "se": null,
+      "ci_low": null,
+      "ci_high": null,
+      "derivation_method": "reported",
+      "assumptions": [],
+      "calc_confidence": "exact",
+      "is_primary": true,
+      "exclusion_reason": "",
+      "evidence_ids": [
+        "evd_79c53b7eedc2ff00"
+      ],
+      "table_row_refs": [],
+      "notes": [
+        "deterministic_text_label"
+      ]
+    },
+    {
+      "result_id": "res_bed96b4e8c02a312",
+      "result_spec": {
+        "outcome": "Transition to parenthood",
+        "timepoint": "post-birth",
+        "comparison": "mothers vs pre-birth",
+        "groups": "Mothers",
+        "analysis_set": "reported"
+      },
+      "design_level": "unknown",
+      "effect_role": "unclear",
+      "grouping_label": "Mothers",
+      "outcome_label_normalized": "Extra-personal",
+      "timepoint_label_normalized": "post",
+      "canonical_key": "res_bed96b4e8c02a312",
+      "stat_consistency": "unknown",
+      "dedup_sources": 1,
+      "effect_type": "d",
+      "effect_scope": "study_effect",
+      "origin": "reported",
+      "source_kind": "table_image_vision",
+      "source_page": 12,
+      "source_ref": "tbl_20512328d9ef04c0:vision_6",
+      "quote": "problem intensity (d = 0.77, p < .001)",
+      "value": 0.77,
+      "se": null,
+      "ci_low": null,
+      "ci_high": null,
+      "derivation_method": "reported",
+      "assumptions": [],
+      "calc_confidence": "exact",
+      "is_primary": true,
+      "exclusion_reason": "",
+      "evidence_ids": [
+        "evd_4603dcc254053112"
+      ],
+      "table_row_refs": [],
+      "notes": [
+        "llm_table_vision"
+      ]
+    },
+    {
+      "result_id": "res_554266a8cd70364e",
+      "result_spec": {
+        "outcome": "Relationship dedication after birth",
+        "timepoint": "unknown",
+        "comparison": "mothers vs fathers",
+        "groups": "Mothers and fathers",
+        "analysis_set": "reported"
+      },
+      "design_level": "unknown",
+      "effect_role": "unclear",
+      "grouping_label": "Mothers and fathers",
+      "outcome_label_normalized": "Extra-personal",
+      "timepoint_label_normalized": "unknown",
+      "canonical_key": "res_554266a8cd70364e",
+      "stat_consistency": "unknown",
+      "dedup_sources": 1,
+      "effect_type": "d",
+      "effect_scope": "study_effect",
+      "origin": "reported",
+      "source_kind": "text",
+      "source_page": 12,
+      "source_ref": "evd_79c53b7eedc2ff00",
+      "quote": "parenthood of 2.81 points for mothers (d = -0.71, p < .01)5 and 1.81 points for fathers",
+      "value": -0.71,
+      "se": null,
+      "ci_low": null,
+      "ci_high": null,
+      "derivation_method": "reported",
+      "assumptions": [],
+      "calc_confidence": "exact",
+      "is_primary": true,
+      "exclusion_reason": "",
+      "evidence_ids": [
+        "evd_79c53b7eedc2ff00"
+      ],
+      "table_row_refs": [],
+      "notes": [
+        "deterministic_text_label"
+      ]
+    },
+    {
+      "result_id": "res_f5f588a388408535",
+      "result_spec": {
+        "outcome": "Transition to parenthood",
+        "timepoint": "post-birth",
+        "comparison": "post-birth vs pre-birth",
+        "groups": "Mothers",
+        "analysis_set": "reported"
+      },
+      "design_level": "unknown",
+      "effect_role": "unclear",
+      "grouping_label": "Mothers",
+      "outcome_label_normalized": "Extra-personal",
+      "timepoint_label_normalized": "post",
+      "canonical_key": "res_f5f588a388408535",
+      "stat_consistency": "unknown",
+      "dedup_sources": 1,
+      "effect_type": "d",
+      "effect_scope": "study_effect",
+      "origin": "reported",
+      "source_kind": "text",
+      "source_page": 12,
+      "source_ref": "evd_79c53b7eedc2ff00",
+      "quote": "marital satisfaction showed significant drops following the transition to parenthood of 2.81 points for mothers (d = -0.71, p < .01)",
+      "value": -0.71,
+      "se": null,
+      "ci_low": null,
+      "ci_high": null,
+      "derivation_method": "reported",
+      "assumptions": [],
+      "calc_confidence": "exact",
+      "is_primary": true,
+      "exclusion_reason": "",
+      "evidence_ids": [
+        "evd_79c53b7eedc2ff00"
+      ],
+      "table_row_refs": [],
+      "notes": [
+        "llm_text_extraction"
+      ]
+    },
+    {
+      "result_id": "res_88e225817a5d8dd5",
+      "result_spec": {
+        "outcome": "Transition to parenthood",
+        "timepoint": "post-birth",
+        "comparison": "mothers vs pre-birth",
+        "groups": "Mothers",
+        "analysis_set": "reported"
+      },
+      "design_level": "unknown",
+      "effect_role": "unclear",
+      "grouping_label": "Mothers",
+      "outcome_label_normalized": "Extra-personal",
+      "timepoint_label_normalized": "post",
+      "canonical_key": "res_88e225817a5d8dd5",
+      "stat_consistency": "unknown",
+      "dedup_sources": 1,
+      "effect_type": "d",
+      "effect_scope": "study_effect",
+      "origin": "reported",
+      "source_kind": "table_image_vision",
+      "source_page": 12,
+      "source_ref": "tbl_20512328d9ef04c0:vision_1",
+      "quote": "marital satisfaction showed significant drops following the transition to parenthood of 2.81 points for mothers (d = -0.71, p < .01)",
+      "value": -0.71,
+      "se": null,
+      "ci_low": null,
+      "ci_high": null,
+      "derivation_method": "reported",
+      "assumptions": [],
+      "calc_confidence": "exact",
+      "is_primary": true,
+      "exclusion_reason": "",
+      "evidence_ids": [
+        "evd_4603dcc254053112"
+      ],
+      "table_row_refs": [],
+      "notes": [
+        "llm_table_vision"
+      ]
+    },
+    {
+      "result_id": "res_1b125830c87924d2",
+      "result_spec": {
+        "outcome": "Fathers",
+        "timepoint": "unknown",
+        "comparison": "mothers vs fathers",
+        "groups": "Mothers and fathers",
+        "analysis_set": "reported"
+      },
+      "design_level": "unknown",
+      "effect_role": "unclear",
+      "grouping_label": "Mothers and fathers",
+      "outcome_label_normalized": "unknown",
+      "timepoint_label_normalized": "unknown",
+      "canonical_key": "res_1b125830c87924d2",
+      "stat_consistency": "unknown",
+      "dedup_sources": 1,
+      "effect_type": "d",
+      "effect_scope": "study_effect",
+      "origin": "reported",
+      "source_kind": "text",
+      "source_page": 12,
+      "source_ref": "evd_591ec901ef194c8e",
+      "quote": "of 6.31 points for mothers (d = -.66, p < .001) and 5.63 points for fathers",
+      "value": -0.66,
+      "se": null,
+      "ci_low": null,
+      "ci_high": null,
+      "derivation_method": "reported",
+      "assumptions": [],
+      "calc_confidence": "exact",
+      "is_primary": true,
+      "exclusion_reason": "",
+      "evidence_ids": [
+        "evd_591ec901ef194c8e"
+      ],
+      "table_row_refs": [],
+      "notes": [
+        "deterministic_text_label"
+      ]
+    },
+    {
+      "result_id": "res_ea93d812941af0cc",
+      "result_spec": {
+        "outcome": "Relationship dedication after birth",
+        "timepoint": "unknown",
+        "comparison": "mothers vs fathers",
+        "groups": "Mothers and fathers",
+        "analysis_set": "reported"
+      },
+      "design_level": "unknown",
+      "effect_role": "unclear",
+      "grouping_label": "Mothers and fathers",
+      "outcome_label_normalized": "Extra-personal",
+      "timepoint_label_normalized": "unknown",
+      "canonical_key": "res_ea93d812941af0cc",
+      "stat_consistency": "unknown",
+      "dedup_sources": 1,
+      "effect_type": "d",
+      "effect_scope": "study_effect",
+      "origin": "reported",
+      "source_kind": "text",
+      "source_page": 12,
+      "source_ref": "evd_79c53b7eedc2ff00",
+      "quote": "transition to parenthood, both fathers (d = 0.61, p < .01) and mothers (d = 0.57, p < .0",
+      "value": 0.61,
+      "se": null,
+      "ci_low": null,
+      "ci_high": null,
+      "derivation_method": "reported",
+      "assumptions": [],
+      "calc_confidence": "exact",
+      "is_primary": true,
+      "exclusion_reason": "",
+      "evidence_ids": [
+        "evd_79c53b7eedc2ff00"
+      ],
+      "table_row_refs": [],
+      "notes": [
+        "deterministic_text_label"
+      ]
+    },
+    {
+      "result_id": "res_d972edc33d9aa25e",
+      "result_spec": {
+        "outcome": "Relationship dedication after birth",
+        "timepoint": "unknown",
+        "comparison": "mothers vs fathers",
+        "groups": "Mothers and fathers",
+        "analysis_set": "reported"
+      },
+      "design_level": "unknown",
+      "effect_role": "unclear",
+      "grouping_label": "Mothers and fathers",
+      "outcome_label_normalized": "Extra-personal",
+      "timepoint_label_normalized": "unknown",
+      "canonical_key": "res_d972edc33d9aa25e",
+      "stat_consistency": "unknown",
+      "dedup_sources": 1,
+      "effect_type": "d",
+      "effect_scope": "study_effect",
+      "origin": "reported",
+      "source_kind": "text",
+      "source_page": 12,
+      "source_ref": "evd_79c53b7eedc2ff00",
+      "quote": "n decreases in relationship confidence (d = -0.61, p < .05) after birth. Finally, fathers",
+      "value": -0.61,
+      "se": null,
+      "ci_low": null,
+      "ci_high": null,
+      "derivation_method": "reported",
+      "assumptions": [],
+      "calc_confidence": "exact",
+      "is_primary": true,
+      "exclusion_reason": "",
+      "evidence_ids": [
+        "evd_79c53b7eedc2ff00"
+      ],
+      "table_row_refs": [],
+      "notes": [
+        "deterministic_text_label"
+      ]
+    },
+    {
+      "result_id": "res_45d6f4d5444f0936",
+      "result_spec": {
+        "outcome": "Transition to parenthood",
+        "timepoint": "post-birth",
+        "comparison": "fathers vs pre-birth",
+        "groups": "Fathers",
+        "analysis_set": "reported"
+      },
+      "design_level": "unknown",
+      "effect_role": "unclear",
+      "grouping_label": "Fathers",
+      "outcome_label_normalized": "Extra-personal",
+      "timepoint_label_normalized": "post",
+      "canonical_key": "res_45d6f4d5444f0936",
+      "stat_consistency": "unknown",
+      "dedup_sources": 1,
+      "effect_type": "d",
+      "effect_scope": "study_effect",
+      "origin": "reported",
+      "source_kind": "table_image_vision",
+      "source_page": 12,
+      "source_ref": "tbl_20512328d9ef04c0:vision_3",
+      "quote": "both fathers (d = 0.61, p < .01) ... showed sudden increases in negative observed communication",
+      "value": 0.61,
+      "se": null,
+      "ci_low": null,
+      "ci_high": null,
+      "derivation_method": "reported",
+      "assumptions": [],
+      "calc_confidence": "exact",
+      "is_primary": true,
+      "exclusion_reason": "",
+      "evidence_ids": [
+        "evd_4603dcc254053112"
+      ],
+      "table_row_refs": [],
+      "notes": [
+        "llm_table_vision"
+      ]
+    },
+    {
+      "result_id": "res_3a708be481cc4a81",
+      "result_spec": {
+        "outcome": "Transition to parenthood",
+        "timepoint": "post-birth",
+        "comparison": "mothers vs pre-birth",
+        "groups": "Mothers",
+        "analysis_set": "reported"
+      },
+      "design_level": "unknown",
+      "effect_role": "unclear",
+      "grouping_label": "Mothers",
+      "outcome_label_normalized": "Extra-personal",
+      "timepoint_label_normalized": "post",
+      "canonical_key": "res_3a708be481cc4a81",
+      "stat_consistency": "unknown",
+      "dedup_sources": 1,
+      "effect_type": "d",
+      "effect_scope": "study_effect",
+      "origin": "reported",
+      "source_kind": "table_image_vision",
+      "source_page": 12,
+      "source_ref": "tbl_20512328d9ef04c0:vision_7",
+      "quote": "sudden decreases in relationship confidence (d = -0.61, p < .05) after birth",
+      "value": -0.61,
+      "se": null,
+      "ci_low": null,
+      "ci_high": null,
+      "derivation_method": "reported",
+      "assumptions": [],
+      "calc_confidence": "exact",
+      "is_primary": true,
+      "exclusion_reason": "",
+      "evidence_ids": [
+        "evd_4603dcc254053112"
+      ],
+      "table_row_refs": [],
+      "notes": [
+        "llm_table_vision"
+      ]
+    },
+    {
+      "result_id": "res_4e950fb75031382b",
+      "result_spec": {
+        "outcome": "Relationship dedication after birth",
+        "timepoint": "unknown",
+        "comparison": "mothers vs fathers",
+        "groups": "Mothers and fathers",
+        "analysis_set": "reported"
+      },
+      "design_level": "unknown",
+      "effect_role": "unclear",
+      "grouping_label": "Mothers and fathers",
+      "outcome_label_normalized": "Extra-personal",
+      "timepoint_label_normalized": "unknown",
+      "canonical_key": "res_4e950fb75031382b",
+      "stat_consistency": "unknown",
+      "dedup_sources": 1,
+      "effect_type": "d",
+      "effect_scope": "study_effect",
+      "origin": "reported",
+      "source_kind": "text",
+      "source_page": 12,
+      "source_ref": "evd_79c53b7eedc2ff00",
+      "quote": "athers (d = 0.61, p < .01) and mothers (d = 0.57, p < .05) showed sudden increases in ne",
+      "value": 0.57,
+      "se": null,
+      "ci_low": null,
+      "ci_high": null,
+      "derivation_method": "reported",
+      "assumptions": [],
+      "calc_confidence": "exact",
+      "is_primary": true,
+      "exclusion_reason": "",
+      "evidence_ids": [
+        "evd_79c53b7eedc2ff00"
+      ],
+      "table_row_refs": [],
+      "notes": [
+        "deterministic_text_label"
+      ]
+    },
+    {
+      "result_id": "res_f1c730bcf9230772",
+      "result_spec": {
+        "outcome": "Transition to parenthood",
+        "timepoint": "post-birth",
+        "comparison": "mothers vs pre-birth",
+        "groups": "Mothers",
+        "analysis_set": "reported"
+      },
+      "design_level": "unknown",
+      "effect_role": "unclear",
+      "grouping_label": "Mothers",
+      "outcome_label_normalized": "Extra-personal",
+      "timepoint_label_normalized": "post",
+      "canonical_key": "res_f1c730bcf9230772",
+      "stat_consistency": "unknown",
+      "dedup_sources": 1,
+      "effect_type": "d",
+      "effect_scope": "study_effect",
+      "origin": "reported",
+      "source_kind": "table_image_vision",
+      "source_page": 12,
+      "source_ref": "tbl_20512328d9ef04c0:vision_4",
+      "quote": "mothers (d = 0.57, p < .05) showed sudden increases in negative observed communication",
+      "value": 0.57,
+      "se": null,
+      "ci_low": null,
+      "ci_high": null,
+      "derivation_method": "reported",
+      "assumptions": [],
+      "calc_confidence": "exact",
+      "is_primary": true,
+      "exclusion_reason": "",
+      "evidence_ids": [
+        "evd_4603dcc254053112"
+      ],
+      "table_row_refs": [],
+      "notes": [
+        "llm_table_vision"
+      ]
+    },
+    {
+      "result_id": "res_89c155a560e37773",
+      "result_spec": {
+        "outcome": "Fathers",
+        "timepoint": "unknown",
+        "comparison": "mothers vs fathers",
+        "groups": "Mothers and fathers",
+        "analysis_set": "reported"
+      },
+      "design_level": "unknown",
+      "effect_role": "unclear",
+      "grouping_label": "Mothers and fathers",
+      "outcome_label_normalized": "unknown",
+      "timepoint_label_normalized": "unknown",
+      "canonical_key": "res_89c155a560e37773",
+      "stat_consistency": "unknown",
+      "dedup_sources": 1,
+      "effect_type": "d",
+      "effect_scope": "study_effect",
+      "origin": "reported",
+      "source_kind": "text",
+      "source_page": 12,
+      "source_ref": "evd_591ec901ef194c8e",
+      "quote": "p < .001) and 5.63 points for fathers (d = -.56, p < .01) following the birth of the fi",
+      "value": -0.56,
+      "se": null,
+      "ci_low": null,
+      "ci_high": null,
+      "derivation_method": "reported",
+      "assumptions": [],
+      "calc_confidence": "exact",
+      "is_primary": true,
+      "exclusion_reason": "",
+      "evidence_ids": [
+        "evd_591ec901ef194c8e"
+      ],
+      "table_row_refs": [],
+      "notes": [
+        "deterministic_text_label"
+      ]
+    },
+    {
+      "result_id": "res_88f824283a111b85",
+      "result_spec": {
+        "outcome": "Transition to parenthood",
+        "timepoint": "post-birth",
+        "comparison": "post-birth vs pre-birth",
+        "groups": "Fathers",
+        "analysis_set": "reported"
+      },
+      "design_level": "unknown",
+      "effect_role": "unclear",
+      "grouping_label": "Fathers",
+      "outcome_label_normalized": "Extra-personal",
+      "timepoint_label_normalized": "post",
+      "canonical_key": "res_88f824283a111b85",
+      "stat_consistency": "unknown",
+      "dedup_sources": 1,
+      "effect_type": "d",
+      "effect_scope": "study_effect",
+      "origin": "reported",
+      "source_kind": "text",
+      "source_page": 12,
+      "source_ref": "evd_591ec901ef194c8e",
+      "quote": "5.63 points for fathers (d = -.56, p < .01) following the birth of the first baby",
+      "value": -0.56,
+      "se": null,
+      "ci_low": null,
+      "ci_high": null,
+      "derivation_method": "reported",
+      "assumptions": [],
+      "calc_confidence": "exact",
+      "is_primary": true,
+      "exclusion_reason": "",
+      "evidence_ids": [
+        "evd_591ec901ef194c8e"
+      ],
+      "table_row_refs": [],
+      "notes": [
+        "llm_text_extraction"
+      ]
+    },
+    {
+      "result_id": "res_2aa11c2ea917ac47",
+      "result_spec": {
+        "outcome": "Relationship dedication after birth",
+        "timepoint": "unknown",
+        "comparison": "mothers vs fathers",
+        "groups": "Mothers and fathers",
+        "analysis_set": "reported"
+      },
+      "design_level": "unknown",
+      "effect_role": "unclear",
+      "grouping_label": "Mothers and fathers",
+      "outcome_label_normalized": "Extra-personal",
+      "timepoint_label_normalized": "unknown",
+      "canonical_key": "res_2aa11c2ea917ac47",
+      "stat_consistency": "unknown",
+      "dedup_sources": 1,
+      "effect_type": "d",
+      "effect_scope": "study_effect",
+      "origin": "reported",
+      "source_kind": "text",
+      "source_page": 12,
+      "source_ref": "evd_79c53b7eedc2ff00",
+      "quote": "increases in poor conflict management (d = 0.54, p < .001) and problem intensity (d = 0",
+      "value": 0.54,
+      "se": null,
+      "ci_low": null,
+      "ci_high": null,
+      "derivation_method": "reported",
+      "assumptions": [],
+      "calc_confidence": "exact",
+      "is_primary": true,
+      "exclusion_reason": "",
+      "evidence_ids": [
+        "evd_79c53b7eedc2ff00"
+      ],
+      "table_row_refs": [],
+      "notes": [
+        "deterministic_text_label"
+      ]
+    },
+    {
+      "result_id": "res_b014fd2e34ea6cc4",
+      "result_spec": {
+        "outcome": "Transition to parenthood",
+        "timepoint": "post-birth",
+        "comparison": "mothers vs pre-birth",
+        "groups": "Mothers",
+        "analysis_set": "reported"
+      },
+      "design_level": "unknown",
+      "effect_role": "unclear",
+      "grouping_label": "Mothers",
+      "outcome_label_normalized": "Extra-personal",
+      "timepoint_label_normalized": "post",
+      "canonical_key": "res_b014fd2e34ea6cc4",
+      "stat_consistency": "unknown",
+      "dedup_sources": 1,
+      "effect_type": "d",
+      "effect_scope": "study_effect",
+      "origin": "reported",
+      "source_kind": "table_image_vision",
+      "source_page": 12,
+      "source_ref": "tbl_20512328d9ef04c0:vision_5",
+      "quote": "mothers ... reported sudden increases in poor conflict management (d = 0.54, p < .001)",
+      "value": 0.54,
+      "se": null,
+      "ci_low": null,
+      "ci_high": null,
+      "derivation_method": "reported",
+      "assumptions": [],
+      "calc_confidence": "exact",
+      "is_primary": true,
+      "exclusion_reason": "",
+      "evidence_ids": [
+        "evd_4603dcc254053112"
+      ],
+      "table_row_refs": [],
+      "notes": [
+        "llm_table_vision"
+      ]
+    },
+    {
+      "result_id": "res_350090b6172194d3",
+      "result_spec": {
+        "outcome": "Relationship dedication after birth",
+        "timepoint": "unknown",
+        "comparison": "mothers vs fathers",
+        "groups": "Mothers and fathers",
+        "analysis_set": "reported"
+      },
+      "design_level": "unknown",
+      "effect_role": "unclear",
+      "grouping_label": "Mothers and fathers",
+      "outcome_label_normalized": "Extra-personal",
+      "timepoint_label_normalized": "unknown",
+      "canonical_key": "res_350090b6172194d3",
+      "stat_consistency": "unknown",
+      "dedup_sources": 1,
+      "effect_type": "d",
+      "effect_scope": "study_effect",
+      "origin": "reported",
+      "source_kind": "text",
+      "source_page": 12,
+      "source_ref": "evd_79c53b7eedc2ff00",
+      "quote": "in relationship dedication after birth (d = -0.47, p < .05). Additionally, for fathers on",
+      "value": -0.47,
+      "se": null,
+      "ci_low": null,
+      "ci_high": null,
+      "derivation_method": "reported",
+      "assumptions": [],
+      "calc_confidence": "exact",
+      "is_primary": true,
+      "exclusion_reason": "",
+      "evidence_ids": [
+        "evd_79c53b7eedc2ff00"
+      ],
+      "table_row_refs": [],
+      "notes": [
+        "deterministic_text_label"
+      ]
+    },
+    {
+      "result_id": "res_8305cdf59da2ea84",
+      "result_spec": {
+        "outcome": "Transition to parenthood",
+        "timepoint": "post-birth",
+        "comparison": "fathers vs pre-birth",
+        "groups": "Fathers",
+        "analysis_set": "reported"
+      },
+      "design_level": "unknown",
+      "effect_role": "unclear",
+      "grouping_label": "Fathers",
+      "outcome_label_normalized": "Extra-personal",
+      "timepoint_label_normalized": "post",
+      "canonical_key": "res_8305cdf59da2ea84",
+      "stat_consistency": "unknown",
+      "dedup_sources": 1,
+      "effect_type": "d",
+      "effect_scope": "study_effect",
+      "origin": "reported",
+      "source_kind": "table_image_vision",
+      "source_page": 12,
+      "source_ref": "tbl_20512328d9ef04c0:vision_8",
+      "quote": "fathers but not mothers demonstrated significant sudden declines in relationship dedication after birth (d = -0.47, p < .05)",
+      "value": -0.47,
+      "se": null,
+      "ci_low": null,
+      "ci_high": null,
+      "derivation_method": "reported",
+      "assumptions": [],
+      "calc_confidence": "exact",
+      "is_primary": true,
+      "exclusion_reason": "",
+      "evidence_ids": [
+        "evd_4603dcc254053112"
+      ],
+      "table_row_refs": [],
+      "notes": [
+        "llm_table_vision"
+      ]
+    },
+    {
+      "result_id": "res_dc33c464f696190e",
+      "result_spec": {
+        "outcome": "Relationship dedication after birth",
+        "timepoint": "unknown",
+        "comparison": "mothers vs fathers",
+        "groups": "Mothers and fathers",
+        "analysis_set": "reported"
+      },
+      "design_level": "unknown",
+      "effect_role": "unclear",
+      "grouping_label": "Mothers and fathers",
+      "outcome_label_normalized": "Extra-personal",
+      "timepoint_label_normalized": "unknown",
+      "canonical_key": "res_dc33c464f696190e",
+      "stat_consistency": "unknown",
+      "dedup_sources": 1,
+      "effect_type": "d",
+      "effect_scope": "study_effect",
+      "origin": "reported",
+      "source_kind": "text",
+      "source_page": 12,
+      "source_ref": "evd_79c53b7eedc2ff00",
+      "quote": "p < .01)5 and 1.81 points for fathers (d = -0.45, p < .05).6 Following the transition to",
+      "value": -0.45,
+      "se": null,
+      "ci_low": null,
+      "ci_high": null,
+      "derivation_method": "reported",
+      "assumptions": [],
+      "calc_confidence": "exact",
+      "is_primary": true,
+      "exclusion_reason": "",
+      "evidence_ids": [
+        "evd_79c53b7eedc2ff00"
+      ],
+      "table_row_refs": [],
+      "notes": [
+        "deterministic_text_label"
+      ]
+    },
+    {
+      "result_id": "res_6debbda6364e0fbe",
+      "result_spec": {
+        "outcome": "Transition to parenthood",
+        "timepoint": "post-birth",
+        "comparison": "fathers vs pre-birth",
+        "groups": "Fathers",
+        "analysis_set": "reported"
+      },
+      "design_level": "unknown",
+      "effect_role": "unclear",
+      "grouping_label": "Fathers",
+      "outcome_label_normalized": "Extra-personal",
+      "timepoint_label_normalized": "post",
+      "canonical_key": "res_6debbda6364e0fbe",
+      "stat_consistency": "unknown",
+      "dedup_sources": 1,
+      "effect_type": "d",
+      "effect_scope": "study_effect",
+      "origin": "reported",
+      "source_kind": "table_image_vision",
+      "source_page": 12,
+      "source_ref": "tbl_20512328d9ef04c0:vision_2",
+      "quote": "marital satisfaction showed significant drops following the transition to parenthood ... 1.81 points for fathers (d = -0.45, p < .05)",
+      "value": -0.45,
+      "se": null,
+      "ci_low": null,
+      "ci_high": null,
+      "derivation_method": "reported",
+      "assumptions": [],
+      "calc_confidence": "exact",
+      "is_primary": true,
+      "exclusion_reason": "",
+      "evidence_ids": [
+        "evd_4603dcc254053112"
+      ],
+      "table_row_refs": [],
+      "notes": [
+        "llm_table_vision"
+      ]
+    },
+    {
+      "result_id": "res_affdf86d4012e5d8",
+      "result_spec": {
+        "outcome": "Parents reported significantly lower relationship satisfaction than non-parents",
+        "timepoint": "unknown",
+        "comparison": "unknown",
+        "groups": "Parents",
+        "analysis_set": "reported"
+      },
+      "design_level": "unknown",
+      "effect_role": "unclear",
+      "grouping_label": "Parents",
+      "outcome_label_normalized": "Extra-personal",
+      "timepoint_label_normalized": "unknown",
+      "canonical_key": "res_affdf86d4012e5d8",
+      "stat_consistency": "unknown",
+      "dedup_sources": 1,
+      "effect_type": "d",
+      "effect_scope": "literature_cited",
+      "origin": "reported",
+      "source_kind": "text",
+      "source_page": 2,
+      "source_ref": "evd_9d6a50fc8ec02d6c",
+      "quote": "tionship satisfaction than non-parents (d = -.19; Twenge, Campbell, & Foster, 2003). Alt",
+      "value": -0.19,
+      "se": null,
+      "ci_low": null,
+      "ci_high": null,
+      "derivation_method": "reported",
+      "assumptions": [],
+      "calc_confidence": "exact",
+      "is_primary": true,
+      "exclusion_reason": "",
+      "evidence_ids": [
+        "evd_9d6a50fc8ec02d6c"
+      ],
+      "table_row_refs": [],
+      "notes": [
+        "deterministic_text_label"
+      ]
+    },
+    {
+      "result_id": "res_fbb211f5f36fabe1",
+      "result_spec": {
+        "outcome": "Parenthood",
+        "timepoint": "unknown",
+        "comparison": "parents vs non-parents",
+        "groups": "Parents",
+        "analysis_set": "reported"
+      },
+      "design_level": "unknown",
+      "effect_role": "unclear",
+      "grouping_label": "Parents",
+      "outcome_label_normalized": "Extra-personal",
+      "timepoint_label_normalized": "unknown",
+      "canonical_key": "res_fbb211f5f36fabe1",
+      "stat_consistency": "unknown",
+      "dedup_sources": 1,
+      "effect_type": "d",
+      "effect_scope": "literature_cited",
+      "origin": "reported",
+      "source_kind": "text",
+      "source_page": 2,
+      "source_ref": "evd_9d6a50fc8ec02d6c",
+      "quote": "parents reported significantly lower relationship satisfaction than non-parents (d = -.19; Twenge, Campbell, & Foster, 2003)",
+      "value": -0.19,
+      "se": null,
+      "ci_low": null,
+      "ci_high": null,
+      "derivation_method": "reported",
+      "assumptions": [],
+      "calc_confidence": "exact",
+      "is_primary": true,
+      "exclusion_reason": "",
+      "evidence_ids": [
+        "evd_9d6a50fc8ec02d6c"
+      ],
+      "table_row_refs": [],
+      "notes": [
+        "llm_text_extraction"
+      ]
+    }
+  ],
+  "notes": [
+    "deterministic_table_effects=0",
+    "deterministic_text_effects=11",
+    "LLM text effects extracted=3, rejected=2, batches=1, failed_batches=0.",
+    "LLM table vision effects extracted=8, rejected=0, failed=0.",
+    "effects_extracted=22",
+    "study_effects=20",
+    "literature_cited_effects=2",
+    "model_stats_excluded=0"
+  ]
+}

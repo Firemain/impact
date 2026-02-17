@@ -1,0 +1,207 @@
+{
+  "items": [
+    {
+      "result_id": "res_f583c4352d7b0fd4",
+      "calc_score": 0.75,
+      "bias_score": 0.6,
+      "review_quality_score": 0.0,
+      "reporting_score": 0.6,
+      "external_score": 1.0,
+      "consistency_score": 0.5,
+      "reliability_score_total": 0.755,
+      "verdict": "High",
+      "justification": "calc=0.75, qualite_interne=0.60, credibilite_externe=1.00",
+      "evidence_ids": [
+        "evd_e6dbacd203da3207"
+      ]
+    },
+    {
+      "result_id": "res_41f3702765641a0f",
+      "calc_score": 0.75,
+      "bias_score": 0.6,
+      "review_quality_score": 0.0,
+      "reporting_score": 0.6,
+      "external_score": 1.0,
+      "consistency_score": 0.5,
+      "reliability_score_total": 0.755,
+      "verdict": "High",
+      "justification": "calc=0.75, qualite_interne=0.60, credibilite_externe=1.00",
+      "evidence_ids": [
+        "evd_58a3529e99cdd818"
+      ]
+    },
+    {
+      "result_id": "res_6665b21bdac674bb",
+      "calc_score": 0.75,
+      "bias_score": 0.6,
+      "review_quality_score": 0.0,
+      "reporting_score": 0.6,
+      "external_score": 1.0,
+      "consistency_score": 0.5,
+      "reliability_score_total": 0.755,
+      "verdict": "High",
+      "justification": "calc=0.75, qualite_interne=0.60, credibilite_externe=1.00",
+      "evidence_ids": [
+        "evd_dd4a6d5bb39640c2"
+      ]
+    },
+    {
+      "result_id": "res_090904e0576e1302",
+      "calc_score": 0.75,
+      "bias_score": 0.6,
+      "review_quality_score": 0.0,
+      "reporting_score": 0.6,
+      "external_score": 1.0,
+      "consistency_score": 0.5,
+      "reliability_score_total": 0.755,
+      "verdict": "High",
+      "justification": "calc=0.75, qualite_interne=0.60, credibilite_externe=1.00",
+      "evidence_ids": [
+        "evd_96c06143a85898df"
+      ]
+    },
+    {
+      "result_id": "res_71b6f20e2610502c",
+      "calc_score": 0.75,
+      "bias_score": 0.6,
+      "review_quality_score": 0.0,
+      "reporting_score": 0.6,
+      "external_score": 1.0,
+      "consistency_score": 0.5,
+      "reliability_score_total": 0.755,
+      "verdict": "High",
+      "justification": "calc=0.75, qualite_interne=0.60, credibilite_externe=1.00",
+      "evidence_ids": [
+        "evd_96c06143a85898df"
+      ]
+    },
+    {
+      "result_id": "res_e2b1693adf74073f",
+      "calc_score": 0.75,
+      "bias_score": 0.6,
+      "review_quality_score": 0.0,
+      "reporting_score": 0.6,
+      "external_score": 1.0,
+      "consistency_score": 0.5,
+      "reliability_score_total": 0.755,
+      "verdict": "High",
+      "justification": "calc=0.75, qualite_interne=0.60, credibilite_externe=1.00",
+      "evidence_ids": [
+        "evd_96c06143a85898df"
+      ]
+    },
+    {
+      "result_id": "res_cce419a62afdc4f8",
+      "calc_score": 0.75,
+      "bias_score": 0.6,
+      "review_quality_score": 0.0,
+      "reporting_score": 0.6,
+      "external_score": 1.0,
+      "consistency_score": 0.5,
+      "reliability_score_total": 0.755,
+      "verdict": "High",
+      "justification": "calc=0.75, qualite_interne=0.60, credibilite_externe=1.00",
+      "evidence_ids": [
+        "evd_96c06143a85898df"
+      ]
+    },
+    {
+      "result_id": "res_9d3a0ad92a811c78",
+      "calc_score": 0.75,
+      "bias_score": 0.6,
+      "review_quality_score": 0.0,
+      "reporting_score": 0.6,
+      "external_score": 1.0,
+      "consistency_score": 0.5,
+      "reliability_score_total": 0.755,
+      "verdict": "High",
+      "justification": "calc=0.75, qualite_interne=0.60, credibilite_externe=1.00",
+      "evidence_ids": [
+        "evd_96c06143a85898df"
+      ]
+    },
+    {
+      "result_id": "res_9fe5df2837413aa0",
+      "calc_score": 0.75,
+      "bias_score": 0.6,
+      "review_quality_score": 0.0,
+      "reporting_score": 0.6,
+      "external_score": 1.0,
+      "consistency_score": 0.5,
+      "reliability_score_total": 0.755,
+      "verdict": "High",
+      "justification": "calc=0.75, qualite_interne=0.60, credibilite_externe=1.00",
+      "evidence_ids": [
+        "evd_96c06143a85898df"
+      ]
+    },
+    {
+      "result_id": "res_eba4783c201b1412",
+      "calc_score": 0.75,
+      "bias_score": 0.6,
+      "review_quality_score": 0.0,
+      "reporting_score": 0.6,
+      "external_score": 1.0,
+      "consistency_score": 0.5,
+      "reliability_score_total": 0.755,
+      "verdict": "High",
+      "justification": "calc=0.75, qualite_interne=0.60, credibilite_externe=1.00",
+      "evidence_ids": [
+        "evd_96c06143a85898df"
+      ]
+    },
+    {
+      "result_id": "res_fac9e4e67d5165ad",
+      "calc_score": 0.75,
+      "bias_score": 0.6,
+      "review_quality_score": 0.0,
+      "reporting_score": 0.6,
+      "external_score": 1.0,
+      "consistency_score": 0.5,
+      "reliability_score_total": 0.755,
+      "verdict": "High",
+      "justification": "calc=0.75, qualite_interne=0.60, credibilite_externe=1.00",
+      "evidence_ids": [
+        "evd_96c06143a85898df"
+      ]
+    },
+    {
+      "result_id": "res_c13b6a633d42134e",
+      "calc_score": 0.75,
+      "bias_score": 0.6,
+      "review_quality_score": 0.0,
+      "reporting_score": 0.6,
+      "external_score": 1.0,
+      "consistency_score": 0.5,
+      "reliability_score_total": 0.755,
+      "verdict": "High",
+      "justification": "calc=0.75, qualite_interne=0.60, credibilite_externe=1.00",
+      "evidence_ids": [
+        "evd_96c06143a85898df"
+      ]
+    },
+    {
+      "result_id": "res_bc07023d447983e6",
+      "calc_score": 0.75,
+      "bias_score": 0.6,
+      "review_quality_score": 0.0,
+      "reporting_score": 0.6,
+      "external_score": 1.0,
+      "consistency_score": 0.5,
+      "reliability_score_total": 0.755,
+      "verdict": "High",
+      "justification": "calc=0.75, qualite_interne=0.60, credibilite_externe=1.00",
+      "evidence_ids": [
+        "evd_96c06143a85898df"
+      ]
+    }
+  ],
+  "global_score": 0.755,
+  "conclusion": "utilisable",
+  "notes": [
+    "effects_count=13",
+    "internal_quality_score=0.600",
+    "external_score=1.000"
+  ],
+  "generated_at": "2026-02-16T20:11:04.302824"
+}

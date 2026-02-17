@@ -1,0 +1,113 @@
+{
+  "status": "applicable",
+  "reason": "RCT design detected",
+  "domains": [
+    {
+      "domain_key": "d1_randomization",
+      "domain_name": "Randomization process",
+      "summary": "7 evidence snippets found for randomization process.",
+      "evidence_ids": [
+        "evd_2ca57d1fe53f75d3",
+        "evd_67afafa03033116b",
+        "evd_77b24e304be9d18a",
+        "evd_3e63990e5d1213af",
+        "evd_89a15112d2e1f65a",
+        "evd_92cd69444b009f18",
+        "evd_bd7a3d61eb75b502"
+      ],
+      "matched_signals": [
+        "baseline comparability",
+        "randomization"
+      ]
+    },
+    {
+      "domain_key": "d2_deviations",
+      "domain_name": "Deviations from intended interventions",
+      "summary": "4 evidence snippets found for deviations from intended interventions.",
+      "evidence_ids": [
+        "evd_aea64f742bd21071",
+        "evd_670294ec59f37361",
+        "evd_7c020e8afaed240f",
+        "evd_c2575d0dd3746ab5"
+      ],
+      "matched_signals": [
+        "deviation"
+      ]
+    },
+    {
+      "domain_key": "d3_missing_data",
+      "domain_name": "Missing outcome data",
+      "summary": "1 evidence snippets found for missing outcome data.",
+      "evidence_ids": [
+        "evd_8cb50be81cff9d63"
+      ],
+      "matched_signals": [
+        "withdrawal"
+      ]
+    },
+    {
+      "domain_key": "d4_measurement",
+      "domain_name": "Measurement of the outcome",
+      "summary": "10 evidence snippets found for measurement of the outcome.",
+      "evidence_ids": [
+        "evd_8cb50be81cff9d63",
+        "evd_35005406b5199d22",
+        "evd_92c70bb38d837c25",
+        "evd_c41a2a39977232c1",
+        "evd_cf7d13da95b61045",
+        "evd_9e1ccc8547393b88",
+        "evd_b1e28d40d424f82c",
+        "evd_e88af67e99e08545",
+        "evd_c53b5c611809c01d",
+        "evd_99ed214491bd5c41"
+      ],
+      "matched_signals": [
+        "instrument quality",
+        "measurement instrument"
+      ]
+    },
+    {
+      "domain_key": "d5_reporting",
+      "domain_name": "Selection of the reported result",
+      "summary": "4 evidence snippets found for selection of the reported result.",
+      "evidence_ids": [
+        "evd_92c70bb38d837c25",
+        "evd_e88af67e99e08545",
+        "evd_c53b5c611809c01d",
+        "evd_4e1cd370ede2d90a"
+      ],
+      "matched_signals": [
+        "protocol"
+      ]
+    }
+  ],
+  "evidence_ids": [
+    "evd_2ca57d1fe53f75d3",
+    "evd_67afafa03033116b",
+    "evd_77b24e304be9d18a",
+    "evd_3e63990e5d1213af",
+    "evd_89a15112d2e1f65a",
+    "evd_92cd69444b009f18",
+    "evd_bd7a3d61eb75b502",
+    "evd_aea64f742bd21071",
+    "evd_670294ec59f37361",
+    "evd_7c020e8afaed240f",
+    "evd_c2575d0dd3746ab5",
+    "evd_8cb50be81cff9d63",
+    "evd_35005406b5199d22",
+    "evd_92c70bb38d837c25",
+    "evd_c41a2a39977232c1",
+    "evd_cf7d13da95b61045",
+    "evd_9e1ccc8547393b88",
+    "evd_b1e28d40d424f82c",
+    "evd_e88af67e99e08545",
+    "evd_c53b5c611809c01d",
+    "evd_99ed214491bd5c41",
+    "evd_4e1cd370ede2d90a"
+  ],
+  "notes": [
+    "Evidence bundles prepared for RoB2 domains.",
+    "LLM requested but OPENAI_API_KEY is missing.",
+    "llm_bias_mode=fallback"
+  ]
+}

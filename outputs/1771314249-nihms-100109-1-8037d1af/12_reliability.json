@@ -1,0 +1,526 @@
+{
+  "items": [
+    {
+      "result_id": "res_765fe334aed90bc6",
+      "calc_score": 0.75,
+      "bias_score": 0.5,
+      "review_quality_score": 0.0,
+      "reporting_score": 0.5,
+      "external_score": 1.0,
+      "consistency_score": 0.5,
+      "reliability_score_total": 0.725,
+      "verdict": "Moderate",
+      "justification": "calc=0.75, qualite_interne=0.50, credibilite_externe=1.00",
+      "evidence_ids": [
+        "evd_036e1d4cd1ce774b"
+      ]
+    },
+    {
+      "result_id": "res_19ad2c2b047360e9",
+      "calc_score": 0.75,
+      "bias_score": 0.5,
+      "review_quality_score": 0.0,
+      "reporting_score": 0.5,
+      "external_score": 1.0,
+      "consistency_score": 0.5,
+      "reliability_score_total": 0.725,
+      "verdict": "Moderate",
+      "justification": "calc=0.75, qualite_interne=0.50, credibilite_externe=1.00",
+      "evidence_ids": [
+        "evd_a44672e125ff2180"
+      ]
+    },
+    {
+      "result_id": "res_3aeaf6e916d6557e",
+      "calc_score": 0.75,
+      "bias_score": 0.5,
+      "review_quality_score": 0.0,
+      "reporting_score": 0.5,
+      "external_score": 1.0,
+      "consistency_score": 0.5,
+      "reliability_score_total": 0.725,
+      "verdict": "Moderate",
+      "justification": "calc=0.75, qualite_interne=0.50, credibilite_externe=1.00",
+      "evidence_ids": [
+        "evd_036e1d4cd1ce774b"
+      ]
+    },
+    {
+      "result_id": "res_9d83bd87d869780a",
+      "calc_score": 0.75,
+      "bias_score": 0.5,
+      "review_quality_score": 0.0,
+      "reporting_score": 0.5,
+      "external_score": 1.0,
+      "consistency_score": 0.5,
+      "reliability_score_total": 0.725,
+      "verdict": "Moderate",
+      "justification": "calc=0.75, qualite_interne=0.50, credibilite_externe=1.00",
+      "evidence_ids": [
+        "evd_036e1d4cd1ce774b"
+      ]
+    },
+    {
+      "result_id": "res_ff5f11c737372d3e",
+      "calc_score": 0.75,
+      "bias_score": 0.5,
+      "review_quality_score": 0.0,
+      "reporting_score": 0.5,
+      "external_score": 1.0,
+      "consistency_score": 0.5,
+      "reliability_score_total": 0.725,
+      "verdict": "Moderate",
+      "justification": "calc=0.75, qualite_interne=0.50, credibilite_externe=1.00",
+      "evidence_ids": [
+        "evd_a44672e125ff2180"
+      ]
+    },
+    {
+      "result_id": "res_84e415e8ababd023",
+      "calc_score": 0.75,
+      "bias_score": 0.5,
+      "review_quality_score": 0.0,
+      "reporting_score": 0.5,
+      "external_score": 1.0,
+      "consistency_score": 0.5,
+      "reliability_score_total": 0.725,
+      "verdict": "Moderate",
+      "justification": "calc=0.75, qualite_interne=0.50, credibilite_externe=1.00",
+      "evidence_ids": [
+        "evd_5fd16b2a9d10e127"
+      ]
+    },
+    {
+      "result_id": "res_e27b8d79760c76b3",
+      "calc_score": 0.75,
+      "bias_score": 0.5,
+      "review_quality_score": 0.0,
+      "reporting_score": 0.5,
+      "external_score": 1.0,
+      "consistency_score": 0.5,
+      "reliability_score_total": 0.725,
+      "verdict": "Moderate",
+      "justification": "calc=0.75, qualite_interne=0.50, credibilite_externe=1.00",
+      "evidence_ids": [
+        "evd_3b6d926d4c04fba5"
+      ]
+    },
+    {
+      "result_id": "res_bdc91d3e41c00512",
+      "calc_score": 0.75,
+      "bias_score": 0.5,
+      "review_quality_score": 0.0,
+      "reporting_score": 0.5,
+      "external_score": 1.0,
+      "consistency_score": 0.5,
+      "reliability_score_total": 0.725,
+      "verdict": "Moderate",
+      "justification": "calc=0.75, qualite_interne=0.50, credibilite_externe=1.00",
+      "evidence_ids": [
+        "evd_3b6d926d4c04fba5"
+      ]
+    },
+    {
+      "result_id": "res_3e4315e316eebeed",
+      "calc_score": 0.75,
+      "bias_score": 0.5,
+      "review_quality_score": 0.0,
+      "reporting_score": 0.5,
+      "external_score": 1.0,
+      "consistency_score": 0.5,
+      "reliability_score_total": 0.725,
+      "verdict": "Moderate",
+      "justification": "calc=0.75, qualite_interne=0.50, credibilite_externe=1.00",
+      "evidence_ids": [
+        "evd_a44672e125ff2180"
+      ]
+    },
+    {
+      "result_id": "res_cc444c2afb7104b0",
+      "calc_score": 0.75,
+      "bias_score": 0.5,
+      "review_quality_score": 0.0,
+      "reporting_score": 0.5,
+      "external_score": 1.0,
+      "consistency_score": 0.5,
+      "reliability_score_total": 0.725,
+      "verdict": "Moderate",
+      "justification": "calc=0.75, qualite_interne=0.50, credibilite_externe=1.00",
+      "evidence_ids": [
+        "evd_dd78efe863701520"
+      ]
+    },
+    {
+      "result_id": "res_7abc66b4724bb6e8",
+      "calc_score": 0.75,
+      "bias_score": 0.5,
+      "review_quality_score": 0.0,
+      "reporting_score": 0.5,
+      "external_score": 1.0,
+      "consistency_score": 0.5,
+      "reliability_score_total": 0.725,
+      "verdict": "Moderate",
+      "justification": "calc=0.75, qualite_interne=0.50, credibilite_externe=1.00",
+      "evidence_ids": [
+        "evd_dd78efe863701520"
+      ]
+    },
+    {
+      "result_id": "res_b880130f30bc600e",
+      "calc_score": 0.75,
+      "bias_score": 0.5,
+      "review_quality_score": 0.0,
+      "reporting_score": 0.5,
+      "external_score": 1.0,
+      "consistency_score": 0.5,
+      "reliability_score_total": 0.725,
+      "verdict": "Moderate",
+      "justification": "calc=0.75, qualite_interne=0.50, credibilite_externe=1.00",
+      "evidence_ids": [
+        "evd_036e1d4cd1ce774b"
+      ]
+    },
+    {
+      "result_id": "res_6f53201ddd27740f",
+      "calc_score": 0.75,
+      "bias_score": 0.5,
+      "review_quality_score": 0.0,
+      "reporting_score": 0.5,
+      "external_score": 1.0,
+      "consistency_score": 0.5,
+      "reliability_score_total": 0.725,
+      "verdict": "Moderate",
+      "justification": "calc=0.75, qualite_interne=0.50, credibilite_externe=1.00",
+      "evidence_ids": [
+        "evd_036e1d4cd1ce774b"
+      ]
+    },
+    {
+      "result_id": "res_38fa888a3147eaa5",
+      "calc_score": 0.75,
+      "bias_score": 0.5,
+      "review_quality_score": 0.0,
+      "reporting_score": 0.5,
+      "external_score": 1.0,
+      "consistency_score": 0.5,
+      "reliability_score_total": 0.725,
+      "verdict": "Moderate",
+      "justification": "calc=0.75, qualite_interne=0.50, credibilite_externe=1.00",
+      "evidence_ids": [
+        "evd_5fd16b2a9d10e127"
+      ]
+    },
+    {
+      "result_id": "res_b97a94878b962e01",
+      "calc_score": 0.75,
+      "bias_score": 0.5,
+      "review_quality_score": 0.0,
+      "reporting_score": 0.5,
+      "external_score": 1.0,
+      "consistency_score": 0.5,
+      "reliability_score_total": 0.725,
+      "verdict": "Moderate",
+      "justification": "calc=0.75, qualite_interne=0.50, credibilite_externe=1.00",
+      "evidence_ids": [
+        "evd_a44672e125ff2180"
+      ]
+    },
+    {
+      "result_id": "res_10bf7a042d97053a",
+      "calc_score": 0.75,
+      "bias_score": 0.5,
+      "review_quality_score": 0.0,
+      "reporting_score": 0.5,
+      "external_score": 1.0,
+      "consistency_score": 0.5,
+      "reliability_score_total": 0.725,
+      "verdict": "Moderate",
+      "justification": "calc=0.75, qualite_interne=0.50, credibilite_externe=1.00",
+      "evidence_ids": [
+        "evd_a44672e125ff2180"
+      ]
+    },
+    {
+      "result_id": "res_988647ef08d6f66a",
+      "calc_score": 0.75,
+      "bias_score": 0.5,
+      "review_quality_score": 0.0,
+      "reporting_score": 0.5,
+      "external_score": 1.0,
+      "consistency_score": 0.5,
+      "reliability_score_total": 0.725,
+      "verdict": "Moderate",
+      "justification": "calc=0.75, qualite_interne=0.50, credibilite_externe=1.00",
+      "evidence_ids": [
+        "evd_036e1d4cd1ce774b"
+      ]
+    },
+    {
+      "result_id": "res_bea22b8244254502",
+      "calc_score": 0.75,
+      "bias_score": 0.5,
+      "review_quality_score": 0.0,
+      "reporting_score": 0.5,
+      "external_score": 1.0,
+      "consistency_score": 0.5,
+      "reliability_score_total": 0.725,
+      "verdict": "Moderate",
+      "justification": "calc=0.75, qualite_interne=0.50, credibilite_externe=1.00",
+      "evidence_ids": [
+        "evd_a44672e125ff2180"
+      ]
+    },
+    {
+      "result_id": "res_8e2bf353b56b777f",
+      "calc_score": 0.75,
+      "bias_score": 0.5,
+      "review_quality_score": 0.0,
+      "reporting_score": 0.5,
+      "external_score": 1.0,
+      "consistency_score": 0.5,
+      "reliability_score_total": 0.725,
+      "verdict": "Moderate",
+      "justification": "calc=0.75, qualite_interne=0.50, credibilite_externe=1.00",
+      "evidence_ids": [
+        "evd_5fd16b2a9d10e127"
+      ]
+    },
+    {
+      "result_id": "res_6a43ab8a0b1ee2f5",
+      "calc_score": 0.75,
+      "bias_score": 0.5,
+      "review_quality_score": 0.0,
+      "reporting_score": 0.5,
+      "external_score": 1.0,
+      "consistency_score": 0.5,
+      "reliability_score_total": 0.725,
+      "verdict": "Moderate",
+      "justification": "calc=0.75, qualite_interne=0.50, credibilite_externe=1.00",
+      "evidence_ids": [
+        "evd_3b6d926d4c04fba5"
+      ]
+    },
+    {
+      "result_id": "res_aa13989a0369060f",
+      "calc_score": 0.75,
+      "bias_score": 0.5,
+      "review_quality_score": 0.0,
+      "reporting_score": 0.5,
+      "external_score": 1.0,
+      "consistency_score": 0.5,
+      "reliability_score_total": 0.725,
+      "verdict": "Moderate",
+      "justification": "calc=0.75, qualite_interne=0.50, credibilite_externe=1.00",
+      "evidence_ids": [
+        "evd_3b6d926d4c04fba5"
+      ]
+    },
+    {
+      "result_id": "res_b79a3eb72fc27bb2",
+      "calc_score": 0.75,
+      "bias_score": 0.5,
+      "review_quality_score": 0.0,
+      "reporting_score": 0.5,
+      "external_score": 1.0,
+      "consistency_score": 0.5,
+      "reliability_score_total": 0.725,
+      "verdict": "Moderate",
+      "justification": "calc=0.75, qualite_interne=0.50, credibilite_externe=1.00",
+      "evidence_ids": [
+        "evd_a44672e125ff2180"
+      ]
+    },
+    {
+      "result_id": "res_bfd14aad5a8ac72b",
+      "calc_score": 0.75,
+      "bias_score": 0.5,
+      "review_quality_score": 0.0,
+      "reporting_score": 0.5,
+      "external_score": 1.0,
+      "consistency_score": 0.5,
+      "reliability_score_total": 0.725,
+      "verdict": "Moderate",
+      "justification": "calc=0.75, qualite_interne=0.50, credibilite_externe=1.00",
+      "evidence_ids": [
+        "evd_036e1d4cd1ce774b"
+      ]
+    },
+    {
+      "result_id": "res_2f8cc65bf506cfbe",
+      "calc_score": 0.75,
+      "bias_score": 0.5,
+      "review_quality_score": 0.0,
+      "reporting_score": 0.5,
+      "external_score": 1.0,
+      "consistency_score": 0.5,
+      "reliability_score_total": 0.725,
+      "verdict": "Moderate",
+      "justification": "calc=0.75, qualite_interne=0.50, credibilite_externe=1.00",
+      "evidence_ids": [
+        "evd_a44672e125ff2180"
+      ]
+    },
+    {
+      "result_id": "res_86c7a331ac6480cd",
+      "calc_score": 0.75,
+      "bias_score": 0.5,
+      "review_quality_score": 0.0,
+      "reporting_score": 0.5,
+      "external_score": 1.0,
+      "consistency_score": 0.5,
+      "reliability_score_total": 0.725,
+      "verdict": "Moderate",
+      "justification": "calc=0.75, qualite_interne=0.50, credibilite_externe=1.00",
+      "evidence_ids": [
+        "evd_dd78efe863701520"
+      ]
+    },
+    {
+      "result_id": "res_af7adb8e7a3fe7d0",
+      "calc_score": 0.75,
+      "bias_score": 0.5,
+      "review_quality_score": 0.0,
+      "reporting_score": 0.5,
+      "external_score": 1.0,
+      "consistency_score": 0.5,
+      "reliability_score_total": 0.725,
+      "verdict": "Moderate",
+      "justification": "calc=0.75, qualite_interne=0.50, credibilite_externe=1.00",
+      "evidence_ids": [
+        "evd_036e1d4cd1ce774b",
+        "evd_5fd16b2a9d10e127"
+      ]
+    },
+    {
+      "result_id": "res_d92ac076ada4df02",
+      "calc_score": 0.75,
+      "bias_score": 0.5,
+      "review_quality_score": 0.0,
+      "reporting_score": 0.5,
+      "external_score": 1.0,
+      "consistency_score": 0.5,
+      "reliability_score_total": 0.725,
+      "verdict": "Moderate",
+      "justification": "calc=0.75, qualite_interne=0.50, credibilite_externe=1.00",
+      "evidence_ids": [
+        "evd_5fd16b2a9d10e127"
+      ]
+    },
+    {
+      "result_id": "res_ed8236526690f29d",
+      "calc_score": 0.75,
+      "bias_score": 0.5,
+      "review_quality_score": 0.0,
+      "reporting_score": 0.5,
+      "external_score": 1.0,
+      "consistency_score": 0.5,
+      "reliability_score_total": 0.725,
+      "verdict": "Moderate",
+      "justification": "calc=0.75, qualite_interne=0.50, credibilite_externe=1.00",
+      "evidence_ids": [
+        "evd_a44672e125ff2180"
+      ]
+    },
+    {
+      "result_id": "res_6f44bd5f16ae3a9a",
+      "calc_score": 0.75,
+      "bias_score": 0.5,
+      "review_quality_score": 0.0,
+      "reporting_score": 0.5,
+      "external_score": 1.0,
+      "consistency_score": 0.5,
+      "reliability_score_total": 0.725,
+      "verdict": "Moderate",
+      "justification": "calc=0.75, qualite_interne=0.50, credibilite_externe=1.00",
+      "evidence_ids": [
+        "evd_036e1d4cd1ce774b"
+      ]
+    },
+    {
+      "result_id": "res_b53cba5d932c52a8",
+      "calc_score": 0.75,
+      "bias_score": 0.5,
+      "review_quality_score": 0.0,
+      "reporting_score": 0.5,
+      "external_score": 1.0,
+      "consistency_score": 0.5,
+      "reliability_score_total": 0.725,
+      "verdict": "Moderate",
+      "justification": "calc=0.75, qualite_interne=0.50, credibilite_externe=1.00",
+      "evidence_ids": [
+        "evd_a44672e125ff2180"
+      ]
+    },
+    {
+      "result_id": "res_3e1035ddd9632987",
+      "calc_score": 0.75,
+      "bias_score": 0.5,
+      "review_quality_score": 0.0,
+      "reporting_score": 0.5,
+      "external_score": 1.0,
+      "consistency_score": 0.5,
+      "reliability_score_total": 0.725,
+      "verdict": "Moderate",
+      "justification": "calc=0.75, qualite_interne=0.50, credibilite_externe=1.00",
+      "evidence_ids": [
+        "evd_dd78efe863701520"
+      ]
+    },
+    {
+      "result_id": "res_654d481199008820",
+      "calc_score": 0.75,
+      "bias_score": 0.5,
+      "review_quality_score": 0.0,
+      "reporting_score": 0.5,
+      "external_score": 1.0,
+      "consistency_score": 0.5,
+      "reliability_score_total": 0.725,
+      "verdict": "Moderate",
+      "justification": "calc=0.75, qualite_interne=0.50, credibilite_externe=1.00",
+      "evidence_ids": [
+        "evd_dd78efe863701520"
+      ]
+    },
+    {
+      "result_id": "res_367f397e1a4af059",
+      "calc_score": 0.75,
+      "bias_score": 0.5,
+      "review_quality_score": 0.0,
+      "reporting_score": 0.5,
+      "external_score": 1.0,
+      "consistency_score": 0.5,
+      "reliability_score_total": 0.725,
+      "verdict": "Moderate",
+      "justification": "calc=0.75, qualite_interne=0.50, credibilite_externe=1.00",
+      "evidence_ids": [
+        "evd_dd78efe863701520"
+      ]
+    },
+    {
+      "result_id": "res_a396eb4eabbdec39",
+      "calc_score": 0.75,
+      "bias_score": 0.5,
+      "review_quality_score": 0.0,
+      "reporting_score": 0.5,
+      "external_score": 1.0,
+      "consistency_score": 0.5,
+      "reliability_score_total": 0.725,
+      "verdict": "Moderate",
+      "justification": "calc=0.75, qualite_interne=0.50, credibilite_externe=1.00",
+      "evidence_ids": [
+        "evd_dd78efe863701520"
+      ]
+    }
+  ],
+  "global_score": 0.725,
+  "conclusion": "utilisable",
+  "notes": [
+    "effects_count=44",
+    "study_effects_count=34",
+    "literature_effects_count=2",
+    "model_stats_count=8",
+    "internal_quality_score=0.500",
+    "external_score=1.000"
+  ],
+  "generated_at": "2026-02-17T07:47:05.122010"
+}

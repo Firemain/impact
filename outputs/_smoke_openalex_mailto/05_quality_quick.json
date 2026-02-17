@@ -1,0 +1,31 @@
+{
+  "randomization": "yes",
+  "control_group": "yes",
+  "sample_size_reported": "unclear",
+  "attrition_reported": "yes",
+  "blinding_reported": "unclear",
+  "internal_quality_score": 0.8,
+  "justification": "Heuristic quick quality from methods/bias blocks.",
+  "evidence_ids": [
+    "evd_52895c3b530fbe3e",
+    "evd_f994579d75fda57e",
+    "evd_a3b96f569895c959",
+    "evd_50bebce25acc00c5",
+    "evd_02e8be2d56bf280d",
+    "evd_063e1d75e2ca647e",
+    "evd_25cf0fbb297bdb00",
+    "evd_8609fbdc675a70ad",
+    "evd_0b7d1faa10510888",
+    "evd_1dbe04ea2116dbfa",
+    "evd_b04f59a2d4453c1c",
+    "evd_da4f3a8955d84df9",
+    "evd_40bbee32195bc60b",
+    "evd_8a3ec2e95c33ca8a",
+    "evd_52455bd54e0a4751",
+    "evd_f6bdedbae8c108d8"
+  ],
+  "notes": [
+    "heuristic_fallback",
+    "LLM quick quality disabled."
+  ]
+}

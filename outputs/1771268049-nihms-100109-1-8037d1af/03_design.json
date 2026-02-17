@@ -1,0 +1,38 @@
+{
+  "design_label": "unknown",
+  "confidence": 0.0,
+  "supporting_evidence_ids": [
+    "evd_67afafa03033116b",
+    "evd_77b24e304be9d18a",
+    "evd_89a15112d2e1f65a",
+    "evd_bd7a3d61eb75b502",
+    "evd_2ca57d1fe53f75d3",
+    "evd_73ed17f585cfe65f"
+  ],
+  "hard_blocks": [
+    "RoB2_not_applicable"
+  ],
+  "signal_scores": {
+    "rct_parallel": 14.44,
+    "non_rct": 14.28,
+    "systematic_review_meta": 4.42,
+    "its_longitudinal": 1.47
+  },
+  "matched_signals": {
+    "rct_parallel": [
+      "parallel_arms",
+      "randomization"
+    ],
+    "non_rct": [
+      "observational_design",
+      "quasi_experimental"
+    ],
+    "systematic_review_meta": [
+      "meta_analysis"
+    ],
+    "its_longitudinal": [
+      "level_slope_change",
+      "time_series"
+    ]
+  }
+}

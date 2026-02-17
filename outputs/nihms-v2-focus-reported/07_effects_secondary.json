@@ -1,0 +1,52 @@
+{
+  "count": 1,
+  "excluded_result_ids": [
+    "res_9486b4a9f3ea4d64"
+  ],
+  "effects": [
+    {
+      "result_id": "res_9486b4a9f3ea4d64",
+      "result_spec": {
+        "outcome": "marital/relationship satisfaction",
+        "timepoint": "baseline",
+        "comparison": "control group",
+        "groups": "intervention vs control group",
+        "analysis_set": "reported"
+      },
+      "design_level": "unknown",
+      "effect_role": "pooled_overall",
+      "grouping_label": "overall",
+      "outcome_label_normalized": "unknown",
+      "timepoint_label_normalized": "baseline",
+      "canonical_key": "canon_05a5c30bfd57dab16045",
+      "stat_consistency": "unknown",
+      "dedup_sources": 1,
+      "effect_type": "d",
+      "origin": "reported",
+      "value": -0.19,
+      "se": null,
+      "ci_low": null,
+      "ci_high": null,
+      "derivation_method": "reported",
+      "assumptions": [
+        "excluded_from_primary_scoring"
+      ],
+      "calc_confidence": "exact",
+      "is_primary": false,
+      "exclusion_reason": "baseline_timepoint",
+      "evidence_ids": [
+        "evd_0be67c26d3774b33",
+        "evd_e82f6293bfdfe9a4",
+        "evd_bad96c0f266e5ac2"
+      ],
+      "table_row_refs": [],
+      "notes": [
+        "deterministic_regex",
+        "origin=reported",
+        "conclude with some confidence that the transition to parenthood constitutes a period of stressful and sometimes maladaptive change for a significant proportion of new parents” (1995, p. 412). However, Huston and Holmes conclude “The preponderance of the data f",
+        "canonicalized_from=1",
+        "primary_filter_excluded: baseline_timepoint"
+      ]
+    }
+  ]
+}

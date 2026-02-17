@@ -1,0 +1,614 @@
+{
+  "typed_candidates": [
+    {
+      "candidate_id": "efc_239eb24864d7b297",
+      "effect_role": "unclear",
+      "analysis_level": "unknown",
+      "grouping_label": "mothers",
+      "outcome_label_normalized": "relationship_satisfaction",
+      "timepoint_label_normalized": "post",
+      "evidence_ids": [
+        "evd_2887efb543c363f2",
+        "evd_41a9e80492eefaa7",
+        "evd_f58c499acdbd7f95"
+      ],
+      "table_row_refs": [],
+      "confidence": 0.75,
+      "notes": [
+        "effect_role unclear"
+      ]
+    },
+    {
+      "candidate_id": "efc_18fd2ff03aa830c8",
+      "effect_role": "unclear",
+      "analysis_level": "unknown",
+      "grouping_label": "mothers",
+      "outcome_label_normalized": "relationship_satisfaction",
+      "timepoint_label_normalized": "post",
+      "evidence_ids": [
+        "evd_41a9e80492eefaa7",
+        "evd_f58c499acdbd7f95",
+        "evd_bda04b1e9026f0e9"
+      ],
+      "table_row_refs": [],
+      "confidence": 0.75,
+      "notes": [
+        "effect_role unclear"
+      ]
+    },
+    {
+      "candidate_id": "efc_fa03b413113fda35",
+      "effect_role": "unclear",
+      "analysis_level": "unknown",
+      "grouping_label": "mothers",
+      "outcome_label_normalized": "relationship_satisfaction",
+      "timepoint_label_normalized": "post",
+      "evidence_ids": [
+        "evd_bbb000276e037ba4",
+        "evd_2887efb543c363f2",
+        "evd_41a9e80492eefaa7"
+      ],
+      "table_row_refs": [],
+      "confidence": 0.75,
+      "notes": [
+        "effect_role unclear"
+      ]
+    },
+    {
+      "candidate_id": "efc_38372983c334a4ec",
+      "effect_role": "unclear",
+      "analysis_level": "unknown",
+      "grouping_label": "unknown",
+      "outcome_label_normalized": "relationship_satisfaction",
+      "timepoint_label_normalized": "unknown",
+      "evidence_ids": [
+        "evd_2ac006220fe81e14",
+        "evd_335037fc8fde435c",
+        "evd_3b77a6b89f1a4453"
+      ],
+      "table_row_refs": [],
+      "confidence": 0.65,
+      "notes": [
+        "effect_role unclear"
+      ]
+    },
+    {
+      "candidate_id": "efc_e20dc16690398d29",
+      "effect_role": "unclear",
+      "analysis_level": "unknown",
+      "grouping_label": "mothers",
+      "outcome_label_normalized": "relationship_satisfaction",
+      "timepoint_label_normalized": "post",
+      "evidence_ids": [
+        "evd_ef1ef66272135b58",
+        "evd_bbb000276e037ba4",
+        "evd_2887efb543c363f2"
+      ],
+      "table_row_refs": [],
+      "confidence": 0.75,
+      "notes": [
+        "effect_role unclear"
+      ]
+    },
+    {
+      "candidate_id": "efc_ed9f3f70ee1ed911",
+      "effect_role": "unclear",
+      "analysis_level": "unknown",
+      "grouping_label": "mothers",
+      "outcome_label_normalized": "relationship_satisfaction",
+      "timepoint_label_normalized": "post",
+      "evidence_ids": [
+        "evd_2887efb543c363f2",
+        "evd_41a9e80492eefaa7",
+        "evd_f58c499acdbd7f95"
+      ],
+      "table_row_refs": [],
+      "confidence": 0.75,
+      "notes": [
+        "effect_role unclear"
+      ]
+    },
+    {
+      "candidate_id": "efc_58e4c9d51c80fce3",
+      "effect_role": "unclear",
+      "analysis_level": "unknown",
+      "grouping_label": "mothers",
+      "outcome_label_normalized": "relationship_satisfaction",
+      "timepoint_label_normalized": "post",
+      "evidence_ids": [
+        "evd_41a9e80492eefaa7",
+        "evd_f58c499acdbd7f95",
+        "evd_bda04b1e9026f0e9"
+      ],
+      "table_row_refs": [],
+      "confidence": 0.75,
+      "notes": [
+        "effect_role unclear"
+      ]
+    },
+    {
+      "candidate_id": "efc_2b79d6b179714310",
+      "effect_role": "unclear",
+      "analysis_level": "unknown",
+      "grouping_label": "mothers",
+      "outcome_label_normalized": "relationship_satisfaction",
+      "timepoint_label_normalized": "post",
+      "evidence_ids": [
+        "evd_f58c499acdbd7f95",
+        "evd_bda04b1e9026f0e9",
+        "evd_6a138542291fd14b"
+      ],
+      "table_row_refs": [],
+      "confidence": 0.75,
+      "notes": [
+        "effect_role unclear"
+      ]
+    },
+    {
+      "candidate_id": "efc_8390c444f95df0bd",
+      "effect_role": "followup",
+      "analysis_level": "unknown",
+      "grouping_label": "unknown",
+      "outcome_label_normalized": "relationship_satisfaction",
+      "timepoint_label_normalized": "51 years",
+      "evidence_ids": [
+        "evd_d297e2ef1e774fb0",
+        "evd_ab5ee8560fbed2a1",
+        "evd_a504a359216ad9bb"
+      ],
+      "table_row_refs": [],
+      "confidence": 0.98,
+      "notes": []
+    },
+    {
+      "candidate_id": "efc_7dd5ea70f33c7af5",
+      "effect_role": "unclear",
+      "analysis_level": "unknown",
+      "grouping_label": "mothers",
+      "outcome_label_normalized": "relationship_satisfaction",
+      "timepoint_label_normalized": "post",
+      "evidence_ids": [
+        "evd_bbb000276e037ba4",
+        "evd_2887efb543c363f2",
+        "evd_41a9e80492eefaa7"
+      ],
+      "table_row_refs": [],
+      "confidence": 0.75,
+      "notes": [
+        "effect_role unclear"
+      ]
+    },
+    {
+      "candidate_id": "efc_47b8b424394a43c6",
+      "effect_role": "pooled_overall",
+      "analysis_level": "unknown",
+      "grouping_label": "overall",
+      "outcome_label_normalized": "relationship_satisfaction",
+      "timepoint_label_normalized": "unknown",
+      "evidence_ids": [
+        "evd_335037fc8fde435c",
+        "evd_3b77a6b89f1a4453",
+        "evd_2d55dd5184cbb46c"
+      ],
+      "table_row_refs": [],
+      "confidence": 0.9,
+      "notes": []
+    },
+    {
+      "candidate_id": "efc_452da06defa81502",
+      "effect_role": "unclear",
+      "analysis_level": "unknown",
+      "grouping_label": "mothers",
+      "outcome_label_normalized": "relationship_satisfaction",
+      "timepoint_label_normalized": "post",
+      "evidence_ids": [
+        "evd_bda04b1e9026f0e9",
+        "evd_6a138542291fd14b",
+        "evd_666eaf013e76015e"
+      ],
+      "table_row_refs": [],
+      "confidence": 0.75,
+      "notes": [
+        "effect_role unclear"
+      ]
+    },
+    {
+      "candidate_id": "efc_3fc5355d9efbcd37",
+      "effect_role": "unclear",
+      "analysis_level": "unknown",
+      "grouping_label": "unknown",
+      "outcome_label_normalized": "relationship_satisfaction",
+      "timepoint_label_normalized": "unknown",
+      "evidence_ids": [
+        "evd_2ac006220fe81e14",
+        "evd_335037fc8fde435c",
+        "evd_3b77a6b89f1a4453"
+      ],
+      "table_row_refs": [],
+      "confidence": 0.65,
+      "notes": [
+        "effect_role unclear"
+      ]
+    },
+    {
+      "candidate_id": "efc_b99476b961b26152",
+      "effect_role": "unclear",
+      "analysis_level": "unknown",
+      "grouping_label": "mothers",
+      "outcome_label_normalized": "relationship_satisfaction",
+      "timepoint_label_normalized": "post",
+      "evidence_ids": [
+        "evd_ef1ef66272135b58",
+        "evd_bbb000276e037ba4",
+        "evd_2887efb543c363f2"
+      ],
+      "table_row_refs": [],
+      "confidence": 0.75,
+      "notes": [
+        "effect_role unclear"
+      ]
+    },
+    {
+      "candidate_id": "efc_567e76b3870ffa2c",
+      "effect_role": "unclear",
+      "analysis_level": "unknown",
+      "grouping_label": "mothers",
+      "outcome_label_normalized": "relationship_satisfaction",
+      "timepoint_label_normalized": "post",
+      "evidence_ids": [
+        "evd_6a138542291fd14b",
+        "evd_666eaf013e76015e",
+        "evd_dc1d58ac782186a4"
+      ],
+      "table_row_refs": [],
+      "confidence": 0.75,
+      "notes": [
+        "effect_role unclear"
+      ]
+    },
+    {
+      "candidate_id": "efc_7542b8c86fcd3ffd",
+      "effect_role": "unclear",
+      "analysis_level": "unknown",
+      "grouping_label": "mothers",
+      "outcome_label_normalized": "relationship_satisfaction",
+      "timepoint_label_normalized": "post",
+      "evidence_ids": [
+        "evd_bda04b1e9026f0e9",
+        "evd_6a138542291fd14b",
+        "evd_666eaf013e76015e"
+      ],
+      "table_row_refs": [],
+      "confidence": 0.75,
+      "notes": [
+        "effect_role unclear"
+      ]
+    },
+    {
+      "candidate_id": "efc_27a59396be65607a",
+      "effect_role": "followup",
+      "analysis_level": "unknown",
+      "grouping_label": "mothers",
+      "outcome_label_normalized": "relationship_satisfaction",
+      "timepoint_label_normalized": "post",
+      "evidence_ids": [
+        "evd_5816fca699d69e2d",
+        "evd_2ac006220fe81e14",
+        "evd_335037fc8fde435c"
+      ],
+      "table_row_refs": [],
+      "confidence": 0.98,
+      "notes": []
+    },
+    {
+      "candidate_id": "efc_dd79e222dd0ea216",
+      "effect_role": "followup",
+      "analysis_level": "unknown",
+      "grouping_label": "unknown",
+      "outcome_label_normalized": "relationship_satisfaction",
+      "timepoint_label_normalized": "post",
+      "evidence_ids": [
+        "evd_eec4b0f83aec3eb7",
+        "evd_2d3bce0f3122d87d",
+        "evd_8eeb08a73c180e47"
+      ],
+      "table_row_refs": [],
+      "confidence": 0.98,
+      "notes": []
+    },
+    {
+      "candidate_id": "efc_d33bc12aee0653ec",
+      "effect_role": "unclear",
+      "analysis_level": "unknown",
+      "grouping_label": "mothers",
+      "outcome_label_normalized": "relationship_satisfaction",
+      "timepoint_label_normalized": "post",
+      "evidence_ids": [
+        "evd_666eaf013e76015e",
+        "evd_dc1d58ac782186a4",
+        "evd_e15f9338e7bdf85f"
+      ],
+      "table_row_refs": [],
+      "confidence": 0.75,
+      "notes": [
+        "effect_role unclear"
+      ]
+    },
+    {
+      "candidate_id": "efc_9d2a4f6b4e33d051",
+      "effect_role": "unclear",
+      "analysis_level": "unknown",
+      "grouping_label": "mothers",
+      "outcome_label_normalized": "relationship_satisfaction",
+      "timepoint_label_normalized": "post",
+      "evidence_ids": [
+        "evd_dc1d58ac782186a4",
+        "evd_e15f9338e7bdf85f",
+        "evd_8b83967656a66066"
+      ],
+      "table_row_refs": [],
+      "confidence": 0.75,
+      "notes": [
+        "effect_role unclear"
+      ]
+    },
+    {
+      "candidate_id": "efc_6387dce6a0bdd270",
+      "effect_role": "followup",
+      "analysis_level": "unknown",
+      "grouping_label": "unknown",
+      "outcome_label_normalized": "relationship_satisfaction",
+      "timepoint_label_normalized": "34 years",
+      "evidence_ids": [
+        "evd_3e3917abc2aa3cfa",
+        "evd_80c0aaccc60b24aa",
+        "evd_d297e2ef1e774fb0"
+      ],
+      "table_row_refs": [],
+      "confidence": 0.98,
+      "notes": []
+    },
+    {
+      "candidate_id": "efc_c9a00db88f070fbf",
+      "effect_role": "pooled_overall",
+      "analysis_level": "unknown",
+      "grouping_label": "overall",
+      "outcome_label_normalized": "relationship_satisfaction",
+      "timepoint_label_normalized": "unknown",
+      "evidence_ids": [
+        "evd_335037fc8fde435c",
+        "evd_3b77a6b89f1a4453",
+        "evd_2d55dd5184cbb46c"
+      ],
+      "table_row_refs": [],
+      "confidence": 0.9,
+      "notes": []
+    },
+    {
+      "candidate_id": "efc_b0c6e30e2aa3d8ef",
+      "effect_role": "unclear",
+      "analysis_level": "unknown",
+      "grouping_label": "unknown",
+      "outcome_label_normalized": "relationship_satisfaction",
+      "timepoint_label_normalized": "post",
+      "evidence_ids": [
+        "evd_9ba07f4531bd6f7d",
+        "evd_ef1ef66272135b58",
+        "evd_bbb000276e037ba4"
+      ],
+      "table_row_refs": [],
+      "confidence": 0.75,
+      "notes": [
+        "effect_role unclear"
+      ]
+    },
+    {
+      "candidate_id": "efc_2c6216d9b0abebb6",
+      "effect_role": "followup",
+      "analysis_level": "unknown",
+      "grouping_label": "unknown",
+      "outcome_label_normalized": "relationship_satisfaction",
+      "timepoint_label_normalized": "post",
+      "evidence_ids": [
+        "evd_eec4b0f83aec3eb7",
+        "evd_2d3bce0f3122d87d",
+        "evd_8eeb08a73c180e47"
+      ],
+      "table_row_refs": [],
+      "confidence": 0.98,
+      "notes": []
+    },
+    {
+      "candidate_id": "efc_8d471068c939e526",
+      "effect_role": "unclear",
+      "analysis_level": "unknown",
+      "grouping_label": "mothers",
+      "outcome_label_normalized": "relationship_satisfaction",
+      "timepoint_label_normalized": "post",
+      "evidence_ids": [
+        "evd_666eaf013e76015e",
+        "evd_dc1d58ac782186a4",
+        "evd_e15f9338e7bdf85f"
+      ],
+      "table_row_refs": [],
+      "confidence": 0.75,
+      "notes": [
+        "effect_role unclear"
+      ]
+    },
+    {
+      "candidate_id": "efc_e3667d100e0b3870",
+      "effect_role": "unclear",
+      "analysis_level": "unknown",
+      "grouping_label": "mothers",
+      "outcome_label_normalized": "relationship_satisfaction",
+      "timepoint_label_normalized": "post",
+      "evidence_ids": [
+        "evd_dc1d58ac782186a4",
+        "evd_e15f9338e7bdf85f",
+        "evd_8b83967656a66066"
+      ],
+      "table_row_refs": [],
+      "confidence": 0.75,
+      "notes": [
+        "effect_role unclear"
+      ]
+    },
+    {
+      "candidate_id": "efc_87dd46f208b586c3",
+      "effect_role": "followup",
+      "analysis_level": "unknown",
+      "grouping_label": "unknown",
+      "outcome_label_normalized": "relationship_satisfaction",
+      "timepoint_label_normalized": "34 years",
+      "evidence_ids": [
+        "evd_3e3917abc2aa3cfa",
+        "evd_80c0aaccc60b24aa",
+        "evd_d297e2ef1e774fb0"
+      ],
+      "table_row_refs": [],
+      "confidence": 0.98,
+      "notes": []
+    },
+    {
+      "candidate_id": "efc_e4d7f7e5075b120f",
+      "effect_role": "subgroup",
+      "analysis_level": "unknown",
+      "grouping_label": "mothers",
+      "outcome_label_normalized": "relationship_satisfaction",
+      "timepoint_label_normalized": "post",
+      "evidence_ids": [
+        "evd_c57104d2f41b2f9d",
+        "evd_ddc69de0c073840d",
+        "evd_3983ef5fc41ed9cd"
+      ],
+      "table_row_refs": [],
+      "confidence": 0.98,
+      "notes": []
+    },
+    {
+      "candidate_id": "efc_ef4e73cadc4a643f",
+      "effect_role": "followup",
+      "analysis_level": "unknown",
+      "grouping_label": "mothers",
+      "outcome_label_normalized": "relationship_satisfaction",
+      "timepoint_label_normalized": "post",
+      "evidence_ids": [
+        "evd_ddc69de0c073840d",
+        "evd_3983ef5fc41ed9cd",
+        "evd_33147b99e533ef0b"
+      ],
+      "table_row_refs": [],
+      "confidence": 0.98,
+      "notes": []
+    },
+    {
+      "candidate_id": "efc_0fd034a96a820b78",
+      "effect_role": "followup",
+      "analysis_level": "unknown",
+      "grouping_label": "mothers",
+      "outcome_label_normalized": "relationship_satisfaction",
+      "timepoint_label_normalized": "51 years",
+      "evidence_ids": [
+        "evd_3983ef5fc41ed9cd",
+        "evd_33147b99e533ef0b",
+        "evd_d4cc89013144cec4"
+      ],
+      "table_row_refs": [],
+      "confidence": 0.98,
+      "notes": []
+    },
+    {
+      "candidate_id": "efc_7cf1c78df768e8c1",
+      "effect_role": "followup",
+      "analysis_level": "unknown",
+      "grouping_label": "fathers",
+      "outcome_label_normalized": "relationship_satisfaction",
+      "timepoint_label_normalized": "51 years",
+      "evidence_ids": [
+        "evd_33147b99e533ef0b",
+        "evd_d4cc89013144cec4",
+        "evd_4023c4e656e2f28c"
+      ],
+      "table_row_refs": [],
+      "confidence": 0.98,
+      "notes": []
+    },
+    {
+      "candidate_id": "efc_2d6d7c613a144243",
+      "effect_role": "followup",
+      "analysis_level": "unknown",
+      "grouping_label": "mothers",
+      "outcome_label_normalized": "unknown",
+      "timepoint_label_normalized": "1 years",
+      "evidence_ids": [
+        "evd_866019170e9ff52b",
+        "evd_a0cbbcb70514b151",
+        "evd_9c52aea99306209c"
+      ],
+      "table_row_refs": [],
+      "confidence": 0.8,
+      "notes": [
+        "outcome normalization unknown"
+      ]
+    },
+    {
+      "candidate_id": "efc_1368356e24f199f3",
+      "effect_role": "unclear",
+      "analysis_level": "unknown",
+      "grouping_label": "unknown",
+      "outcome_label_normalized": "relationship_satisfaction",
+      "timepoint_label_normalized": "post",
+      "evidence_ids": [
+        "evd_a44cd4a9d5b57269",
+        "evd_4e599c2cf9bcfcad",
+        "evd_0fd0012bcb82059f"
+      ],
+      "table_row_refs": [],
+      "confidence": 0.75,
+      "notes": [
+        "effect_role unclear"
+      ]
+    },
+    {
+      "candidate_id": "efc_1ce2ff07fc34f822",
+      "effect_role": "unclear",
+      "analysis_level": "unknown",
+      "grouping_label": "unknown",
+      "outcome_label_normalized": "relationship_satisfaction",
+      "timepoint_label_normalized": "post",
+      "evidence_ids": [
+        "evd_4e599c2cf9bcfcad",
+        "evd_0fd0012bcb82059f",
+        "evd_8622c6dd7b172c12"
+      ],
+      "table_row_refs": [],
+      "confidence": 0.75,
+      "notes": [
+        "effect_role unclear"
+      ]
+    },
+    {
+      "candidate_id": "efc_5d23e8e8fdd8be03",
+      "effect_role": "unclear",
+      "analysis_level": "unknown",
+      "grouping_label": "mothers",
+      "outcome_label_normalized": "relationship_satisfaction",
+      "timepoint_label_normalized": "unknown",
+      "evidence_ids": [
+        "evd_841aa86f1b2d2493",
+        "evd_4946844406ad7ec1",
+        "evd_cb71eaa3c4c927fa"
+      ],
+      "table_row_refs": [],
+      "confidence": 0.65,
+      "notes": [
+        "effect_role unclear"
+      ]
+    }
+  ],
+  "notes": [
+    "35 candidats types",
+    "analysis_level=unknown"
+  ]
+}

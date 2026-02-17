@@ -1,0 +1,545 @@
+{
+  "effects": [
+    {
+      "result_id": "res_83cfe2763090eb7a",
+      "result_spec": {
+        "outcome": "satisfaction",
+        "timepoint": "unknown",
+        "comparison": "mothers vs fathers",
+        "groups": "mothers vs fathers",
+        "analysis_set": "reported"
+      },
+      "design_level": "unknown",
+      "effect_role": "unclear",
+      "grouping_label": "mothers vs fathers",
+      "outcome_label_normalized": "satisfaction",
+      "timepoint_label_normalized": "unknown",
+      "canonical_key": "res_83cfe2763090eb7a",
+      "stat_consistency": "unknown",
+      "dedup_sources": 1,
+      "effect_type": "d",
+      "effect_scope": "study_effect",
+      "origin": "reported",
+      "source_kind": "text",
+      "source_page": 12,
+      "source_ref": "evd_4198fb48a2e3b0f7",
+      "quote": "0.54, p < .001) and problem intensity (d = 0.77, p < .001) as well as sudden decreases",
+      "value": 0.77,
+      "se": null,
+      "ci_low": null,
+      "ci_high": null,
+      "derivation_method": "reported",
+      "assumptions": [],
+      "calc_confidence": "exact",
+      "is_primary": true,
+      "exclusion_reason": "",
+      "evidence_ids": [
+        "evd_4198fb48a2e3b0f7"
+      ],
+      "table_row_refs": [],
+      "notes": [
+        "deterministic_text_label"
+      ]
+    },
+    {
+      "result_id": "res_7ca3ed81e618b9cb",
+      "result_spec": {
+        "outcome": "satisfaction",
+        "timepoint": "unknown",
+        "comparison": "mothers vs fathers",
+        "groups": "mothers vs fathers",
+        "analysis_set": "reported"
+      },
+      "design_level": "unknown",
+      "effect_role": "unclear",
+      "grouping_label": "mothers vs fathers",
+      "outcome_label_normalized": "satisfaction",
+      "timepoint_label_normalized": "unknown",
+      "canonical_key": "res_7ca3ed81e618b9cb",
+      "stat_consistency": "unknown",
+      "dedup_sources": 1,
+      "effect_type": "d",
+      "effect_scope": "study_effect",
+      "origin": "reported",
+      "source_kind": "text",
+      "source_page": 12,
+      "source_ref": "evd_4198fb48a2e3b0f7",
+      "quote": "parenthood of 2.81 points for mothers (d = -0.71, p < .01)5 and 1.81 points for fathers",
+      "value": -0.71,
+      "se": null,
+      "ci_low": null,
+      "ci_high": null,
+      "derivation_method": "reported",
+      "assumptions": [],
+      "calc_confidence": "exact",
+      "is_primary": true,
+      "exclusion_reason": "",
+      "evidence_ids": [
+        "evd_4198fb48a2e3b0f7"
+      ],
+      "table_row_refs": [],
+      "notes": [
+        "deterministic_text_label"
+      ]
+    },
+    {
+      "result_id": "res_eede3a46797ca808",
+      "result_spec": {
+        "outcome": "satisfaction",
+        "timepoint": "unknown",
+        "comparison": "mothers vs fathers",
+        "groups": "mothers vs fathers",
+        "analysis_set": "reported"
+      },
+      "design_level": "unknown",
+      "effect_role": "unclear",
+      "grouping_label": "mothers vs fathers",
+      "outcome_label_normalized": "satisfaction",
+      "timepoint_label_normalized": "unknown",
+      "canonical_key": "res_eede3a46797ca808",
+      "stat_consistency": "unknown",
+      "dedup_sources": 1,
+      "effect_type": "d",
+      "effect_scope": "study_effect",
+      "origin": "reported",
+      "source_kind": "text",
+      "source_page": 12,
+      "source_ref": "evd_0e1170576028156a",
+      "quote": "sudden drop of 6.31 points for mothers (d = -.66, p < .001) and 5.63 points for fathers",
+      "value": -0.66,
+      "se": null,
+      "ci_low": null,
+      "ci_high": null,
+      "derivation_method": "reported",
+      "assumptions": [],
+      "calc_confidence": "exact",
+      "is_primary": true,
+      "exclusion_reason": "",
+      "evidence_ids": [
+        "evd_0e1170576028156a"
+      ],
+      "table_row_refs": [],
+      "notes": [
+        "deterministic_text_label"
+      ]
+    },
+    {
+      "result_id": "res_8491ca9304fd31aa",
+      "result_spec": {
+        "outcome": "unknown",
+        "timepoint": "unknown",
+        "comparison": "mothers vs fathers",
+        "groups": "mothers vs fathers",
+        "analysis_set": "reported"
+      },
+      "design_level": "unknown",
+      "effect_role": "unclear",
+      "grouping_label": "mothers vs fathers",
+      "outcome_label_normalized": "unknown",
+      "timepoint_label_normalized": "unknown",
+      "canonical_key": "res_8491ca9304fd31aa",
+      "stat_consistency": "unknown",
+      "dedup_sources": 1,
+      "effect_type": "d",
+      "effect_scope": "study_effect",
+      "origin": "reported",
+      "source_kind": "text",
+      "source_page": 12,
+      "source_ref": "evd_17dda9e92d295b2c",
+      "quote": "of 6.31 points for mothers (d = -.66, p < .001) and 5.63 points for fathers",
+      "value": -0.66,
+      "se": null,
+      "ci_low": null,
+      "ci_high": null,
+      "derivation_method": "reported",
+      "assumptions": [],
+      "calc_confidence": "exact",
+      "is_primary": true,
+      "exclusion_reason": "",
+      "evidence_ids": [
+        "evd_17dda9e92d295b2c"
+      ],
+      "table_row_refs": [],
+      "notes": [
+        "deterministic_text_label"
+      ]
+    },
+    {
+      "result_id": "res_67ac45240237bf76",
+      "result_spec": {
+        "outcome": "satisfaction",
+        "timepoint": "unknown",
+        "comparison": "mothers vs fathers",
+        "groups": "mothers vs fathers",
+        "analysis_set": "reported"
+      },
+      "design_level": "unknown",
+      "effect_role": "unclear",
+      "grouping_label": "mothers vs fathers",
+      "outcome_label_normalized": "satisfaction",
+      "timepoint_label_normalized": "unknown",
+      "canonical_key": "res_67ac45240237bf76",
+      "stat_consistency": "unknown",
+      "dedup_sources": 1,
+      "effect_type": "d",
+      "effect_scope": "study_effect",
+      "origin": "reported",
+      "source_kind": "text",
+      "source_page": 12,
+      "source_ref": "evd_4198fb48a2e3b0f7",
+      "quote": "transition to parenthood, both fathers (d = 0.61, p < .01) and mothers (d = 0.57, p < .0",
+      "value": 0.61,
+      "se": null,
+      "ci_low": null,
+      "ci_high": null,
+      "derivation_method": "reported",
+      "assumptions": [],
+      "calc_confidence": "exact",
+      "is_primary": true,
+      "exclusion_reason": "",
+      "evidence_ids": [
+        "evd_4198fb48a2e3b0f7"
+      ],
+      "table_row_refs": [],
+      "notes": [
+        "deterministic_text_label"
+      ]
+    },
+    {
+      "result_id": "res_32b4820839e31d17",
+      "result_spec": {
+        "outcome": "satisfaction",
+        "timepoint": "unknown",
+        "comparison": "mothers vs fathers",
+        "groups": "mothers vs fathers",
+        "analysis_set": "reported"
+      },
+      "design_level": "unknown",
+      "effect_role": "unclear",
+      "grouping_label": "mothers vs fathers",
+      "outcome_label_normalized": "satisfaction",
+      "timepoint_label_normalized": "unknown",
+      "canonical_key": "res_32b4820839e31d17",
+      "stat_consistency": "unknown",
+      "dedup_sources": 1,
+      "effect_type": "d",
+      "effect_scope": "study_effect",
+      "origin": "reported",
+      "source_kind": "text",
+      "source_page": 12,
+      "source_ref": "evd_4198fb48a2e3b0f7",
+      "quote": "n decreases in relationship confidence (d = -0.61, p < .05) after birth. Finally, fathers",
+      "value": -0.61,
+      "se": null,
+      "ci_low": null,
+      "ci_high": null,
+      "derivation_method": "reported",
+      "assumptions": [],
+      "calc_confidence": "exact",
+      "is_primary": true,
+      "exclusion_reason": "",
+      "evidence_ids": [
+        "evd_4198fb48a2e3b0f7"
+      ],
+      "table_row_refs": [],
+      "notes": [
+        "deterministic_text_label"
+      ]
+    },
+    {
+      "result_id": "res_d3b229e39c2d9a35",
+      "result_spec": {
+        "outcome": "satisfaction",
+        "timepoint": "unknown",
+        "comparison": "mothers vs fathers",
+        "groups": "mothers vs fathers",
+        "analysis_set": "reported"
+      },
+      "design_level": "unknown",
+      "effect_role": "unclear",
+      "grouping_label": "mothers vs fathers",
+      "outcome_label_normalized": "satisfaction",
+      "timepoint_label_normalized": "unknown",
+      "canonical_key": "res_d3b229e39c2d9a35",
+      "stat_consistency": "unknown",
+      "dedup_sources": 1,
+      "effect_type": "d",
+      "effect_scope": "study_effect",
+      "origin": "reported",
+      "source_kind": "text",
+      "source_page": 12,
+      "source_ref": "evd_4198fb48a2e3b0f7",
+      "quote": "athers (d = 0.61, p < .01) and mothers (d = 0.57, p < .05) showed sudden increases in ne",
+      "value": 0.57,
+      "se": null,
+      "ci_low": null,
+      "ci_high": null,
+      "derivation_method": "reported",
+      "assumptions": [],
+      "calc_confidence": "exact",
+      "is_primary": true,
+      "exclusion_reason": "",
+      "evidence_ids": [
+        "evd_4198fb48a2e3b0f7"
+      ],
+      "table_row_refs": [],
+      "notes": [
+        "deterministic_text_label"
+      ]
+    },
+    {
+      "result_id": "res_34ed75b82932952e",
+      "result_spec": {
+        "outcome": "satisfaction",
+        "timepoint": "unknown",
+        "comparison": "mothers vs fathers",
+        "groups": "mothers vs fathers",
+        "analysis_set": "reported"
+      },
+      "design_level": "unknown",
+      "effect_role": "unclear",
+      "grouping_label": "mothers vs fathers",
+      "outcome_label_normalized": "satisfaction",
+      "timepoint_label_normalized": "unknown",
+      "canonical_key": "res_34ed75b82932952e",
+      "stat_consistency": "unknown",
+      "dedup_sources": 1,
+      "effect_type": "d",
+      "effect_scope": "study_effect",
+      "origin": "reported",
+      "source_kind": "text",
+      "source_page": 12,
+      "source_ref": "evd_0e1170576028156a",
+      "quote": "p < .001) and 5.63 points for fathers (d = -.56, p < .01) following the birth of the fi",
+      "value": -0.56,
+      "se": null,
+      "ci_low": null,
+      "ci_high": null,
+      "derivation_method": "reported",
+      "assumptions": [],
+      "calc_confidence": "exact",
+      "is_primary": true,
+      "exclusion_reason": "",
+      "evidence_ids": [
+        "evd_0e1170576028156a"
+      ],
+      "table_row_refs": [],
+      "notes": [
+        "deterministic_text_label"
+      ]
+    },
+    {
+      "result_id": "res_1698c53adf198e18",
+      "result_spec": {
+        "outcome": "unknown",
+        "timepoint": "unknown",
+        "comparison": "mothers vs fathers",
+        "groups": "mothers vs fathers",
+        "analysis_set": "reported"
+      },
+      "design_level": "unknown",
+      "effect_role": "unclear",
+      "grouping_label": "mothers vs fathers",
+      "outcome_label_normalized": "unknown",
+      "timepoint_label_normalized": "unknown",
+      "canonical_key": "res_1698c53adf198e18",
+      "stat_consistency": "unknown",
+      "dedup_sources": 1,
+      "effect_type": "d",
+      "effect_scope": "study_effect",
+      "origin": "reported",
+      "source_kind": "text",
+      "source_page": 12,
+      "source_ref": "evd_17dda9e92d295b2c",
+      "quote": "p < .001) and 5.63 points for fathers (d = -.56, p < .01) following the birth of the fi",
+      "value": -0.56,
+      "se": null,
+      "ci_low": null,
+      "ci_high": null,
+      "derivation_method": "reported",
+      "assumptions": [],
+      "calc_confidence": "exact",
+      "is_primary": true,
+      "exclusion_reason": "",
+      "evidence_ids": [
+        "evd_17dda9e92d295b2c"
+      ],
+      "table_row_refs": [],
+      "notes": [
+        "deterministic_text_label"
+      ]
+    },
+    {
+      "result_id": "res_60485e196d9677bf",
+      "result_spec": {
+        "outcome": "satisfaction",
+        "timepoint": "unknown",
+        "comparison": "mothers vs fathers",
+        "groups": "mothers vs fathers",
+        "analysis_set": "reported"
+      },
+      "design_level": "unknown",
+      "effect_role": "unclear",
+      "grouping_label": "mothers vs fathers",
+      "outcome_label_normalized": "satisfaction",
+      "timepoint_label_normalized": "unknown",
+      "canonical_key": "res_60485e196d9677bf",
+      "stat_consistency": "unknown",
+      "dedup_sources": 1,
+      "effect_type": "d",
+      "effect_scope": "study_effect",
+      "origin": "reported",
+      "source_kind": "text",
+      "source_page": 12,
+      "source_ref": "evd_4198fb48a2e3b0f7",
+      "quote": "increases in poor conflict management (d = 0.54, p < .001) and problem intensity (d = 0",
+      "value": 0.54,
+      "se": null,
+      "ci_low": null,
+      "ci_high": null,
+      "derivation_method": "reported",
+      "assumptions": [],
+      "calc_confidence": "exact",
+      "is_primary": true,
+      "exclusion_reason": "",
+      "evidence_ids": [
+        "evd_4198fb48a2e3b0f7"
+      ],
+      "table_row_refs": [],
+      "notes": [
+        "deterministic_text_label"
+      ]
+    },
+    {
+      "result_id": "res_59e6fa9ba844e558",
+      "result_spec": {
+        "outcome": "satisfaction",
+        "timepoint": "unknown",
+        "comparison": "mothers vs fathers",
+        "groups": "mothers vs fathers",
+        "analysis_set": "reported"
+      },
+      "design_level": "unknown",
+      "effect_role": "unclear",
+      "grouping_label": "mothers vs fathers",
+      "outcome_label_normalized": "satisfaction",
+      "timepoint_label_normalized": "unknown",
+      "canonical_key": "res_59e6fa9ba844e558",
+      "stat_consistency": "unknown",
+      "dedup_sources": 2,
+      "effect_type": "d",
+      "effect_scope": "study_effect",
+      "origin": "reported",
+      "source_kind": "text",
+      "source_page": 12,
+      "source_ref": "evd_4198fb48a2e3b0f7",
+      "quote": "in relationship dedication after birth (d = -0.47, p < .05). Additionally, for fathers on",
+      "value": -0.47,
+      "se": null,
+      "ci_low": null,
+      "ci_high": null,
+      "derivation_method": "reported",
+      "assumptions": [],
+      "calc_confidence": "exact",
+      "is_primary": true,
+      "exclusion_reason": "",
+      "evidence_ids": [
+        "evd_4198fb48a2e3b0f7",
+        "evd_0e1170576028156a"
+      ],
+      "table_row_refs": [],
+      "notes": [
+        "deterministic_text_label"
+      ]
+    },
+    {
+      "result_id": "res_f826018afcb90d8f",
+      "result_spec": {
+        "outcome": "satisfaction",
+        "timepoint": "unknown",
+        "comparison": "mothers vs fathers",
+        "groups": "mothers vs fathers",
+        "analysis_set": "reported"
+      },
+      "design_level": "unknown",
+      "effect_role": "unclear",
+      "grouping_label": "mothers vs fathers",
+      "outcome_label_normalized": "satisfaction",
+      "timepoint_label_normalized": "unknown",
+      "canonical_key": "res_f826018afcb90d8f",
+      "stat_consistency": "unknown",
+      "dedup_sources": 1,
+      "effect_type": "d",
+      "effect_scope": "study_effect",
+      "origin": "reported",
+      "source_kind": "text",
+      "source_page": 12,
+      "source_ref": "evd_4198fb48a2e3b0f7",
+      "quote": "p < .01)5 and 1.81 points for fathers (d = -0.45, p < .05).6 Following the transition to",
+      "value": -0.45,
+      "se": null,
+      "ci_low": null,
+      "ci_high": null,
+      "derivation_method": "reported",
+      "assumptions": [],
+      "calc_confidence": "exact",
+      "is_primary": true,
+      "exclusion_reason": "",
+      "evidence_ids": [
+        "evd_4198fb48a2e3b0f7"
+      ],
+      "table_row_refs": [],
+      "notes": [
+        "deterministic_text_label"
+      ]
+    },
+    {
+      "result_id": "res_6c4393fa4cd3a8dc",
+      "result_spec": {
+        "outcome": "stress",
+        "timepoint": "unknown",
+        "comparison": "unknown",
+        "groups": "overall",
+        "analysis_set": "reported"
+      },
+      "design_level": "unknown",
+      "effect_role": "unclear",
+      "grouping_label": "overall",
+      "outcome_label_normalized": "stress",
+      "timepoint_label_normalized": "unknown",
+      "canonical_key": "res_6c4393fa4cd3a8dc",
+      "stat_consistency": "unknown",
+      "dedup_sources": 1,
+      "effect_type": "d",
+      "effect_scope": "literature_cited",
+      "origin": "reported",
+      "source_kind": "text",
+      "source_page": 2,
+      "source_ref": "evd_4c1ad539287d3646",
+      "quote": "tionship satisfaction than non-parents (d = -.19; Twenge, Campbell, & Foster, 2003). Alt",
+      "value": -0.19,
+      "se": null,
+      "ci_low": null,
+      "ci_high": null,
+      "derivation_method": "reported",
+      "assumptions": [],
+      "calc_confidence": "exact",
+      "is_primary": true,
+      "exclusion_reason": "",
+      "evidence_ids": [
+        "evd_4c1ad539287d3646"
+      ],
+      "table_row_refs": [],
+      "notes": [
+        "deterministic_text_label"
+      ]
+    }
+  ],
+  "notes": [
+    "deterministic_table_effects=0",
+    "deterministic_text_effects=14",
+    "LLM effects extraction disabled.",
+    "LLM table vision disabled.",
+    "effects_extracted=13"
+  ]
+}

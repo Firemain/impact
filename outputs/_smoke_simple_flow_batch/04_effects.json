@@ -1,0 +1,478 @@
+{
+  "effects": [
+    {
+      "result_id": "res_ef76916dab6ca23b",
+      "result_spec": {
+        "outcome": "stress",
+        "timepoint": "unknown",
+        "comparison": "unknown",
+        "groups": "unknown",
+        "analysis_set": "reported"
+      },
+      "design_level": "unknown",
+      "effect_role": "unclear",
+      "grouping_label": "overall",
+      "outcome_label_normalized": "stress",
+      "timepoint_label_normalized": "unknown",
+      "canonical_key": "res_ef76916dab6ca23b",
+      "stat_consistency": "unknown",
+      "dedup_sources": 1,
+      "effect_type": "d",
+      "origin": "reported",
+      "value": -0.19,
+      "se": null,
+      "ci_low": null,
+      "ci_high": null,
+      "derivation_method": "reported",
+      "assumptions": [],
+      "calc_confidence": "exact",
+      "is_primary": true,
+      "exclusion_reason": "",
+      "evidence_ids": [
+        "evd_b2bd7d442ce770c7"
+      ],
+      "table_row_refs": [],
+      "notes": [
+        "regex_extraction"
+      ]
+    },
+    {
+      "result_id": "res_0c0048c9705fb1b1",
+      "result_spec": {
+        "outcome": "satisfaction",
+        "timepoint": "unknown",
+        "comparison": "mothers vs fathers",
+        "groups": "mothers vs fathers",
+        "analysis_set": "reported"
+      },
+      "design_level": "unknown",
+      "effect_role": "unclear",
+      "grouping_label": "mothers vs fathers",
+      "outcome_label_normalized": "satisfaction",
+      "timepoint_label_normalized": "unknown",
+      "canonical_key": "res_0c0048c9705fb1b1",
+      "stat_consistency": "unknown",
+      "dedup_sources": 1,
+      "effect_type": "d",
+      "origin": "reported",
+      "value": -0.71,
+      "se": null,
+      "ci_low": null,
+      "ci_high": null,
+      "derivation_method": "reported",
+      "assumptions": [],
+      "calc_confidence": "exact",
+      "is_primary": true,
+      "exclusion_reason": "",
+      "evidence_ids": [
+        "evd_6881f5ae827b4c23"
+      ],
+      "table_row_refs": [],
+      "notes": [
+        "regex_extraction"
+      ]
+    },
+    {
+      "result_id": "res_01cbda451f573162",
+      "result_spec": {
+        "outcome": "satisfaction",
+        "timepoint": "unknown",
+        "comparison": "mothers vs fathers",
+        "groups": "mothers vs fathers",
+        "analysis_set": "reported"
+      },
+      "design_level": "unknown",
+      "effect_role": "unclear",
+      "grouping_label": "mothers vs fathers",
+      "outcome_label_normalized": "satisfaction",
+      "timepoint_label_normalized": "unknown",
+      "canonical_key": "res_01cbda451f573162",
+      "stat_consistency": "unknown",
+      "dedup_sources": 1,
+      "effect_type": "d",
+      "origin": "reported",
+      "value": -0.45,
+      "se": null,
+      "ci_low": null,
+      "ci_high": null,
+      "derivation_method": "reported",
+      "assumptions": [],
+      "calc_confidence": "exact",
+      "is_primary": true,
+      "exclusion_reason": "",
+      "evidence_ids": [
+        "evd_6881f5ae827b4c23"
+      ],
+      "table_row_refs": [],
+      "notes": [
+        "regex_extraction"
+      ]
+    },
+    {
+      "result_id": "res_0bf2c11d88ab565b",
+      "result_spec": {
+        "outcome": "satisfaction",
+        "timepoint": "unknown",
+        "comparison": "mothers vs fathers",
+        "groups": "mothers vs fathers",
+        "analysis_set": "reported"
+      },
+      "design_level": "unknown",
+      "effect_role": "unclear",
+      "grouping_label": "mothers vs fathers",
+      "outcome_label_normalized": "satisfaction",
+      "timepoint_label_normalized": "unknown",
+      "canonical_key": "res_0bf2c11d88ab565b",
+      "stat_consistency": "unknown",
+      "dedup_sources": 1,
+      "effect_type": "d",
+      "origin": "reported",
+      "value": 0.61,
+      "se": null,
+      "ci_low": null,
+      "ci_high": null,
+      "derivation_method": "reported",
+      "assumptions": [],
+      "calc_confidence": "exact",
+      "is_primary": true,
+      "exclusion_reason": "",
+      "evidence_ids": [
+        "evd_6881f5ae827b4c23"
+      ],
+      "table_row_refs": [],
+      "notes": [
+        "regex_extraction"
+      ]
+    },
+    {
+      "result_id": "res_42eb9fe391c19eb8",
+      "result_spec": {
+        "outcome": "satisfaction",
+        "timepoint": "unknown",
+        "comparison": "mothers vs fathers",
+        "groups": "mothers vs fathers",
+        "analysis_set": "reported"
+      },
+      "design_level": "unknown",
+      "effect_role": "unclear",
+      "grouping_label": "mothers vs fathers",
+      "outcome_label_normalized": "satisfaction",
+      "timepoint_label_normalized": "unknown",
+      "canonical_key": "res_42eb9fe391c19eb8",
+      "stat_consistency": "unknown",
+      "dedup_sources": 1,
+      "effect_type": "d",
+      "origin": "reported",
+      "value": 0.57,
+      "se": null,
+      "ci_low": null,
+      "ci_high": null,
+      "derivation_method": "reported",
+      "assumptions": [],
+      "calc_confidence": "exact",
+      "is_primary": true,
+      "exclusion_reason": "",
+      "evidence_ids": [
+        "evd_6881f5ae827b4c23"
+      ],
+      "table_row_refs": [],
+      "notes": [
+        "regex_extraction"
+      ]
+    },
+    {
+      "result_id": "res_d9acbb0a61e9956b",
+      "result_spec": {
+        "outcome": "satisfaction",
+        "timepoint": "unknown",
+        "comparison": "mothers vs fathers",
+        "groups": "mothers vs fathers",
+        "analysis_set": "reported"
+      },
+      "design_level": "unknown",
+      "effect_role": "unclear",
+      "grouping_label": "mothers vs fathers",
+      "outcome_label_normalized": "satisfaction",
+      "timepoint_label_normalized": "unknown",
+      "canonical_key": "res_d9acbb0a61e9956b",
+      "stat_consistency": "unknown",
+      "dedup_sources": 1,
+      "effect_type": "d",
+      "origin": "reported",
+      "value": 0.54,
+      "se": null,
+      "ci_low": null,
+      "ci_high": null,
+      "derivation_method": "reported",
+      "assumptions": [],
+      "calc_confidence": "exact",
+      "is_primary": true,
+      "exclusion_reason": "",
+      "evidence_ids": [
+        "evd_6881f5ae827b4c23"
+      ],
+      "table_row_refs": [],
+      "notes": [
+        "regex_extraction"
+      ]
+    },
+    {
+      "result_id": "res_5a792aa59eebc3ee",
+      "result_spec": {
+        "outcome": "satisfaction",
+        "timepoint": "unknown",
+        "comparison": "mothers vs fathers",
+        "groups": "mothers vs fathers",
+        "analysis_set": "reported"
+      },
+      "design_level": "unknown",
+      "effect_role": "unclear",
+      "grouping_label": "mothers vs fathers",
+      "outcome_label_normalized": "satisfaction",
+      "timepoint_label_normalized": "unknown",
+      "canonical_key": "res_5a792aa59eebc3ee",
+      "stat_consistency": "unknown",
+      "dedup_sources": 1,
+      "effect_type": "d",
+      "origin": "reported",
+      "value": 0.77,
+      "se": null,
+      "ci_low": null,
+      "ci_high": null,
+      "derivation_method": "reported",
+      "assumptions": [],
+      "calc_confidence": "exact",
+      "is_primary": true,
+      "exclusion_reason": "",
+      "evidence_ids": [
+        "evd_6881f5ae827b4c23"
+      ],
+      "table_row_refs": [],
+      "notes": [
+        "regex_extraction"
+      ]
+    },
+    {
+      "result_id": "res_0505894b27bfb062",
+      "result_spec": {
+        "outcome": "satisfaction",
+        "timepoint": "unknown",
+        "comparison": "mothers vs fathers",
+        "groups": "mothers vs fathers",
+        "analysis_set": "reported"
+      },
+      "design_level": "unknown",
+      "effect_role": "unclear",
+      "grouping_label": "mothers vs fathers",
+      "outcome_label_normalized": "satisfaction",
+      "timepoint_label_normalized": "unknown",
+      "canonical_key": "res_0505894b27bfb062",
+      "stat_consistency": "unknown",
+      "dedup_sources": 1,
+      "effect_type": "d",
+      "origin": "reported",
+      "value": -0.61,
+      "se": null,
+      "ci_low": null,
+      "ci_high": null,
+      "derivation_method": "reported",
+      "assumptions": [],
+      "calc_confidence": "exact",
+      "is_primary": true,
+      "exclusion_reason": "",
+      "evidence_ids": [
+        "evd_6881f5ae827b4c23"
+      ],
+      "table_row_refs": [],
+      "notes": [
+        "regex_extraction"
+      ]
+    },
+    {
+      "result_id": "res_22d79491afe93ff5",
+      "result_spec": {
+        "outcome": "satisfaction",
+        "timepoint": "unknown",
+        "comparison": "mothers vs fathers",
+        "groups": "mothers vs fathers",
+        "analysis_set": "reported"
+      },
+      "design_level": "unknown",
+      "effect_role": "unclear",
+      "grouping_label": "mothers vs fathers",
+      "outcome_label_normalized": "satisfaction",
+      "timepoint_label_normalized": "unknown",
+      "canonical_key": "res_22d79491afe93ff5",
+      "stat_consistency": "unknown",
+      "dedup_sources": 2,
+      "effect_type": "d",
+      "origin": "reported",
+      "value": -0.47,
+      "se": null,
+      "ci_low": null,
+      "ci_high": null,
+      "derivation_method": "reported",
+      "assumptions": [],
+      "calc_confidence": "exact",
+      "is_primary": true,
+      "exclusion_reason": "",
+      "evidence_ids": [
+        "evd_6881f5ae827b4c23",
+        "evd_7a38688548fcf0a2"
+      ],
+      "table_row_refs": [],
+      "notes": [
+        "regex_extraction"
+      ]
+    },
+    {
+      "result_id": "res_48d3177e038ab686",
+      "result_spec": {
+        "outcome": "satisfaction",
+        "timepoint": "unknown",
+        "comparison": "mothers vs fathers",
+        "groups": "mothers vs fathers",
+        "analysis_set": "reported"
+      },
+      "design_level": "unknown",
+      "effect_role": "unclear",
+      "grouping_label": "mothers vs fathers",
+      "outcome_label_normalized": "satisfaction",
+      "timepoint_label_normalized": "unknown",
+      "canonical_key": "res_48d3177e038ab686",
+      "stat_consistency": "unknown",
+      "dedup_sources": 1,
+      "effect_type": "d",
+      "origin": "reported",
+      "value": -0.66,
+      "se": null,
+      "ci_low": null,
+      "ci_high": null,
+      "derivation_method": "reported",
+      "assumptions": [],
+      "calc_confidence": "exact",
+      "is_primary": true,
+      "exclusion_reason": "",
+      "evidence_ids": [
+        "evd_7a38688548fcf0a2"
+      ],
+      "table_row_refs": [],
+      "notes": [
+        "regex_extraction"
+      ]
+    },
+    {
+      "result_id": "res_eb0a78c091f757f9",
+      "result_spec": {
+        "outcome": "satisfaction",
+        "timepoint": "unknown",
+        "comparison": "mothers vs fathers",
+        "groups": "mothers vs fathers",
+        "analysis_set": "reported"
+      },
+      "design_level": "unknown",
+      "effect_role": "unclear",
+      "grouping_label": "mothers vs fathers",
+      "outcome_label_normalized": "satisfaction",
+      "timepoint_label_normalized": "unknown",
+      "canonical_key": "res_eb0a78c091f757f9",
+      "stat_consistency": "unknown",
+      "dedup_sources": 1,
+      "effect_type": "d",
+      "origin": "reported",
+      "value": -0.56,
+      "se": null,
+      "ci_low": null,
+      "ci_high": null,
+      "derivation_method": "reported",
+      "assumptions": [],
+      "calc_confidence": "exact",
+      "is_primary": true,
+      "exclusion_reason": "",
+      "evidence_ids": [
+        "evd_7a38688548fcf0a2"
+      ],
+      "table_row_refs": [],
+      "notes": [
+        "regex_extraction"
+      ]
+    },
+    {
+      "result_id": "res_be6cc16a8cd98fde",
+      "result_spec": {
+        "outcome": "unknown",
+        "timepoint": "unknown",
+        "comparison": "mothers vs fathers",
+        "groups": "mothers vs fathers",
+        "analysis_set": "reported"
+      },
+      "design_level": "unknown",
+      "effect_role": "unclear",
+      "grouping_label": "mothers vs fathers",
+      "outcome_label_normalized": "unknown",
+      "timepoint_label_normalized": "unknown",
+      "canonical_key": "res_be6cc16a8cd98fde",
+      "stat_consistency": "unknown",
+      "dedup_sources": 1,
+      "effect_type": "d",
+      "origin": "reported",
+      "value": -0.66,
+      "se": null,
+      "ci_low": null,
+      "ci_high": null,
+      "derivation_method": "reported",
+      "assumptions": [],
+      "calc_confidence": "exact",
+      "is_primary": true,
+      "exclusion_reason": "",
+      "evidence_ids": [
+        "evd_cf964ff174397356"
+      ],
+      "table_row_refs": [],
+      "notes": [
+        "regex_extraction"
+      ]
+    },
+    {
+      "result_id": "res_94cc4c988f1ee646",
+      "result_spec": {
+        "outcome": "unknown",
+        "timepoint": "unknown",
+        "comparison": "mothers vs fathers",
+        "groups": "mothers vs fathers",
+        "analysis_set": "reported"
+      },
+      "design_level": "unknown",
+      "effect_role": "unclear",
+      "grouping_label": "mothers vs fathers",
+      "outcome_label_normalized": "unknown",
+      "timepoint_label_normalized": "unknown",
+      "canonical_key": "res_94cc4c988f1ee646",
+      "stat_consistency": "unknown",
+      "dedup_sources": 1,
+      "effect_type": "d",
+      "origin": "reported",
+      "value": -0.56,
+      "se": null,
+      "ci_low": null,
+      "ci_high": null,
+      "derivation_method": "reported",
+      "assumptions": [],
+      "calc_confidence": "exact",
+      "is_primary": true,
+      "exclusion_reason": "",
+      "evidence_ids": [
+        "evd_cf964ff174397356"
+      ],
+      "table_row_refs": [],
+      "notes": [
+        "regex_extraction"
+      ]
+    }
+  ],
+  "notes": [
+    "LLM effects extraction disabled.",
+    "regex_fallback_used",
+    "effects_extracted=13"
+  ]
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "step": "ingest.extract_text",
+    "level": "info",
+    "message": "Text extracted with PyMuPDF",
+    "details": {
+      "parser": "pymupdf"
+    },
+    "created_at": "2026-02-16T19:09:18.694979"
+  },
+  {
+    "step": "ingest.segment",
+    "level": "info",
+    "message": "Text segmentation complete",
+    "details": {
+      "passages": 109,
+      "pages": 34
+    },
+    "created_at": "2026-02-16T19:09:18.840481"
+  },
+  {
+    "step": "ingest.tables.pdfplumber",
+    "level": "info",
+    "message": "Tables extracted with pdfplumber",
+    "details": {
+      "tables": 1
+    },
+    "created_at": "2026-02-16T19:09:22.017465"
+  },
+  {
+    "step": "ingest.metadata",
+    "level": "info",
+    "message": "Metadata extraction completed",
+    "details": {
+      "source": "heuristics",
+      "title": "The Effect of the Transition to Parenthood on Relationship",
+      "authors_count": 3,
+      "year": 2010
+    },
+    "created_at": "2026-02-16T19:09:22.028554"
+  }
+]

@@ -1,0 +1,48 @@
+{
+  "population": "parents",
+  "interventions": [],
+  "comparators": [
+    {
+      "label": "control group",
+      "components": [
+        "Inclusion of Non-Parents in Longitudinal Samples To partially address the last concern",
+        "studies have begun to utilize non-parents as a non- equivalent control group"
+      ],
+      "dose_duration": "unknown",
+      "evidence_ids": [
+        "evd_6e12dbc103aa538a",
+        "evd_c001b949e40ef03f",
+        "evd_fc12ff430b3db84a"
+      ]
+    },
+    {
+      "label": "usual care",
+      "components": [],
+      "dose_duration": "unknown",
+      "evidence_ids": [
+        "evd_aa50f3a810c4ad07"
+      ]
+    }
+  ],
+  "setting": "community",
+  "inclusion_exclusion": "Based on this information, participants were coded as having lived together premaritally or not.",
+  "evidence_ids": [
+    "evd_6e12dbc103aa538a",
+    "evd_c001b949e40ef03f",
+    "evd_fc12ff430b3db84a",
+    "evd_aa50f3a810c4ad07",
+    "evd_ade582cbc662635e",
+    "evd_5d545070344361dc",
+    "evd_4c9501e0ae1b5778",
+    "evd_3d7b1793b2ebfa2a",
+    "evd_afdd00ab72232499",
+    "evd_52be376460a745ea",
+    "evd_fab9d2920fac9b4d"
+  ],
+  "confidence": 0.58,
+  "notes": [
+    "Design detecte en amont: unknown",
+    "LLM router failed.",
+    "Intervention non extraite avec certitude."
+  ]
+}

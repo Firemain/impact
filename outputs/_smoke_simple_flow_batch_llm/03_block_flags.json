@@ -1,0 +1,1421 @@
+{
+  "items": [
+    {
+      "evidence_id": "evd_e3b8e9d135f28579",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.45,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_6b16a73c0cf3fd6d",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.55,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_4160fc15637c59a1",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.45,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_b637b1d40fc7b2f0",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.55,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_545e802900a3f428",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.45,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_2bbe2cd5aa46da61",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.45,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_cc66410a2137ebb4",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": true,
+      "contains_bias_info": true,
+      "confidence": 0.55,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_d17f58fc7541f5b0",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": true,
+      "contains_bias_info": true,
+      "confidence": 0.55,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_2625a855fb6c97cb",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.45,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_4e80ab11843c90ff",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.55,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_d30728e71636ce94",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": true,
+      "contains_bias_info": true,
+      "confidence": 0.45,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_1ab0591936d40de4",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.45,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_129a6775267a8430",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.45,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_0ea852fafc0455e7",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.45,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_6ec2dfd28ae6989c",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.55,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_99a058cc90bee0c7",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.45,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_aeb39f0f2d2b93e1",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.45,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_3c940e819ba2e971",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.45,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_0c95999d16135b24",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.55,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_708321ab26c074d8",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.45,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_9e53799ea50a0dda",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": true,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.55,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_061836853ecfd8a7",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.45,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_ae4fdcecdcb81f15",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": true,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.55,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_20475a0097990706",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": true,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.55,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_9de66dd17b8aabfe",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": true,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.55,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_9163639beeb95821",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": true,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.55,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_bd72bbca3dedd9b9",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.55,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_c62db31d86a90048",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.45,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_4f3c3bdf0cda1d29",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.45,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_e4f6145c14bf5de7",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.45,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_de89f9c3c8f24858",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": true,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.55,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_8643028350ee1dd8",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.45,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_21354f2018139e24",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.45,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_404be68d83e5cffa",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": true,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.55,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_df4db88c3f78ed13",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.45,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_fdd12ca920609462",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.55,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_0665c97a058d8cab",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.55,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_b9cb84a8c247a09c",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.55,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_df9a1dd91c5060f1",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.55,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_b03f166548fa77e9",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.55,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_59966b781e0fe890",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.55,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_27949af5d5322a79",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.55,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_b7c85e0d79bd2c20",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.45,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_33737a0c0d6ea5d6",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.55,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_3c3c95fad84f1d8d",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.45,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_e26eea7e51ba40e9",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.45,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_f2500e40296d911b",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.45,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_f1cd28152a2a5d26",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.55,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_be2a5fc5693e8964",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.45,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_861c82acafa477cc",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": true,
+      "contains_population": true,
+      "contains_bias_info": true,
+      "confidence": 0.55,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_25cdb34350a5c936",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.45,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_102f462a167faa90",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": true,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.55,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_4fa5ccecf29da84a",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.55,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_3ff9c2873c8325de",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.55,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_66e9575281d876ba",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.55,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_38d96b6798ef93cc",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.55,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_a82be9c95889d609",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.45,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_6029791e799f1303",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.55,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_2f7fb1ceaff7ba34",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.45,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_7dd50069d1a0f37e",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.55,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_1e221875565e6211",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.55,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_8b82a915080d277d",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.55,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_51b23b0a9d83d611",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.55,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_71d77c885252e2fd",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.55,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_1d99e92ca1db3d32",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": true,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.65,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_d5ffb3cf1faa3989",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.55,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_02e176b6889f4354",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.45,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_7c9e466ffed81cc1",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.45,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_cd1c8c4582170607",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.55,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_51002b2f5cafa3bb",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.45,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_ad631c98ec39bf81",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.45,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_9d4fba989022dbfb",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.55,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_662af88ed2f37e8f",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.45,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_6e92f3676177095c",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.45,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_da8ea82d534dca96",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.45,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_d286eef0c51f6bf8",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.45,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_ad473bd208292ca2",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.45,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_40ff358e2019bc0e",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.55,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_69fc622e18719fe5",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": true,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.65,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_280aa395bdccbf63",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": false,
+      "contains_bias_info": true,
+      "confidence": 0.45,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_632e0c89e21c90de",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.55,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_fd5d3873a04fd8a1",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.45,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_6f3bb43105d78455",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": true,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.55,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_1c9659b3b5784d25",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.55,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_2b53ad00f960aedb",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.55,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_b068841aa3c4da3f",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.55,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_34af67ebc8994818",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.55,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_b78c2762b2eba3ed",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.45,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_50b1bc3b9544cf2c",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.45,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_309868eb9e355fb5",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.45,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_779cab913aad43bf",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.45,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_77d306e5036814dc",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.45,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_a8d0959f5589fe50",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.45,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_a0e5a8bda06adf7d",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.45,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_a21173da90aac90c",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.45,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_b0b0b75ba6996dcc",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.55,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_3dcfded4b9eb7930",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.45,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_aba592ae6563381d",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.45,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_70b8cca905668674",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.45,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_93065560101e7774",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.45,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_39b46a23fadbad26",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.45,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_45cfa6e2099db3a5",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.55,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_b52e6fd4063ea713",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.55,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_e9bdaa0543801e3a",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.45,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_50be0614e27d9b18",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.45,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_2fea84734cb79560",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.45,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_79ccdc4c53f80332",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.55,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_6fb5fa5405b723bd",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.45,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    },
+    {
+      "evidence_id": "evd_070421235d7bffd7",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.45,
+      "notes": [
+        "heuristic_fallback"
+      ]
+    }
+  ],
+  "relevant_effect_blocks": [
+    "evd_6b16a73c0cf3fd6d",
+    "evd_b637b1d40fc7b2f0",
+    "evd_cc66410a2137ebb4",
+    "evd_d17f58fc7541f5b0",
+    "evd_4e80ab11843c90ff",
+    "evd_6ec2dfd28ae6989c",
+    "evd_0c95999d16135b24",
+    "evd_bd72bbca3dedd9b9",
+    "evd_fdd12ca920609462",
+    "evd_0665c97a058d8cab",
+    "evd_b9cb84a8c247a09c",
+    "evd_df9a1dd91c5060f1",
+    "evd_b03f166548fa77e9",
+    "evd_59966b781e0fe890",
+    "evd_27949af5d5322a79",
+    "evd_33737a0c0d6ea5d6",
+    "evd_f1cd28152a2a5d26",
+    "evd_4fa5ccecf29da84a",
+    "evd_3ff9c2873c8325de",
+    "evd_66e9575281d876ba",
+    "evd_38d96b6798ef93cc",
+    "evd_6029791e799f1303",
+    "evd_7dd50069d1a0f37e",
+    "evd_1e221875565e6211",
+    "evd_8b82a915080d277d",
+    "evd_51b23b0a9d83d611",
+    "evd_71d77c885252e2fd",
+    "evd_1d99e92ca1db3d32",
+    "evd_d5ffb3cf1faa3989",
+    "evd_cd1c8c4582170607",
+    "evd_9d4fba989022dbfb",
+    "evd_40ff358e2019bc0e",
+    "evd_69fc622e18719fe5",
+    "evd_632e0c89e21c90de",
+    "evd_1c9659b3b5784d25",
+    "evd_2b53ad00f960aedb",
+    "evd_b068841aa3c4da3f",
+    "evd_34af67ebc8994818",
+    "evd_b0b0b75ba6996dcc",
+    "evd_45cfa6e2099db3a5",
+    "evd_b52e6fd4063ea713",
+    "evd_79ccdc4c53f80332"
+  ],
+  "relevant_quality_blocks": [
+    "evd_6b16a73c0cf3fd6d",
+    "evd_4160fc15637c59a1",
+    "evd_b637b1d40fc7b2f0",
+    "evd_545e802900a3f428",
+    "evd_cc66410a2137ebb4",
+    "evd_d17f58fc7541f5b0",
+    "evd_4e80ab11843c90ff",
+    "evd_d30728e71636ce94",
+    "evd_1ab0591936d40de4",
+    "evd_aeb39f0f2d2b93e1",
+    "evd_3c940e819ba2e971",
+    "evd_0c95999d16135b24",
+    "evd_708321ab26c074d8",
+    "evd_9e53799ea50a0dda",
+    "evd_061836853ecfd8a7",
+    "evd_ae4fdcecdcb81f15",
+    "evd_20475a0097990706",
+    "evd_9de66dd17b8aabfe",
+    "evd_9163639beeb95821",
+    "evd_bd72bbca3dedd9b9",
+    "evd_4f3c3bdf0cda1d29",
+    "evd_e4f6145c14bf5de7",
+    "evd_de89f9c3c8f24858",
+    "evd_404be68d83e5cffa",
+    "evd_df4db88c3f78ed13",
+    "evd_fdd12ca920609462",
+    "evd_0665c97a058d8cab",
+    "evd_f1cd28152a2a5d26",
+    "evd_be2a5fc5693e8964",
+    "evd_861c82acafa477cc",
+    "evd_25cdb34350a5c936",
+    "evd_102f462a167faa90",
+    "evd_4fa5ccecf29da84a",
+    "evd_3ff9c2873c8325de",
+    "evd_66e9575281d876ba",
+    "evd_38d96b6798ef93cc",
+    "evd_6029791e799f1303",
+    "evd_7dd50069d1a0f37e",
+    "evd_1e221875565e6211",
+    "evd_1d99e92ca1db3d32",
+    "evd_d5ffb3cf1faa3989",
+    "evd_02e176b6889f4354",
+    "evd_ad631c98ec39bf81",
+    "evd_9d4fba989022dbfb",
+    "evd_662af88ed2f37e8f",
+    "evd_6e92f3676177095c",
+    "evd_da8ea82d534dca96",
+    "evd_ad473bd208292ca2",
+    "evd_69fc622e18719fe5",
+    "evd_280aa395bdccbf63",
+    "evd_6f3bb43105d78455",
+    "evd_2b53ad00f960aedb",
+    "evd_b068841aa3c4da3f",
+    "evd_34af67ebc8994818",
+    "evd_b0b0b75ba6996dcc",
+    "evd_b52e6fd4063ea713",
+    "evd_79ccdc4c53f80332"
+  ],
+  "notes": [
+    "LLM block routing classified 0/109 blocks across 3 batch(es), failed_batches=3.",
+    "blocks_total=109",
+    "effect_blocks=42",
+    "quality_blocks=57"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "status": "not_applicable",
+  "reason": "Design is unknown with confidence=0.00; RoB2 applies only to confident rct_parallel in MVP.",
+  "domains": [],
+  "evidence_ids": [],
+  "notes": [
+    "RoB2 skipped due to non-RCT or uncertain design."
+  ]
+}

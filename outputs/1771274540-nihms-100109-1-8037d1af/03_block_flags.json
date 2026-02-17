@@ -1,0 +1,1462 @@
+{
+  "items": [
+    {
+      "evidence_id": "evd_8add1aac17dba3fb",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.45,
+      "notes": [
+        "heuristic_rules"
+      ]
+    },
+    {
+      "evidence_id": "evd_2af5e35184016d54",
+      "contains_results": true,
+      "contains_effect_size": true,
+      "contains_methods": true,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.95,
+      "notes": [
+        "llm_routed",
+        "llm_plus_rules_merge"
+      ]
+    },
+    {
+      "evidence_id": "evd_981d47fb1e5ed884",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.9,
+      "notes": [
+        "llm_routed",
+        "llm_plus_rules_merge"
+      ]
+    },
+    {
+      "evidence_id": "evd_b4ef9edbcd353699",
+      "contains_results": true,
+      "contains_effect_size": true,
+      "contains_methods": true,
+      "contains_population": true,
+      "contains_bias_info": true,
+      "confidence": 0.9,
+      "notes": [
+        "llm_routed",
+        "llm_plus_rules_merge"
+      ]
+    },
+    {
+      "evidence_id": "evd_2ec0bfe4619ad267",
+      "contains_results": true,
+      "contains_effect_size": true,
+      "contains_methods": true,
+      "contains_population": true,
+      "contains_bias_info": true,
+      "confidence": 0.9,
+      "notes": [
+        "llm_routed",
+        "llm_plus_rules_merge"
+      ]
+    },
+    {
+      "evidence_id": "evd_a4ddf520cb517370",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": true,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.9,
+      "notes": [
+        "llm_routed",
+        "llm_plus_rules_merge"
+      ]
+    },
+    {
+      "evidence_id": "evd_4c4882d91c2fab55",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": true,
+      "contains_population": true,
+      "contains_bias_info": true,
+      "confidence": 0.9,
+      "notes": [
+        "llm_routed",
+        "llm_plus_rules_merge"
+      ]
+    },
+    {
+      "evidence_id": "evd_9cfe24afa000e9c4",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": true,
+      "contains_population": true,
+      "contains_bias_info": true,
+      "confidence": 0.9,
+      "notes": [
+        "llm_routed",
+        "llm_plus_rules_merge"
+      ]
+    },
+    {
+      "evidence_id": "evd_5a44b81729a85588",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": true,
+      "contains_population": false,
+      "contains_bias_info": true,
+      "confidence": 0.9,
+      "notes": [
+        "llm_routed",
+        "llm_plus_rules_merge"
+      ]
+    },
+    {
+      "evidence_id": "evd_b51c84d4e22bc080",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": true,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.9,
+      "notes": [
+        "llm_routed",
+        "llm_plus_rules_merge"
+      ]
+    },
+    {
+      "evidence_id": "evd_67ae9ff5a8ecc8f8",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": true,
+      "contains_population": true,
+      "contains_bias_info": true,
+      "confidence": 0.9,
+      "notes": [
+        "llm_routed",
+        "llm_plus_rules_merge"
+      ]
+    },
+    {
+      "evidence_id": "evd_3f394c74ab05dff0",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": true,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.9,
+      "notes": [
+        "llm_routed",
+        "llm_plus_rules_merge"
+      ]
+    },
+    {
+      "evidence_id": "evd_7df4e3d79bf11613",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": true,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.9,
+      "notes": [
+        "llm_routed",
+        "llm_plus_rules_merge"
+      ]
+    },
+    {
+      "evidence_id": "evd_8a58cd4a53ec636e",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": true,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.9,
+      "notes": [
+        "llm_routed",
+        "llm_plus_rules_merge"
+      ]
+    },
+    {
+      "evidence_id": "evd_6561ed8f44667528",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": true,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.9,
+      "notes": [
+        "llm_routed",
+        "llm_plus_rules_merge"
+      ]
+    },
+    {
+      "evidence_id": "evd_878411676ead734c",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": true,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.9,
+      "notes": [
+        "llm_routed",
+        "llm_plus_rules_merge"
+      ]
+    },
+    {
+      "evidence_id": "evd_2a058577953a1a21",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": true,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.9,
+      "notes": [
+        "llm_routed",
+        "llm_plus_rules_merge"
+      ]
+    },
+    {
+      "evidence_id": "evd_787ac4835f286002",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.45,
+      "notes": [
+        "heuristic_rules"
+      ]
+    },
+    {
+      "evidence_id": "evd_8b40c185d5f594a4",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": true,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.9,
+      "notes": [
+        "llm_routed",
+        "llm_plus_rules_merge"
+      ]
+    },
+    {
+      "evidence_id": "evd_350b17b1d4e39efd",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.45,
+      "notes": [
+        "heuristic_rules"
+      ]
+    },
+    {
+      "evidence_id": "evd_6a24805d712e3d74",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": true,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.95,
+      "notes": [
+        "llm_routed",
+        "llm_plus_rules_merge"
+      ]
+    },
+    {
+      "evidence_id": "evd_45004c0f66c721ea",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.45,
+      "notes": [
+        "heuristic_rules"
+      ]
+    },
+    {
+      "evidence_id": "evd_3c2204e5942cce3c",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": true,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.9,
+      "notes": [
+        "llm_routed",
+        "llm_plus_rules_merge"
+      ]
+    },
+    {
+      "evidence_id": "evd_e4fe233f24a3e3b4",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": true,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.9,
+      "notes": [
+        "llm_routed",
+        "llm_plus_rules_merge"
+      ]
+    },
+    {
+      "evidence_id": "evd_d70a203836a474f2",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": true,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.55,
+      "notes": [
+        "heuristic_rules"
+      ]
+    },
+    {
+      "evidence_id": "evd_6d830617e4aa51cb",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": true,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.9,
+      "notes": [
+        "llm_routed",
+        "llm_plus_rules_merge"
+      ]
+    },
+    {
+      "evidence_id": "evd_e70ac2cc487600b0",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": true,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.9,
+      "notes": [
+        "llm_routed",
+        "llm_plus_rules_merge"
+      ]
+    },
+    {
+      "evidence_id": "evd_d0c57859a0b1734e",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": true,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.9,
+      "notes": [
+        "llm_routed",
+        "llm_plus_rules_merge"
+      ]
+    },
+    {
+      "evidence_id": "evd_fba373c509b00d10",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": true,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.9,
+      "notes": [
+        "llm_routed",
+        "llm_plus_rules_merge"
+      ]
+    },
+    {
+      "evidence_id": "evd_d4615bafb7f8374a",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": true,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.9,
+      "notes": [
+        "llm_routed",
+        "llm_plus_rules_merge"
+      ]
+    },
+    {
+      "evidence_id": "evd_e238e59264833fc6",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": true,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.65,
+      "notes": [
+        "heuristic_rules"
+      ]
+    },
+    {
+      "evidence_id": "evd_1d39526a583a3124",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.45,
+      "notes": [
+        "heuristic_rules"
+      ]
+    },
+    {
+      "evidence_id": "evd_6d3461224991d321",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": true,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.9,
+      "notes": [
+        "llm_routed",
+        "llm_plus_rules_merge"
+      ]
+    },
+    {
+      "evidence_id": "evd_71c149db42dcfbfa",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": true,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.9,
+      "notes": [
+        "llm_routed",
+        "llm_plus_rules_merge"
+      ]
+    },
+    {
+      "evidence_id": "evd_6e128cf06b426fc8",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": true,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.9,
+      "notes": [
+        "llm_routed",
+        "llm_plus_rules_merge"
+      ]
+    },
+    {
+      "evidence_id": "evd_1c7056882c207ee7",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": true,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.9,
+      "notes": [
+        "llm_routed",
+        "llm_plus_rules_merge"
+      ]
+    },
+    {
+      "evidence_id": "evd_0801891e1d98ba76",
+      "contains_results": true,
+      "contains_effect_size": true,
+      "contains_methods": false,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.95,
+      "notes": [
+        "llm_routed",
+        "llm_plus_rules_merge"
+      ]
+    },
+    {
+      "evidence_id": "evd_cafbb0fa7a529e65",
+      "contains_results": true,
+      "contains_effect_size": true,
+      "contains_methods": false,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.95,
+      "notes": [
+        "llm_routed",
+        "llm_plus_rules_merge"
+      ]
+    },
+    {
+      "evidence_id": "evd_ae859b1fec632bfc",
+      "contains_results": true,
+      "contains_effect_size": true,
+      "contains_methods": false,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.95,
+      "notes": [
+        "llm_routed",
+        "llm_plus_rules_merge"
+      ]
+    },
+    {
+      "evidence_id": "evd_75e1b3e696c39385",
+      "contains_results": true,
+      "contains_effect_size": true,
+      "contains_methods": false,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.95,
+      "notes": [
+        "llm_routed",
+        "llm_plus_rules_merge"
+      ]
+    },
+    {
+      "evidence_id": "evd_fdfa78df519ed506",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.9,
+      "notes": [
+        "llm_routed",
+        "llm_plus_rules_merge"
+      ]
+    },
+    {
+      "evidence_id": "evd_671780c0e3792892",
+      "contains_results": true,
+      "contains_effect_size": true,
+      "contains_methods": false,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.95,
+      "notes": [
+        "llm_routed",
+        "llm_plus_rules_merge"
+      ]
+    },
+    {
+      "evidence_id": "evd_192a815e43501a73",
+      "contains_results": true,
+      "contains_effect_size": true,
+      "contains_methods": false,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.95,
+      "notes": [
+        "llm_routed",
+        "llm_plus_rules_merge"
+      ]
+    },
+    {
+      "evidence_id": "evd_b0a92db9135d7cb6",
+      "contains_results": true,
+      "contains_effect_size": true,
+      "contains_methods": false,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.95,
+      "notes": [
+        "llm_routed",
+        "llm_plus_rules_merge"
+      ]
+    },
+    {
+      "evidence_id": "evd_44b744c137d8d2ca",
+      "contains_results": true,
+      "contains_effect_size": true,
+      "contains_methods": false,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.95,
+      "notes": [
+        "llm_routed",
+        "llm_plus_rules_merge"
+      ]
+    },
+    {
+      "evidence_id": "evd_61cf85acf316c44d",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.45,
+      "notes": [
+        "heuristic_rules"
+      ]
+    },
+    {
+      "evidence_id": "evd_48e0fa3bb8ec5552",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.95,
+      "notes": [
+        "llm_routed",
+        "llm_plus_rules_merge"
+      ]
+    },
+    {
+      "evidence_id": "evd_c54afa307eff4fb0",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.55,
+      "notes": [
+        "heuristic_rules"
+      ]
+    },
+    {
+      "evidence_id": "evd_c90ba883edfaf296",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.8,
+      "notes": [
+        "llm_routed",
+        "llm_plus_rules_merge"
+      ]
+    },
+    {
+      "evidence_id": "evd_3206588886b0ba97",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": true,
+      "contains_population": true,
+      "contains_bias_info": true,
+      "confidence": 0.55,
+      "notes": [
+        "heuristic_rules"
+      ]
+    },
+    {
+      "evidence_id": "evd_021ca43660bd5037",
+      "contains_results": true,
+      "contains_effect_size": true,
+      "contains_methods": true,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.95,
+      "notes": [
+        "llm_routed",
+        "llm_plus_rules_merge"
+      ]
+    },
+    {
+      "evidence_id": "evd_8e50d78cfef61c10",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": true,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.55,
+      "notes": [
+        "heuristic_rules"
+      ]
+    },
+    {
+      "evidence_id": "evd_16c6603cd3360824",
+      "contains_results": true,
+      "contains_effect_size": true,
+      "contains_methods": true,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.95,
+      "notes": [
+        "llm_routed",
+        "llm_plus_rules_merge"
+      ]
+    },
+    {
+      "evidence_id": "evd_82a2bdc384f64fd6",
+      "contains_results": true,
+      "contains_effect_size": true,
+      "contains_methods": false,
+      "contains_population": true,
+      "contains_bias_info": true,
+      "confidence": 0.9,
+      "notes": [
+        "llm_routed",
+        "llm_plus_rules_merge"
+      ]
+    },
+    {
+      "evidence_id": "evd_d352a110d470ad46",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": true,
+      "contains_population": true,
+      "contains_bias_info": true,
+      "confidence": 0.9,
+      "notes": [
+        "llm_routed",
+        "llm_plus_rules_merge"
+      ]
+    },
+    {
+      "evidence_id": "evd_373a03a5c8a12000",
+      "contains_results": true,
+      "contains_effect_size": true,
+      "contains_methods": false,
+      "contains_population": true,
+      "contains_bias_info": true,
+      "confidence": 0.9,
+      "notes": [
+        "llm_routed",
+        "llm_plus_rules_merge"
+      ]
+    },
+    {
+      "evidence_id": "evd_7f729b8a22396313",
+      "contains_results": true,
+      "contains_effect_size": true,
+      "contains_methods": false,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.9,
+      "notes": [
+        "llm_routed",
+        "llm_plus_rules_merge"
+      ]
+    },
+    {
+      "evidence_id": "evd_e9c6a4e8b4dc40bd",
+      "contains_results": true,
+      "contains_effect_size": true,
+      "contains_methods": false,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.9,
+      "notes": [
+        "llm_routed",
+        "llm_plus_rules_merge"
+      ]
+    },
+    {
+      "evidence_id": "evd_003cacf9dd301c28",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": true,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.9,
+      "notes": [
+        "llm_routed",
+        "llm_plus_rules_merge"
+      ]
+    },
+    {
+      "evidence_id": "evd_c7789e5de314ec0d",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.85,
+      "notes": [
+        "llm_routed",
+        "llm_plus_rules_merge"
+      ]
+    },
+    {
+      "evidence_id": "evd_94a5e5edb25f8cfe",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": true,
+      "contains_bias_info": true,
+      "confidence": 0.9,
+      "notes": [
+        "llm_routed",
+        "llm_plus_rules_merge"
+      ]
+    },
+    {
+      "evidence_id": "evd_61c81cacf77caa98",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.9,
+      "notes": [
+        "llm_routed",
+        "llm_plus_rules_merge"
+      ]
+    },
+    {
+      "evidence_id": "evd_a696280da4ff836c",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": false,
+      "contains_bias_info": true,
+      "confidence": 0.9,
+      "notes": [
+        "llm_routed",
+        "llm_plus_rules_merge"
+      ]
+    },
+    {
+      "evidence_id": "evd_de216214bcb09220",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": false,
+      "contains_bias_info": true,
+      "confidence": 0.9,
+      "notes": [
+        "llm_routed",
+        "llm_plus_rules_merge"
+      ]
+    },
+    {
+      "evidence_id": "evd_d23098ad1d5dc566",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": true,
+      "contains_population": true,
+      "contains_bias_info": true,
+      "confidence": 0.9,
+      "notes": [
+        "llm_routed",
+        "llm_plus_rules_merge"
+      ]
+    },
+    {
+      "evidence_id": "evd_58efcfdd2b4d8e14",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": true,
+      "contains_population": true,
+      "contains_bias_info": true,
+      "confidence": 0.9,
+      "notes": [
+        "llm_routed",
+        "llm_plus_rules_merge"
+      ]
+    },
+    {
+      "evidence_id": "evd_f7cca14256ddfa2e",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": true,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.85,
+      "notes": [
+        "llm_routed",
+        "llm_plus_rules_merge"
+      ]
+    },
+    {
+      "evidence_id": "evd_371bf59ebe73c573",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": true,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.85,
+      "notes": [
+        "llm_routed",
+        "llm_plus_rules_merge"
+      ]
+    },
+    {
+      "evidence_id": "evd_8c16728bcf763c5d",
+      "contains_results": true,
+      "contains_effect_size": true,
+      "contains_methods": false,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.95,
+      "notes": [
+        "llm_routed",
+        "llm_plus_rules_merge"
+      ]
+    },
+    {
+      "evidence_id": "evd_19e38018ffff9229",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": true,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.9,
+      "notes": [
+        "llm_routed",
+        "llm_plus_rules_merge"
+      ]
+    },
+    {
+      "evidence_id": "evd_c898d6e385091a21",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.45,
+      "notes": [
+        "heuristic_rules"
+      ]
+    },
+    {
+      "evidence_id": "evd_c2b3b85c7fe8029b",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.45,
+      "notes": [
+        "heuristic_rules"
+      ]
+    },
+    {
+      "evidence_id": "evd_6198959b0908f39e",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.45,
+      "notes": [
+        "heuristic_rules"
+      ]
+    },
+    {
+      "evidence_id": "evd_2e10684597f74cc0",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.45,
+      "notes": [
+        "heuristic_rules"
+      ]
+    },
+    {
+      "evidence_id": "evd_3ba33b64c328ce1c",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.45,
+      "notes": [
+        "heuristic_rules"
+      ]
+    },
+    {
+      "evidence_id": "evd_ae6845f970d1f00b",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.45,
+      "notes": [
+        "heuristic_rules"
+      ]
+    },
+    {
+      "evidence_id": "evd_36e1c711410904f1",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": true,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.9,
+      "notes": [
+        "llm_routed",
+        "llm_plus_rules_merge"
+      ]
+    },
+    {
+      "evidence_id": "evd_dde1df50c9b5a714",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": true,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.9,
+      "notes": [
+        "llm_routed",
+        "llm_plus_rules_merge"
+      ]
+    },
+    {
+      "evidence_id": "evd_1e13b2404438744a",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": true,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.9,
+      "notes": [
+        "llm_routed",
+        "llm_plus_rules_merge"
+      ]
+    },
+    {
+      "evidence_id": "evd_c8aa35869d72e126",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": false,
+      "contains_bias_info": true,
+      "confidence": 0.45,
+      "notes": [
+        "heuristic_rules"
+      ]
+    },
+    {
+      "evidence_id": "evd_a64927e0c8b9a286",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.55,
+      "notes": [
+        "heuristic_rules"
+      ]
+    },
+    {
+      "evidence_id": "evd_8c43779b29dcbb7c",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": true,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.9,
+      "notes": [
+        "llm_routed",
+        "llm_plus_rules_merge"
+      ]
+    },
+    {
+      "evidence_id": "evd_d5631357d97483b7",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": true,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.55,
+      "notes": [
+        "heuristic_rules"
+      ]
+    },
+    {
+      "evidence_id": "evd_53230304dde83a26",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.8,
+      "notes": [
+        "llm_routed",
+        "llm_plus_rules_merge"
+      ]
+    },
+    {
+      "evidence_id": "evd_e07482b9bbff0d6a",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.8,
+      "notes": [
+        "llm_routed",
+        "llm_plus_rules_merge"
+      ]
+    },
+    {
+      "evidence_id": "evd_48ac762784a3681e",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.8,
+      "notes": [
+        "llm_routed",
+        "llm_plus_rules_merge"
+      ]
+    },
+    {
+      "evidence_id": "evd_7d893d7586970ec4",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.8,
+      "notes": [
+        "llm_routed",
+        "llm_plus_rules_merge"
+      ]
+    },
+    {
+      "evidence_id": "evd_3f674a642c3c41bf",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.45,
+      "notes": [
+        "heuristic_rules"
+      ]
+    },
+    {
+      "evidence_id": "evd_d1e3083dfcb7891e",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.45,
+      "notes": [
+        "heuristic_rules"
+      ]
+    },
+    {
+      "evidence_id": "evd_1fed973b924e859f",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.45,
+      "notes": [
+        "heuristic_rules"
+      ]
+    },
+    {
+      "evidence_id": "evd_bb8c4ac0e7672dec",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.45,
+      "notes": [
+        "heuristic_rules"
+      ]
+    },
+    {
+      "evidence_id": "evd_d619ea985715d97a",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.45,
+      "notes": [
+        "heuristic_rules"
+      ]
+    },
+    {
+      "evidence_id": "evd_dde6c40e0d9ac660",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.45,
+      "notes": [
+        "heuristic_rules"
+      ]
+    },
+    {
+      "evidence_id": "evd_1b438ec15e04b50a",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.45,
+      "notes": [
+        "heuristic_rules"
+      ]
+    },
+    {
+      "evidence_id": "evd_b219b28635252c5a",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.45,
+      "notes": [
+        "heuristic_rules"
+      ]
+    },
+    {
+      "evidence_id": "evd_8a53c0da0692ad01",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.8,
+      "notes": [
+        "llm_routed",
+        "llm_plus_rules_merge"
+      ]
+    },
+    {
+      "evidence_id": "evd_1c75e5a927f9bd64",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.45,
+      "notes": [
+        "heuristic_rules"
+      ]
+    },
+    {
+      "evidence_id": "evd_260679ad2a1d68cd",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.45,
+      "notes": [
+        "heuristic_rules"
+      ]
+    },
+    {
+      "evidence_id": "evd_9321a005c288e333",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.45,
+      "notes": [
+        "heuristic_rules"
+      ]
+    },
+    {
+      "evidence_id": "evd_b0026e34dc542d01",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.45,
+      "notes": [
+        "heuristic_rules"
+      ]
+    },
+    {
+      "evidence_id": "evd_6a6314ebf445c25c",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.45,
+      "notes": [
+        "heuristic_rules"
+      ]
+    },
+    {
+      "evidence_id": "evd_0d0fcfa9f07a4de8",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.8,
+      "notes": [
+        "llm_routed",
+        "llm_plus_rules_merge"
+      ]
+    },
+    {
+      "evidence_id": "evd_1757b9fdbd8f07b0",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.55,
+      "notes": [
+        "heuristic_rules"
+      ]
+    },
+    {
+      "evidence_id": "evd_276c6cfa0d967445",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.45,
+      "notes": [
+        "heuristic_rules"
+      ]
+    },
+    {
+      "evidence_id": "evd_8d2877e5e91c6b95",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.45,
+      "notes": [
+        "heuristic_rules"
+      ]
+    },
+    {
+      "evidence_id": "evd_ab61455ac071b67d",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.45,
+      "notes": [
+        "heuristic_rules"
+      ]
+    },
+    {
+      "evidence_id": "evd_58870a35b1d2475e",
+      "contains_results": true,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": true,
+      "contains_bias_info": false,
+      "confidence": 0.55,
+      "notes": [
+        "heuristic_rules"
+      ]
+    },
+    {
+      "evidence_id": "evd_14e1553b82ead667",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.45,
+      "notes": [
+        "heuristic_rules"
+      ]
+    },
+    {
+      "evidence_id": "evd_f247a08cdeff1c72",
+      "contains_results": false,
+      "contains_effect_size": false,
+      "contains_methods": false,
+      "contains_population": false,
+      "contains_bias_info": false,
+      "confidence": 0.45,
+      "notes": [
+        "heuristic_rules"
+      ]
+    }
+  ],
+  "relevant_effect_blocks": [
+    "evd_2af5e35184016d54",
+    "evd_b4ef9edbcd353699",
+    "evd_2ec0bfe4619ad267",
+    "evd_0801891e1d98ba76",
+    "evd_cafbb0fa7a529e65",
+    "evd_ae859b1fec632bfc",
+    "evd_75e1b3e696c39385",
+    "evd_671780c0e3792892",
+    "evd_192a815e43501a73",
+    "evd_b0a92db9135d7cb6",
+    "evd_44b744c137d8d2ca",
+    "evd_021ca43660bd5037",
+    "evd_16c6603cd3360824",
+    "evd_82a2bdc384f64fd6",
+    "evd_373a03a5c8a12000",
+    "evd_7f729b8a22396313",
+    "evd_e9c6a4e8b4dc40bd",
+    "evd_8c16728bcf763c5d"
+  ],
+  "relevant_quality_blocks": [
+    "evd_2af5e35184016d54",
+    "evd_b4ef9edbcd353699",
+    "evd_2ec0bfe4619ad267",
+    "evd_a4ddf520cb517370",
+    "evd_4c4882d91c2fab55",
+    "evd_9cfe24afa000e9c4",
+    "evd_5a44b81729a85588",
+    "evd_b51c84d4e22bc080",
+    "evd_67ae9ff5a8ecc8f8",
+    "evd_3f394c74ab05dff0",
+    "evd_7df4e3d79bf11613",
+    "evd_8a58cd4a53ec636e",
+    "evd_6561ed8f44667528",
+    "evd_878411676ead734c",
+    "evd_2a058577953a1a21",
+    "evd_8b40c185d5f594a4",
+    "evd_6a24805d712e3d74",
+    "evd_3c2204e5942cce3c",
+    "evd_e4fe233f24a3e3b4",
+    "evd_d70a203836a474f2",
+    "evd_6d830617e4aa51cb",
+    "evd_e70ac2cc487600b0",
+    "evd_d0c57859a0b1734e",
+    "evd_fba373c509b00d10",
+    "evd_d4615bafb7f8374a",
+    "evd_e238e59264833fc6",
+    "evd_6d3461224991d321",
+    "evd_71c149db42dcfbfa",
+    "evd_6e128cf06b426fc8",
+    "evd_1c7056882c207ee7",
+    "evd_3206588886b0ba97",
+    "evd_021ca43660bd5037",
+    "evd_8e50d78cfef61c10",
+    "evd_16c6603cd3360824",
+    "evd_82a2bdc384f64fd6",
+    "evd_d352a110d470ad46",
+    "evd_373a03a5c8a12000",
+    "evd_003cacf9dd301c28",
+    "evd_94a5e5edb25f8cfe",
+    "evd_a696280da4ff836c",
+    "evd_de216214bcb09220",
+    "evd_d23098ad1d5dc566",
+    "evd_58efcfdd2b4d8e14",
+    "evd_f7cca14256ddfa2e",
+    "evd_371bf59ebe73c573",
+    "evd_19e38018ffff9229",
+    "evd_36e1c711410904f1",
+    "evd_dde1df50c9b5a714",
+    "evd_1e13b2404438744a",
+    "evd_c8aa35869d72e126",
+    "evd_8c43779b29dcbb7c",
+    "evd_d5631357d97483b7"
+  ],
+  "notes": [
+    "LLM block routing classified 69/72 blocks across 2 batch(es), failed_batches=0.",
+    "blocks_total=109",
+    "candidate_blocks=72",
+    "effect_blocks=18",
+    "quality_blocks=52"
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "outcomes": [
+    {
+      "label": "marital/relationship satisfaction",
+      "instrument": "unknown",
+      "timepoints": [
+        "baseline",
+        "18 months",
+        "15 months"
+      ],
+      "grouping": "intervention vs control",
+      "primary_secondary": "unknown",
+      "evidence_ids": [
+        "evd_335037fc8fde435c",
+        "evd_3b77a6b89f1a4453",
+        "evd_2d55dd5184cbb46c",
+        "evd_477d15e11647691b",
+        "evd_265844e49f465b64",
+        "evd_27e1f2c0e75d77ca",
+        "evd_5a350cb36f0d4150",
+        "evd_2aaa23dcca6387f0"
+      ]
+    },
+    {
+      "label": "stress",
+      "instrument": "scale",
+      "timepoints": [
+        "12 months"
+      ],
+      "grouping": "comparator",
+      "primary_secondary": "unknown",
+      "evidence_ids": [
+        "evd_5c81a5bb277d8d4c",
+        "evd_36773e92f91901f2",
+        "evd_eaef19300a63fa6f",
+        "evd_34fe50458b127741",
+        "evd_dc1d58ac782186a4",
+        "evd_e3b3b428561bae13",
+        "evd_e1a155e3fac94e59"
+      ]
+    },
+    {
+      "label": "depression symptoms",
+      "instrument": "scale",
+      "timepoints": [],
+      "grouping": "comparator",
+      "primary_secondary": "unknown",
+      "evidence_ids": [
+        "evd_001b230a893df0ca",
+        "evd_a483eca25b6016a6",
+        "evd_0ecc17779fa633e8",
+        "evd_2b03c7d299c027d0",
+        "evd_c57104d2f41b2f9d"
+      ]
+    },
+    {
+      "label": "self-esteem",
+      "instrument": "unknown",
+      "timepoints": [],
+      "grouping": "comparator",
+      "primary_secondary": "unknown",
+      "evidence_ids": [
+        "evd_e3b3b428561bae13"
+      ]
+    },
+    {
+      "label": "reported outcome",
+      "instrument": "unknown",
+      "timepoints": [],
+      "grouping": "comparator",
+      "primary_secondary": "unknown",
+      "evidence_ids": [
+        "evd_e3b3b428561bae13",
+        "evd_7f311ef3b29fab5c"
+      ]
+    }
+  ],
+  "confidence": 0.8,
+  "notes": [
+    "LLM extraction disabled.",
+    "5 outcomes detectes."
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "population": "parents",
+  "interventions": [],
+  "comparators": [
+    {
+      "label": "control group",
+      "components": [
+        "Inclusion of Non-Parents in Longitudinal Samples To partially address the last concern",
+        "studies have begun to utilize non-parents as a non- equivalent control group"
+      ],
+      "dose_duration": "unknown",
+      "evidence_ids": [
+        "evd_477d15e11647691b",
+        "evd_351743ae1d637a9c",
+        "evd_3e3917abc2aa3cfa"
+      ]
+    },
+    {
+      "label": "usual care",
+      "components": [],
+      "dose_duration": "unknown",
+      "evidence_ids": [
+        "evd_51048f007950c7f1"
+      ]
+    }
+  ],
+  "setting": "community",
+  "inclusion_exclusion": "Based on this information, participants were coded as having lived together premaritally or not.",
+  "evidence_ids": [
+    "evd_477d15e11647691b",
+    "evd_351743ae1d637a9c",
+    "evd_3e3917abc2aa3cfa",
+    "evd_51048f007950c7f1",
+    "evd_5816fca699d69e2d",
+    "evd_335037fc8fde435c",
+    "evd_3b77a6b89f1a4453",
+    "evd_265844e49f465b64",
+    "evd_e1a155e3fac94e59",
+    "evd_c95b5eb258b8fb1b",
+    "evd_6ac24411ecd74a86"
+  ],
+  "confidence": 0.58,
+  "notes": [
+    "Design detecte en amont: unknown",
+    "LLM extraction disabled.",
+    "Intervention non extraite avec certitude."
+  ]
+}
