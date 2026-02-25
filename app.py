@@ -9,6 +9,7 @@ from __future__ import annotations
 
 import html
 import json
+import os
 import re
 import time
 from pathlib import Path
@@ -91,7 +92,30 @@ def main() -> None:
 def _render_sidebar() -> None:
     st.markdown('<p class="sidebar-title">Configuration</p>', unsafe_allow_html=True)
 
-    with st.expander("📁 Sortie", expanded=True):
+    with st.expander("� Clés API", expanded=True):
+        openai_key = st.text_input(
+            "OpenAI API Key",
+            value=st.session_state.get("openai_api_key", os.getenv("OPENAI_API_KEY", "")),
+            type="password",
+            help="Clé secrète OpenAI (sk-…). Nécessaire pour l'extraction LLM et le résumé.",
+            key="cfg_openai_api_key",
+        )
+        st.session_state["openai_api_key"] = openai_key
+        if openai_key.strip():
+            os.environ["OPENAI_API_KEY"] = openai_key.strip()
+
+        openalex_email = st.text_input(
+            "OpenAlex Email (optionnel)",
+            value=st.session_state.get("openalex_email", os.getenv("OPENALEX_EMAIL", "")),
+            type="password",
+            help="Email pour le polite pool OpenAlex (accès plus rapide). Pas obligatoire.",
+            key="cfg_openalex_email",
+        )
+        st.session_state["openalex_email"] = openalex_email
+        if openalex_email.strip():
+            os.environ["OPENALEX_EMAIL"] = openalex_email.strip()
+
+    with st.expander("📁 Sortie", expanded=False):
         st.session_state.setdefault("output_root", "outputs")
         st.session_state["output_root"] = st.text_input(
             "Dossier de sortie", value=st.session_state["output_root"],
