@@ -28,6 +28,8 @@ def run(
     authors = list(metadata.authors)
     year = metadata.year
     doi = normalize_inline_text(metadata.doi or "")
+    document_type = getattr(metadata, "document_type", "unknown") or "unknown"
+    organization = getattr(metadata, "organization", None) or None
     if not doi:
         doi = _extract_doi_from_artifacts(ingest_artifacts)
     openalex_email = normalize_inline_text(os.getenv("OPENALEX_EMAIL", "").strip())
@@ -61,7 +63,19 @@ def run(
             authors_found = len(authorships)
 
     llm_score_note = "LLM credibility scoring disabled."
-    if use_openai_extraction:
+    is_report = document_type in ("report", "working_paper")
+    if is_report:
+        # Reports: use organization-based scoring instead of journal metrics
+        score = _report_credibility_score(
+            title_match_found=title_match_found,
+            citation_count=citation_count,
+            organization=organization,
+        )
+        level = _level_from_score(score)
+        notes.append(f"document_type={document_type}, scored via organization-based heuristic.")
+        if organization:
+            notes.append(f"organization={organization}")
+    elif use_openai_extraction:
         llm_score, llm_level, llm_score_note = _llm_credibility_score(
             title=title,
             venue=venue,
@@ -99,6 +113,8 @@ def run(
         authors_found=authors_found,
         external_score=round(score, 3),
         credibility_level=level,
+        document_type=document_type,
+        organization=organization,
         notes=notes,
     )
     _write_json(Path(output_dir) / "06_external_credibility.json", result.model_dump(mode="json"))
@@ -341,6 +357,61 @@ def _deterministic_external_score(
             score += 0.1
     if venue and venue != "unknown":
         score += 0.2
+    return max(0.0, min(1.0, score))
+
+
+# Well-known research organizations that produce credible reports
+_KNOWN_RESEARCH_ORGS = {
+    "rti international", "rand corporation", "rand", "brookings",
+    "urban institute", "mathematica", "abt associates", "mdrc",
+    "world bank", "imf", "oecd", "undp", "unicef", "who",
+    "national bureau of economic research", "nber", "iza",
+    "j-pal", "innovations for poverty action", "ipa",
+    "mckinsey", "deloitte", "bcg", "pwc", "kpmg", "ey",
+    "institute for fiscal studies", "ifs",
+    "center for global development", "cgd",
+    "american institutes for research", "air",
+    "westat", "rmc research", "src", "norc",
+    "national academies", "national academy of sciences",
+    "government accountability office", "gao",
+    "congressional budget office", "cbo",
+    "european commission", "ec",
+}
+
+
+def _report_credibility_score(
+    title_match_found: bool,
+    citation_count: Optional[int],
+    organization: Optional[str],
+) -> float:
+    """Credibility scoring adapted for reports and working papers.
+
+    Reports don't have journals, so we score based on:
+    - Title match in OpenAlex (indexation = visibility) → 0.25
+    - Organization reputation → 0.35
+    - Citation count → 0.40
+    """
+    score = 0.0
+    # Indexation bonus
+    if title_match_found:
+        score += 0.25
+    # Organization reputation
+    if organization:
+        org_lower = organization.strip().lower()
+        if any(known in org_lower for known in _KNOWN_RESEARCH_ORGS):
+            score += 0.35
+        else:
+            score += 0.15  # identified but not well-known org
+    # Citations
+    if citation_count is not None:
+        if citation_count >= 100:
+            score += 0.40
+        elif citation_count >= 30:
+            score += 0.30
+        elif citation_count >= 10:
+            score += 0.20
+        elif citation_count >= 1:
+            score += 0.10
     return max(0.0, min(1.0, score))
 
 

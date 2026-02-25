@@ -1,8 +1,0 @@
-{
-  "status": "not_applicable",
-  "reason": "Design is unknown with confidence=0.00; RoB2 applies only to confident rct_parallel in MVP.",
-  "answers": [],
-  "notes": [
-    "RoB2 fill skipped because evidence bundle is not applicable."
-  ]
-}

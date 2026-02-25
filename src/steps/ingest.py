@@ -928,6 +928,11 @@ def _build_metadata(
         config=config,
         logs=logs,
     )
+    document_type: str = "unknown"
+    organization: Optional[str] = None
+    journal_name: Optional[str] = None
+    funder: Optional[str] = None
+
     if llm_metadata is not None:
         llm_title = llm_metadata.get("title")
         llm_authors = llm_metadata.get("authors")
@@ -941,6 +946,24 @@ def _build_metadata(
         if isinstance(llm_year, int):
             year = llm_year
             metadata_source = "openai_metadata"
+        # New fields: document_type, organization, journal_name, funder
+        llm_doc_type = llm_metadata.get("document_type")
+        if isinstance(llm_doc_type, str) and llm_doc_type in (
+            "journal_article", "report", "working_paper", "thesis",
+            "book_chapter", "preprint",
+        ):
+            document_type = llm_doc_type
+        llm_org = llm_metadata.get("organization")
+        if isinstance(llm_org, str) and llm_org.strip():
+            organization = llm_org.strip()
+        llm_funder = llm_metadata.get("funder")
+        if isinstance(llm_funder, str) and llm_funder.strip():
+            funder = llm_funder.strip()
+        llm_journal = llm_metadata.get("journal")
+        if isinstance(llm_journal, dict):
+            jn = llm_journal.get("name")
+            if isinstance(jn, str) and jn.strip():
+                journal_name = jn.strip()
 
     title = _clean_title(title)
     authors = _dedupe_preserve_order([_clean_author_name(author) for author in authors if author])
@@ -957,6 +980,8 @@ def _build_metadata(
         authors_count=len(authors),
         year=year,
         doi=doi,
+        document_type=document_type,
+        organization=organization,
     )
 
     return PaperMetadata(
@@ -969,6 +994,10 @@ def _build_metadata(
         doi=doi,
         num_pages=len(pages_text),
         parser=parser_name,
+        document_type=document_type,
+        organization=organization,
+        journal_name=journal_name,
+        funder=funder,
     )
 
 

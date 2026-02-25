@@ -86,6 +86,15 @@ def _quality_with_openai(
     blinding_values: List[str] = []
     justifications: List[str] = []
     evidence_ids: List[str] = []
+    # New enriched fields
+    study_design_values: List[str] = []
+    study_design_justifications: List[str] = []
+    sample_size_n_values: List[Optional[int]] = []
+    randomization_justifications: List[str] = []
+    control_justifications: List[str] = []
+    sample_justifications: List[str] = []
+    attrition_justifications: List[str] = []
+    blinding_justifications: List[str] = []
 
     for start in range(0, len(selected_ids), per_call):
         batch_ids = selected_ids[start : start + per_call]
@@ -105,15 +114,26 @@ def _quality_with_openai(
             system_prompt="You produce a quick methodological quality check from snippets. Return strict JSON only.",
             user_prompt=(
                 "Score only from explicit evidence.\n"
+                "Determine the study design and assess methodological quality flags.\n"
+                "For each flag, provide a short justification quoting the text.\n"
+                "For sample_size_n, extract the total N as an integer if reported.\n"
                 "Schema:\n"
                 "{\n"
+                '  "study_design": "RCT|quasi_experimental|observational_longitudinal|observational_cross_sectional|meta_analysis|case_study|unknown",\n'
+                '  "study_design_justification": "short reason for chosen design",\n'
+                '  "sample_size_n": null,\n'
                 '  "randomization": "yes|no|unclear",\n'
+                '  "randomization_justification": "quote or reason",\n'
                 '  "control_group": "yes|no|unclear",\n'
+                '  "control_group_justification": "quote or reason",\n'
                 '  "sample_size_reported": "yes|no|unclear",\n'
+                '  "sample_size_justification": "quote or reason",\n'
                 '  "attrition_reported": "yes|no|unclear",\n'
+                '  "attrition_justification": "quote or reason",\n'
                 '  "blinding_reported": "yes|no|unclear",\n'
+                '  "blinding_justification": "quote or reason",\n'
                 '  "internal_quality_score": 0.0,\n'
-                '  "justification": "short text",\n'
+                '  "justification": "short overall assessment",\n'
                 '  "evidence_ids": ["string"]\n'
                 "}\n\n"
                 f"Snippets JSON:\n{json.dumps(payload, ensure_ascii=False)}"
@@ -128,6 +148,31 @@ def _quality_with_openai(
         sample_values.append(_yes_no_unclear(parsed.get("sample_size_reported")))
         attrition_values.append(_yes_no_unclear(parsed.get("attrition_reported")))
         blinding_values.append(_yes_no_unclear(parsed.get("blinding_reported")))
+
+        # New enriched fields
+        sd = normalize_inline_text(str(parsed.get("study_design", "unknown"))).lower()
+        valid_designs = {"rct", "quasi_experimental", "observational_longitudinal",
+                         "observational_cross_sectional", "meta_analysis", "case_study"}
+        study_design_values.append(sd if sd in valid_designs else "unknown")
+        sd_just = normalize_inline_text(str(parsed.get("study_design_justification", "")))
+        if sd_just:
+            study_design_justifications.append(sd_just)
+        raw_n = parsed.get("sample_size_n")
+        if raw_n is not None:
+            try:
+                sample_size_n_values.append(int(float(str(raw_n))))
+            except (ValueError, TypeError):
+                sample_size_n_values.append(None)
+        for flag_key, justification_list in [
+            ("randomization_justification", randomization_justifications),
+            ("control_group_justification", control_justifications),
+            ("sample_size_justification", sample_justifications),
+            ("attrition_justification", attrition_justifications),
+            ("blinding_justification", blinding_justifications),
+        ]:
+            j = normalize_inline_text(str(parsed.get(flag_key, "")))
+            if j:
+                justification_list.append(j)
 
         justification = normalize_inline_text(str(parsed.get("justification", "")))
         if justification:
@@ -163,12 +208,32 @@ def _quality_with_openai(
         elif value == "unclear":
             score += 0.1
     justification = " | ".join(justifications[:3]) if justifications else "LLM aggregated quick quality."
+
+    # Aggregate study design: pick most specific non-unknown value
+    design_priority = ["RCT", "meta_analysis", "quasi_experimental",
+                       "observational_longitudinal", "observational_cross_sectional", "case_study"]
+    study_design = "unknown"
+    for dp in design_priority:
+        if dp.lower() in [v.lower() for v in study_design_values]:
+            study_design = dp
+            break
+    study_design_justification = " | ".join(study_design_justifications[:2]) if study_design_justifications else ""
+    sample_size_n = max((n for n in sample_size_n_values if n is not None), default=None)
+
     result = QuickQualityResult(
+        study_design=study_design,
+        study_design_justification=study_design_justification,
+        sample_size_n=sample_size_n,
         randomization=randomization,
+        randomization_justification=" | ".join(randomization_justifications[:2]),
         control_group=control_group,
+        control_group_justification=" | ".join(control_justifications[:2]),
         sample_size_reported=sample_size_reported,
+        sample_size_justification=" | ".join(sample_justifications[:2]),
         attrition_reported=attrition_reported,
+        attrition_justification=" | ".join(attrition_justifications[:2]),
         blinding_reported=blinding_reported,
+        blinding_justification=" | ".join(blinding_justifications[:2]),
         internal_quality_score=round(max(0.0, min(1.0, score)), 3),
         justification=justification,
         evidence_ids=evidence_ids[:30],
@@ -192,6 +257,41 @@ def _quality_with_heuristics(
     attrition_reported = "yes" if ATTRITION_RE.search(merged) else "unclear"
     blinding_reported = "yes" if BLIND_RE.search(merged) else "unclear"
 
+    # Heuristic study design detection
+    study_design = "unknown"
+    study_design_justification = ""
+    if re.search(r"\bmeta[- ]?analy", merged, re.IGNORECASE):
+        study_design = "meta_analysis"
+        study_design_justification = "meta-analysis keyword detected"
+    elif re.search(r"\brandomi[sz]ed\s+(controlled\s+)?trial\b|RCT\b", merged, re.IGNORECASE):
+        study_design = "RCT"
+        study_design_justification = "RCT keyword detected"
+    elif re.search(r"\bquasi[- ]?experiment", merged, re.IGNORECASE):
+        study_design = "quasi_experimental"
+        study_design_justification = "quasi-experimental keyword detected"
+    elif re.search(r"\blongitudinal|follow[- ]?up\s+stud|prospective\s+cohort\b", merged, re.IGNORECASE):
+        study_design = "observational_longitudinal"
+        study_design_justification = "longitudinal keyword detected"
+    elif re.search(r"\bcross[- ]?sectional\b", merged, re.IGNORECASE):
+        study_design = "observational_cross_sectional"
+        study_design_justification = "cross-sectional keyword detected"
+    elif re.search(r"\bcase\s+stud(y|ies)\b", merged, re.IGNORECASE):
+        study_design = "case_study"
+        study_design_justification = "case study keyword detected"
+
+    # Heuristic sample size extraction
+    sample_size_n: Optional[int] = None
+    n_matches = re.findall(r"\bn\s*=\s*(\d[\d,]*)", merged, re.IGNORECASE)
+    if n_matches:
+        candidates = []
+        for m in n_matches:
+            try:
+                candidates.append(int(m.replace(",", "")))
+            except ValueError:
+                pass
+        if candidates:
+            sample_size_n = max(candidates)
+
     score = 0.0
     mapping = {
         "randomization": randomization,
@@ -206,6 +306,9 @@ def _quality_with_heuristics(
         elif value == "unclear":
             score += 0.1
     return QuickQualityResult(
+        study_design=study_design,
+        study_design_justification=study_design_justification,
+        sample_size_n=sample_size_n,
         randomization=randomization,
         control_group=control_group,
         sample_size_reported=sample_size_reported,

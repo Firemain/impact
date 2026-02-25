@@ -29,6 +29,13 @@ class PaperMetadata(BaseModel):
     num_pages: int = 0
     parser: str = "unknown"
     ingested_at: datetime = Field(default_factory=datetime.utcnow)
+    document_type: Literal[
+        "journal_article", "report", "working_paper",
+        "thesis", "book_chapter", "preprint", "unknown",
+    ] = "unknown"
+    organization: Optional[str] = None
+    journal_name: Optional[str] = None
+    funder: Optional[str] = None
 
 
 class TextPassage(BaseModel):
@@ -152,6 +159,8 @@ class EffectResult(BaseModel):
     se: Optional[float] = None
     ci_low: Optional[float] = None
     ci_high: Optional[float] = None
+    p_value: Optional[float] = None
+    sample_size: Optional[int] = None
     derivation_method: Literal[
         "reported",
         "computed_from_means",
@@ -179,11 +188,22 @@ class EffectsComputationResult(BaseModel):
 class QuickQualityResult(BaseModel):
     model_config = ConfigDict(extra="forbid")
 
+    study_design: Literal[
+        "RCT", "quasi_experimental", "observational_longitudinal",
+        "observational_cross_sectional", "meta_analysis", "case_study", "unknown"
+    ] = "unknown"
+    study_design_justification: str = ""
+    sample_size_n: Optional[int] = None
     randomization: Literal["yes", "no", "unclear"] = "unclear"
+    randomization_justification: str = ""
     control_group: Literal["yes", "no", "unclear"] = "unclear"
+    control_group_justification: str = ""
     sample_size_reported: Literal["yes", "no", "unclear"] = "unclear"
+    sample_size_justification: str = ""
     attrition_reported: Literal["yes", "no", "unclear"] = "unclear"
+    attrition_justification: str = ""
     blinding_reported: Literal["yes", "no", "unclear"] = "unclear"
+    blinding_justification: str = ""
     internal_quality_score: float = 0.0
     justification: str = "unknown"
     evidence_ids: List[str] = Field(default_factory=list)
@@ -200,6 +220,8 @@ class ExternalCredibilityResult(BaseModel):
     authors_found: int = 0
     external_score: float = 0.0
     credibility_level: Literal["High", "Moderate", "Low", "Unknown"] = "Unknown"
+    document_type: str = "unknown"
+    organization: Optional[str] = None
     notes: List[str] = Field(default_factory=list)
 
 

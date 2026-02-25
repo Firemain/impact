@@ -58,6 +58,24 @@ CI_RE = re.compile(
 TIMEPOINT_RE = re.compile(r"\b(baseline|pre[- ]?test|post[- ]?intervention|post[- ]?test|follow[- ]?up)\b", re.IGNORECASE)
 REFERENCE_LIKE_RE = re.compile(r"\breferences?\b|\bbibliography\b|\bet al\.\b", re.IGNORECASE)
 CITATION_RE = re.compile(r"\([A-Z][A-Za-z'`-]+[^)]*\b(19|20)\d{2}\b[^)]*\)")
+
+# ── p-value extraction ──
+P_VALUE_RE = re.compile(
+    r"(?:p|p[- ]?value)\s*(?:[=<>≤≥])\s*(?P<pval>\.?\d+(?:\.\d+)?(?:\s*[×x]\s*10\s*[−-]\s*\d+)?)",
+    re.IGNORECASE,
+)
+P_THRESHOLD_RE = re.compile(
+    r"p\s*<\s*(?P<thresh>\.?\d+(?:\.\d+)?)",
+    re.IGNORECASE,
+)
+
+# ── sample size extraction ──
+SAMPLE_SIZE_RE = re.compile(
+    r"(?:(?:(?:total|overall)\s+)?(?:sample\s+)?[Nn]\s*=\s*(?P<n>\d[\d,]*)"
+    r"|\b(?P<n2>\d[\d,]*)\s+(?:participants?|subjects?|individuals?|respondents?|couples?|families|dyads?))",
+    re.IGNORECASE,
+)
+
 OUTCOME_AROUND_EFFECT_RE = re.compile(
     r"(?P<predictor>[A-Za-z][A-Za-z0-9' \-/]{2,100})\s*\(\s*(?:cohen'?s?\s*d|hedges?\s*g|smd|\bd\b|\bg\b)\s*(?:=|:)",
     re.IGNORECASE,
@@ -89,6 +107,48 @@ BANNED_HEADER_KEYS = {
 }
 
 MAX_ABS_EFFECT_SIZE = 1.5
+
+
+def _extract_p_value(text: str) -> Optional[float]:
+    """Extract the most relevant p-value from text near an effect size mention."""
+    # Try exact p-value first (p = 0.032)
+    m = P_VALUE_RE.search(text)
+    if m:
+        raw = m.group("pval").strip()
+        # Handle scientific notation (3.2 × 10−4)
+        raw = re.sub(r"\s*[×x]\s*10\s*[−-]\s*", "e-", raw)
+        try:
+            val = float(raw)
+            if 0 < val <= 1:
+                return round(val, 6)
+        except (ValueError, OverflowError):
+            pass
+    # Try threshold (p < .05, p < .01, p < .001)
+    m = P_THRESHOLD_RE.search(text)
+    if m:
+        try:
+            val = float(m.group("thresh"))
+            if 0 < val <= 1:
+                return round(val, 6)
+        except (ValueError, OverflowError):
+            pass
+    return None
+
+
+def _extract_sample_size(text: str) -> Optional[int]:
+    """Extract total sample size N from text near an effect."""
+    best_n: Optional[int] = None
+    for m in SAMPLE_SIZE_RE.finditer(text):
+        raw = m.group("n") or m.group("n2")
+        if raw:
+            try:
+                n = int(raw.replace(",", ""))
+                if 2 <= n <= 500_000:
+                    if best_n is None or n > best_n:
+                        best_n = n
+            except ValueError:
+                pass
+    return best_n
 
 
 def run(
@@ -244,6 +304,8 @@ def _extract_from_structured_tables(
                 if predictor_label == "unknown":
                     continue
                 ci_low, ci_high = _extract_ci(row_text)
+                p_val = _extract_p_value(row_text)
+                n_size = _extract_sample_size(row_text)
                 quote = row_text[:260]
                 source_ref = f"{table.table_id}:row_{row.row_index}"
                 evidence_id = page_to_evidence.get(table.page)
@@ -286,6 +348,8 @@ def _extract_from_structured_tables(
                         value=value,
                         ci_low=ci_low,
                         ci_high=ci_high,
+                        p_value=p_val,
+                        sample_size=n_size,
                         derivation_method="reported",
                         calc_confidence="exact",
                         evidence_ids=[evidence_id] if evidence_id else [],
@@ -344,6 +408,8 @@ def _extract_from_text_passages(
             if predictor_label == "unknown":
                 continue
             ci_low, ci_high = _extract_ci(window)
+            p_val = _extract_p_value(window)
+            n_size = _extract_sample_size(window) or _extract_sample_size(text)
             scope = _infer_effect_scope(passage, window)
             note_label = "deterministic_text_label"
             if abs(value) > MAX_ABS_EFFECT_SIZE:
@@ -390,6 +456,8 @@ def _extract_from_text_passages(
                     value=value,
                     ci_low=ci_low,
                     ci_high=ci_high,
+                    p_value=p_val,
+                    sample_size=n_size,
                     derivation_method="reported",
                     calc_confidence="exact",
                     evidence_ids=[evidence_id],
@@ -483,6 +551,8 @@ def _extract_with_openai_text(
                 '      "timepoint": "string|unknown",\n'
                 '      "ci_low": null,\n'
                 '      "ci_high": null,\n'
+                '      "p_value": null,\n'
+                '      "sample_size": null,\n'
                 '      "quote": "exact short quote"\n'
                 "    }\n"
                 "  ]\n"
@@ -587,6 +657,10 @@ def _extract_with_openai_table_images(
                 '      "outcome": "string",\n'
                 '      "group_or_comparator": "string",\n'
                 '      "timepoint": "string|unknown",\n'
+                '      "ci_low": null,\n'
+                '      "ci_high": null,\n'
+                '      "p_value": null,\n'
+                '      "sample_size": null,\n'
                 '      "quote": "exact short quote from image"\n'
                 "    }\n"
                 "  ]\n"
@@ -683,6 +757,8 @@ def _effect_from_llm_text_item(
     if abs(value) > MAX_ABS_EFFECT_SIZE:
         scope = "model_stat"
         note_label = "model_stat_out_of_range"
+    p_val = _to_optional_float(item.get("p_value")) or _extract_p_value(source_text)
+    n_size = _to_optional_int(item.get("sample_size")) or _extract_sample_size(source_text)
 
     spec = EffectResultSpec(
         outcome=predictor_label,
@@ -722,6 +798,8 @@ def _effect_from_llm_text_item(
         value=value,
         ci_low=ci_low,
         ci_high=ci_high,
+        p_value=p_val,
+        sample_size=n_size,
         derivation_method="reported",
         calc_confidence="exact",
         evidence_ids=[evidence_id],
@@ -795,6 +873,8 @@ def _effect_from_llm_image_item(
         timepoint=timepoint,
         scope=scope,
     )
+    p_val = _to_optional_float(item.get("p_value"))
+    n_size = _to_optional_int(item.get("sample_size"))
     if abs(value) > MAX_ABS_EFFECT_SIZE:
         note_label = "model_stat_out_of_range"
         scope = "model_stat"
@@ -821,6 +901,10 @@ def _effect_from_llm_image_item(
         source_ref=source_ref,
         quote=quote,
         value=value,
+        ci_low=_to_optional_float(item.get("ci_low")),
+        ci_high=_to_optional_float(item.get("ci_high")),
+        p_value=p_val,
+        sample_size=n_size,
         derivation_method="reported",
         calc_confidence="exact",
         evidence_ids=[evidence_id] if evidence_id else [],
@@ -1193,6 +1277,20 @@ def _to_optional_float(value: Any) -> Optional[float]:
         text = "-0" + text[1:]
     try:
         return float(text)
+    except Exception:
+        return None
+
+
+def _to_optional_int(value: Any) -> Optional[int]:
+    if value is None:
+        return None
+    if isinstance(value, int):
+        return value
+    if isinstance(value, float):
+        return int(value) if value == int(value) else None
+    text = normalize_inline_text(str(value)).replace(" ", "").replace(",", "")
+    try:
+        return int(float(text))
     except Exception:
         return None
 

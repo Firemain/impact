@@ -18,12 +18,14 @@ from .models import (
     QuickQualityResult,
     ReliabilityResult,
 )
+from .steps.article_evaluation import run as run_article_evaluation
 from .steps.block_router import run as run_block_router
 from .steps.effects_extract import run as run_effects_extract
 from .steps.external_credibility import run as run_external_credibility
 from .steps.ingest import run as run_ingest
 from .steps.quality_quick import run as run_quality_quick
 from .steps.reliability import run as run_reliability
+from .steps.scoring import ScoringThresholds
 from .storage.sqlite import persist_pipeline_outputs
 
 PIPELINE_STEPS = [
@@ -59,9 +61,15 @@ PIPELINE_STEPS = [
     ),
     PipelineStepDefinition(
         step_id="06",
+        key="article_evaluation",
+        name="Evaluation article",
+        description="Score article/journal/auteur via OpenAlex + SCImago + LLM.",
+    ),
+    PipelineStepDefinition(
+        step_id="07",
         key="final_score",
         name="Score global",
-        description="Combine effets + qualite interne + credibilite externe.",
+        description="Combine effets + qualite interne + credibilite externe + evaluation article.",
     ),
 ]
 
@@ -89,6 +97,7 @@ def run_full_pipeline(
     ingest_config: Optional[IngestConfig] = None,
     progress_callback: Optional[ProgressCallback] = None,
     visualization_delay_seconds: float = 0.0,
+    scoring_thresholds: Optional[ScoringThresholds] = None,
 ) -> PipelineRunSummary:
     _ = visualization_delay_seconds  # kept for API compatibility
     config = ingest_config or IngestConfig()
@@ -99,6 +108,7 @@ def run_full_pipeline(
     effects_result: Optional[EffectsComputationResult] = None
     quick_quality: Optional[QuickQualityResult] = None
     external_credibility: Optional[ExternalCredibilityResult] = None
+    article_evaluation_result: Optional[dict] = None
     reliability_result: Optional[ReliabilityResult] = None
     output_path: Optional[Path] = None
     resolved_paper_id = paper_id or "unknown"
@@ -208,6 +218,26 @@ def run_full_pipeline(
                 _emit_progress(progress_callback, step, "completed", message)
                 continue
 
+            if step.key == "article_evaluation":
+                article_evaluation_result = run_article_evaluation(
+                    ingest_artifacts=ingest_artifacts,
+                    output_dir=output_path,
+                    openai_model=config.openai_model,
+                    openai_api_base=config.openai_api_base,
+                    openai_timeout_seconds=config.openai_timeout_seconds,
+                    thresholds=scoring_thresholds,
+                )
+                global_val = 0.0
+                scores = article_evaluation_result.get("scores", {})
+                if isinstance(scores, dict):
+                    g = scores.get("global", {})
+                    if isinstance(g, dict):
+                        global_val = g.get("value", 0.0)
+                message = f"score article={global_val:.2f}"
+                results.append(_completed_step(step, started_at, message, ["08_article_evaluation.json"]))
+                _emit_progress(progress_callback, step, "completed", message)
+                continue
+
             if step.key == "final_score":
                 if effects_result is None or quick_quality is None or external_credibility is None:
                     raise RuntimeError("Etapes precedentes manquantes pour le score final.")
@@ -216,6 +246,7 @@ def run_full_pipeline(
                     quick_quality_result=quick_quality,
                     external_credibility_result=external_credibility,
                     output_dir=output_path,
+                    article_evaluation_result=article_evaluation_result,
                 )
                 message = (
                     f"score global={reliability_result.global_score:.2f}, "
@@ -256,6 +287,7 @@ def run_full_pipeline(
             quick_quality=quick_quality,
             external_credibility=external_credibility,
             reliability_result=reliability_result,
+            article_evaluation_result=article_evaluation_result,
         )
     return summary
 
@@ -313,6 +345,7 @@ def _write_report(
     quick_quality: Optional[QuickQualityResult],
     external_credibility: Optional[ExternalCredibilityResult],
     reliability_result: Optional[ReliabilityResult],
+    article_evaluation_result: Optional[dict] = None,
 ) -> None:
     metadata = _load_metadata_payload(output_dir / "00_metadata.json")
 
@@ -371,6 +404,29 @@ def _write_report(
         lines.append(f"- niveau={external_credibility.credibility_level}")
         lines.append(f"- venue={external_credibility.venue}")
         lines.append(f"- citations={external_credibility.citation_count}")
+    else:
+        lines.append("- non disponible")
+    lines.append("")
+    lines.append("## Evaluation de l'article")
+    if article_evaluation_result and isinstance(article_evaluation_result, dict):
+        scores = article_evaluation_result.get("scores", {})
+        if isinstance(scores, dict):
+            g = scores.get("global", {})
+            g_val = g.get("value", 0.0) if isinstance(g, dict) else g if isinstance(g, (int, float)) else 0.0
+            lines.append(f"- score_global_article={float(g_val):.2f}")
+            for dim in ("article", "journal", "author", "field_norm", "network"):
+                dim_data = scores.get(dim, {})
+                if isinstance(dim_data, dict):
+                    lines.append(f"- {dim}={dim_data.get('score', 0.0):.2f}")
+        doi = article_evaluation_result.get("doi")
+        if doi:
+            lines.append(f"- doi={doi}")
+        journal = article_evaluation_result.get("journal_extracted", {})
+        if isinstance(journal, dict) and journal.get("name"):
+            lines.append(f"- journal={journal['name']}")
+        oa_cited = article_evaluation_result.get("openalex_cited_by_count")
+        if oa_cited is not None:
+            lines.append(f"- citations_openalex={oa_cited}")
     else:
         lines.append("- non disponible")
     lines.append("")
