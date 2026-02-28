@@ -185,7 +185,7 @@ def main() -> None:
     uploaded_pdf = st.file_uploader(
         "Fichier PDF",
         type=["pdf"],
-        help="Article scientifique PDF a analyser.",
+        help="Article PDF a analyser.",
     )
     run_clicked = st.button(
         "Lancer le pipeline",

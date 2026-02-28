@@ -992,10 +992,7 @@ def _render_report_tab() -> None:
 
     st.markdown("---")
 
-    # ── Section 1 : Scores côte à côte ──
-    st.markdown("### Scores")
-    s1, s2 = st.columns(2)
-
+    # ── Section 1 : Scores compacts sur une ligne ──
     # Article score
     article_score = 0.0
     if article_eval and isinstance(article_eval, dict):
@@ -1006,14 +1003,6 @@ def _render_report_tab() -> None:
                 article_score = float(g.get("value", 0))
             elif isinstance(g, (int, float)):
                 article_score = float(g)
-    s1.markdown(
-        f'<div style="padding:1rem;border-radius:8px;border-left:4px solid {_score_color(article_score)};background:white;text-align:center;">'
-        f'<div style="font-size:0.8rem;color:{PALETTE["text_secondary"]};">Score Article</div>'
-        f'<div style="font-size:2rem;font-weight:700;color:{_score_color(article_score)};">{article_score:.2f}</div>'
-        f'<div style="font-size:0.75rem;color:{PALETTE["text_secondary"]};">Revue, citations, auteurs</div>'
-        f'</div>',
-        unsafe_allow_html=True,
-    )
 
     # Study quality score
     study_score = 0.0
@@ -1027,52 +1016,80 @@ def _render_report_tab() -> None:
             "case_study": "Étude de cas",
         }
         study_design_label = design_map.get(design, "Inconnu")
-    s2.markdown(
-        f'<div style="padding:1rem;border-radius:8px;border-left:4px solid {_score_color(study_score)};background:white;text-align:center;">'
-        f'<div style="font-size:0.8rem;color:{PALETTE["text_secondary"]};">Score Étude</div>'
-        f'<div style="font-size:2rem;font-weight:700;color:{_score_color(study_score)};">{study_score:.2f}</div>'
-        f'<div style="font-size:0.75rem;color:{PALETTE["text_secondary"]};">Design : {study_design_label}</div>'
-        f'</div>',
-        unsafe_allow_html=True,
-    )
 
-    st.markdown("---")
+    # Build reliability lookup: result_id -> {calc_score, reliability_score_total, verdict}
+    reliability_map: dict = {}
+    if reliability_data and isinstance(reliability_data, dict):
+        for item in reliability_data.get("items", []):
+            if isinstance(item, dict) and item.get("result_id"):
+                reliability_map[item["result_id"]] = {
+                    "calc": item.get("calc_score", 0),
+                    "total": item.get("reliability_score_total", 0),
+                    "verdict": item.get("verdict", "—"),
+                }
 
-    # ── Section 2 : Effets clés ──
-    st.markdown("### Effets clés")
+    # Build effects rows first (needed for both columns)
+    summary_rows: list[dict] = []
     if effects_data and isinstance(effects_data, dict):
         effects = effects_data.get("effects", [])
         study_effects = [e for e in effects if isinstance(e, dict) and e.get("effect_scope") == "study_effect"]
-        if study_effects:
-            # Summary table: just predictor + value + type
-            summary_rows = []
-            for e in study_effects[:15]:
-                spec = e.get("result_spec", {}) or {}
-                group, domain, predictor = derive_group_domain_predictor(
-                    group_raw=str(e.get("grouping_label") or spec.get("groups") or ""),
-                    predictor_raw=str(spec.get("outcome") or ""),
-                    domain_raw=str(e.get("outcome_label_normalized") or ""),
-                    context=str(e.get("quote", "")),
-                )
-                val = e.get("value")
-                et = str(e.get("effect_type", "?"))
-                ci_l = e.get("ci_low")
-                ci_h = e.get("ci_high")
-                summary_rows.append({
-                    "Groupe": group,
-                    "Prédicteur": predictor,
-                    "Domaine": domain,
-                    "Taille d'effet": _fmt_effect(et, val, ci_l, ci_h),
-                    "Page": e.get("source_page", "—"),
-                })
-            summary_rows.sort(key=lambda r: _abs_val(r.get("Taille d'effet", "")), reverse=True)
-            st.dataframe(summary_rows, use_container_width=True, hide_index=True)
-            if len(study_effects) > 15:
-                st.caption(f"... et {len(study_effects) - 15} autres effets (voir onglet Effets).")
-        else:
-            st.caption("Aucun effet de l'étude extrait.")
+        for e in study_effects[:15]:
+            spec = e.get("result_spec", {}) or {}
+            group, domain, predictor = derive_group_domain_predictor(
+                group_raw=str(e.get("grouping_label") or spec.get("groups") or ""),
+                predictor_raw=str(spec.get("outcome") or ""),
+                domain_raw=str(e.get("outcome_label_normalized") or ""),
+                context=str(e.get("quote", "")),
+            )
+            val = e.get("value")
+            et = str(e.get("effect_type", "?"))
+            ci_l = e.get("ci_low")
+            ci_h = e.get("ci_high")
+            rid = e.get("result_id", "")
+            rel = reliability_map.get(rid, {})
+            total = rel.get("total", None)
+            verdict = rel.get("verdict", "—")
+            summary_rows.append({
+                "Groupe": group,
+                "Prédicteur": predictor,
+                "d": _fmt_effect(et, val, ci_l, ci_h),
+                "Fiabilité": f"{total:.2f}" if total is not None else "—",
+                "Verdict": verdict,
+                "p.": e.get("source_page", "—"),
+            })
+        summary_rows.sort(key=lambda r: _abs_val(r.get("d", "")), reverse=True)
+        n_extra = len(study_effects) - 15 if len(study_effects) > 15 else 0
     else:
-        st.caption("Aucune donnée d'effets.")
+        study_effects = []
+        n_extra = 0
+
+    # ── Layout: left = KPIs stacked, right = effects table ──
+    col_left, col_right = st.columns([1, 3])
+
+    _mini_kpi = (
+        '<div style="padding:0.5rem 0.6rem;border-radius:6px;border-left:3px solid {color};background:white;margin-bottom:0.5rem;">'
+        '<div style="font-size:0.65rem;color:{sub};text-transform:uppercase;letter-spacing:0.03em;">{label}</div>'
+        '<div style="font-size:1.4rem;font-weight:700;color:{color};line-height:1.2;">{value}</div>'
+        '<div style="font-size:0.6rem;color:{sub};">{detail}</div>'
+        '</div>'
+    )
+    with col_left:
+        st.markdown(_mini_kpi.format(label="Article", value=f"{article_score:.2f}",
+                    detail="Revue · citations · auteurs", color=_score_color(article_score),
+                    sub=PALETTE["text_secondary"]), unsafe_allow_html=True)
+        st.markdown(_mini_kpi.format(label="Étude", value=f"{study_score:.2f}",
+                    detail=f"Design : {study_design_label}", color=_score_color(study_score),
+                    sub=PALETTE["text_secondary"]), unsafe_allow_html=True)
+
+    with col_right:
+        if summary_rows:
+            st.dataframe(summary_rows, use_container_width=True, hide_index=True)
+            if n_extra > 0:
+                st.caption(f"… et {n_extra} autres effets (voir onglet Effets).")
+        elif study_effects:
+            st.caption("Aucun effet de l'étude extrait.")
+        else:
+            st.caption("Aucune donnée d'effets.")
 
     st.markdown("---")
 

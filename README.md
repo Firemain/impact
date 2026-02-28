@@ -1,6 +1,6 @@
 # Impact Pipeline
 
-Pipeline Python pour analyser un PDF scientifique et produire:
+Application pour analyser un article en pdf pour obtenir :
 - des effets (`d/g/SMD`) tracables (quote/page/source),
 - une qualite interne rapide,
 - une credibilite externe,
